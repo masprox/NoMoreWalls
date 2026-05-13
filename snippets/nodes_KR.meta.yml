@@ -1,53 +1,13 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇰🇷KR_5|3.6MB/s
-  network: ws
+- down: ''
+  fingerprint: ''
+  name: 🇰🇷KR_1|2.9MB/s
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: 52.79.103.202
-  servername: gogo.vks.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: gogo.vks.dpdns.org
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: KR_speednode_0031
-  network: ws
-  port: 52771
-  server: 49.128.202.132
-  servername: vfn-6o8h-kht7rpd.zipgd3vx91o.ddns-ip.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: vfn-6o8h-kht7rpd.zipgd3vx91o.ddns-ip.net
-    path: /@Marisa_kristifp=chrome
-- name: KR_speednode_0033
-  network: ws
-  port: 10891
-  server: 165.246.171.218
-  servername: sas0dpjv2rmyx842.makuyo.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: sas0dpjv2rmyx842.makuyo.dpdns.org
-    path: /@Marisa_kristi
-- name: KR_speednode_0034
-  port: 1090
-  server: 121.169.46.116
-  type: socks5
-  udp: true
-  username: T2clM0QlM0Q6
+  server: vpn-kr-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-kr-001.fastervpn.world
+  type: hysteria2
+  up: ''
