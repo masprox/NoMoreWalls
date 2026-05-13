@@ -1,20 +1,23 @@
 proxies:
-- name: 🇸🇪SE_1|1.2MB/s
+- name: 🇸🇪SE_1|1.5MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 195.123.210.184
+  port: 2053
+  server: 31.56.197.90
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳+@WangCai2
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 1183
-  name: 🇸🇪SE_2|1.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.62.228.54
-  type: ss
+- name: 🇸🇪SE_2|1.4MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: 109.206.236.128
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
