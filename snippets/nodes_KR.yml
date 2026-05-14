@@ -1,17 +1,12 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇰🇷KR_1|1.3MB/s
+- name: 🇰🇷KR_4|1.3MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: '32768'
-  server: 61.72.208.162
-  skip-cert-verify: true
+  port: 7778
+  server: 146.56.113.221
   sni: Koma-YT.PAGeS.Dev
   type: trojan
-  udp: true
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.87 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
+    path: /trTelegram🇨🇳+@WangCai2
