@@ -1,9 +1,19 @@
 proxies:
+- down: ''
+  fingerprint: ''
+  name: 🇰🇷KR_1|3.4MB/s
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-kr-003.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-kr-003.fastervpn.world
+  type: hysteria2
+  up: ''
 - client-fingerprint: firefox
-  encryption: none
   flow: xtls-rprx-vision
   name: KR_speednode_0027
-  network: tcp
   port: 39295
   reality-opts:
     public-key: CKyy_gy40xRlKa3sBbCg759CMC7vDMjZKqsiuC5BtWU
@@ -15,55 +25,6 @@ proxies:
   type: vless
   udp: true
   uuid: 06a1719f-417e-46f0-8a7d-e2b13ecf893a
-  xudp: true
-- down: ''
-  fingerprint: ''
-  name: 🇰🇷KR_2|3.9MB/s
-  obfs: ''
-  obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-kr-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-kr-001.fastervpn.world
-  type: hysteria2
-  up: ''
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇰🇷KR_3|3.8MB/s
-  network: tcp
-  port: 21796
-  reality-opts:
-    _spider-x: /
-    public-key: dHK4t7AbVKnDxl6ondRWcwkkt4FDkrK89ugEzZfDuzw
-    short-id: '!!str 804d6574da9180'
-  server: 43.203.252.196
-  servername: www.sony.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: cd91af31-0c74-4bce-aac3-bdae367c84fa
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇰🇷KR_4|1.5MB/s
-  network: ws
-  port: '30017'
-  server: 220.122.102.26
-  servername: sni.111000.dns.army
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dns.army
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-  xudp: true
 - client-fingerprint: chrome
   name: KR_speednode_0028
   network: ws

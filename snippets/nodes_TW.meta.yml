@@ -1,9 +1,9 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
-  port: 30813
-  server: v13.zgtfqs.click
+  name: 'B - 🇹🇼 TW 03 TG: @nodpai'
+  port: 30811
+  server: v11.zgtfqs.click
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alpn:
@@ -12,22 +12,9 @@ proxies:
     grpc-service-name: db
   name: 'B - 🇹🇼 TW 04 TG: @nodpai'
   network: grpc
-  password: 0a9f1f5a397bd427
-  port: 443
-  server: 125.227.86.45
-  skip-cert-verify: true
-  sni: TG.freecodes
-  tls: true
-  type: trojan
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: db
-  name: 'B - 🇹🇼 TW 05 TG: @nodpai'
-  network: grpc
   password: 3f5bc61547b1f0d9
   port: 443
-  server: 125.227.86.48
+  server: 125.227.86.46
   skip-cert-verify: true
   sni: TG.freecodes
   tls: true
@@ -53,20 +40,46 @@ proxies:
   network: grpc
   password: 0a9f1f5a397bd427
   port: 443
+  server: 125.227.86.45
+  skip-cert-verify: true
+  sni: TG.freecodes
+  tls: true
+  type: trojan
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: db
+  name: 'B - 🇹🇼 TW 08 TG: @nodpai'
+  network: grpc
+  password: 0a9f1f5a397bd427
+  port: 443
   server: 125.227.86.46
   skip-cert-verify: true
   sni: TG.freecodes
   tls: true
   type: trojan
-- name: 'C - 🇹🇼 TW 08 TG: @nodpai'
-  network: ws
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: db
+  name: 'B - 🇹🇼 TW 09 TG: @nodpai'
+  network: grpc
+  password: 3f5bc61547b1f0d9
   port: 443
-  security: tls
-  server: 38.54.107.227
+  server: 125.227.86.48
+  skip-cert-verify: true
+  sni: TG.freecodes
   tls: true
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇹🇼 TW 10 TG: @nodpai'
+  network: ws
+  port: 16616
+  server: m.cnmjin.net
+  type: vmess
+  uuid: ccb2a1ea-285f-4dda-b798-6ad925aa784b
   ws-opts:
     headers:
-      Host: 3-2h8.pages.dev
+      Host: 4c38377a449c350ad3b4c6858225defb.mobgslb.tbcache.com
     path: /

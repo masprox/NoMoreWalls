@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇭CH_1|1.0MB/s
+  port: 32167
+  reality-opts:
+    public-key: AavBPGGJUpyGWiriV_Fbx-SrAvR5t-9mHeQY8uIltyo
+    short-id: '!!str 41b9cb10b696'
+  server: appvless.tnjxaon.cn
+  servername: www.tue.nl
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1f81303d-bdb7-4cf9-8bef-f4f8cd9562ff
