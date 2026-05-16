@@ -1,15 +1,16 @@
 proxies:
-- name: 'B - 🇹🇼 TW 01 TG: @nodpai'
-  password: 917bb394-8d91-4eee-956d-b81aba3aed70
-  port: 8080
-  server: tw3.757866.xyz
-  sni: tw3.757866.xyz
-  type: hysteria2
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇹🇼 TW 04 TG: @nodpai'
+  port: 30811
+  server: v11.zgtfqs.click
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alpn:
   - h2
   grpc-opts:
     grpc-service-name: db
-  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 05 TG: @nodpai'
   network: grpc
   password: 3f5bc61547b1f0d9
   port: 443
@@ -17,46 +18,39 @@ proxies:
   skip-cert-verify: true
   sni: TG.freecodes
   type: trojan
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: db
-  name: 'B - 🇹🇼 TW 03 TG: @nodpai'
-  network: grpc
-  password: 0a9f1f5a397bd427
-  port: 443
-  server: 125.227.86.47
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 'B - 🇹🇼 TW 04 TG: @nodpai'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: 2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE
-    short-id: '!!str 04d59340'
-  security: reality
-  server: tw06.352343.cc
-  servername: www.python.org
+  name: 'B - 🇹🇼 TW 06 TG: @nodpai'
+  port: 443
+  security: tls
+  server: kbgs.hinet.tw1.yydjc.top
+  servername: gopro.com
   tls: true
   type: vless
-  uuid: 917bb394-8d91-4eee-956d-b81aba3aed70
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: db
-  name: 🇹🇼TW_1|1.5MB/s
-  network: grpc
-  password: 3f5bc61547b1f0d9
-  port: 443
-  server: 125.227.86.48
+  uuid: fadab0a4-861d-4ebf-89ac-c9b34aef631a
+- name: 'B - 🇹🇼 TW 07 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 16443
+  server: 114.32.9.249
   skip-cert-verify: true
-  sni: TG.freecodes
+  sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇹🇼 TW 08 TG: @nodpai'
+  network: ws
+  port: 16616
+  server: t.cnmjcn.cyou
+  type: vmess
+  uuid: c894656d-c0dc-410a-b5ce-8637e28598c2
+  ws-opts:
+    headers:
+      Host: 93832a081b053c3c103a09cc973bde7f.mobgslb.tbcache.com
+    path: /
 - name: TW_speednode_0034
   network: ws
   port: 17820
