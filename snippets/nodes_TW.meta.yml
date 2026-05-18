@@ -1,30 +1,46 @@
 proxies:
-- name: 'A - 🇹🇼 TW 01 TG: @nodpai'
-  password: e5c22f63-e473-496a-beff-fdc5655008c1
-  port: 2096
-  server: tvhinet.lajichang.xyz
+- auth: 54407de7-ef98-4849-b1fb-837a5092d368
+  down: 500
+  name: 'A - 🇹🇼 TW 01 TG: @nodpai'
+  password: 54407de7-ef98-4849-b1fb-837a5092d368
+  port: 34005
+  ports: 20000-40000
+  server: 1.161.52.121
   skip-cert-verify: true
-  sni: bing.com
-  tls: true
-  type: trojan
-- name: 'B - 🇹🇼 TW 02 TG: @nodpai'
+  sni: mx-cn9t.yuetong.online
+  type: hysteria2
+  udp: true
+  up: 500
+- auth: 54407de7-ef98-4849-b1fb-837a5092d368
+  down: 200
+  name: 'A - 🇹🇼 TW 02 TG: @nodpai'
+  password: 54407de7-ef98-4849-b1fb-837a5092d368
+  port: 25301
+  ports: 20000-40000
+  server: 1.161.50.107
+  skip-cert-verify: true
+  sni: edge-di.yuetong.online
+  type: hysteria2
+  udp: true
+  up: 200
+- auth: 54407de7-ef98-4849-b1fb-837a5092d368
+  down: 500
+  name: 'B - 🇹🇼 TW 03 TG: @nodpai'
+  password: 54407de7-ef98-4849-b1fb-837a5092d368
+  port: 35675
+  ports: 20000-40000
+  server: 1.161.52.121
+  skip-cert-verify: true
+  sni: mx-cn9t.yuetong.online
+  type: hysteria2
+  udp: true
+  up: 500
+- name: 'B - 🇹🇼 TW 04 TG: @nodpai'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 160.187.100.109
   skip-cert-verify: true
   sni: https://t.me/WangCai2🇨🇳
-  type: hysteria2
-- auth: b02b9065-defa-495a-bef1-cd55c67dbdf6
-  insecure: '1'
-  name: 'B - 🇹🇼 TW 03 TG: @nodpai'
-  password: b02b9065-defa-495a-bef1-cd55c67dbdf6
-  port: 20183
-  server: tw.sevenka.top
-  skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: usahy2.maocf1.top
   type: hysteria2
 - name: TW_speednode_0034
   network: ws
