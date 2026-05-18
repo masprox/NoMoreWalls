@@ -1,4 +1,12 @@
 proxies:
+- name: 'A - 🇹🇼 TW 01 TG: @nodpai'
+  password: e5c22f63-e473-496a-beff-fdc5655008c1
+  port: 2096
+  server: tvhinet.lajichang.xyz
+  skip-cert-verify: true
+  sni: bing.com
+  tls: true
+  type: trojan
 - name: 'B - 🇹🇼 TW 02 TG: @nodpai'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
@@ -6,48 +14,18 @@ proxies:
   skip-cert-verify: true
   sni: https://t.me/WangCai2🇨🇳
   type: hysteria2
-- name: 'B - 🇹🇼 TW 03 TG: @nodpai'
-  password: 0a9f1f5a397bd427
-  port: 443
-  server: 125.227.86.47
-  sni: TG.freecodes
-  tls: true
-  type: trojan
-- name: 'B - 🇹🇼 TW 04 TG: @nodpai'
-  password: 0a9f1f5a397bd427
-  port: 443
-  server: 125.227.86.45
-  sni: TG.freecodes
-  tls: true
-  type: trojan
-- name: 'B - 🇹🇼 TW 05 TG: @nodpai'
-  password: 3f5bc61547b1f0d9
-  port: 443
-  server: 125.227.86.47
-  sni: TG.freecodes
-  tls: true
-  type: trojan
-- name: 'B - 🇹🇼 TW 06 TG: @nodpai'
-  password: 3f5bc61547b1f0d9
-  port: 443
-  server: 125.227.86.46
-  sni: TG.freecodes
-  tls: true
-  type: trojan
-- name: 'B - 🇹🇼 TW 07 TG: @nodpai'
-  password: 3f5bc61547b1f0d9
-  port: 443
-  server: 125.227.86.48
-  sni: TG.freecodes
-  tls: true
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW_1|2.9MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: '50099'
-  server: r3mrcg007147vhp.cybervena.com
-  type: ss
-  udp: true
+- auth: b02b9065-defa-495a-bef1-cd55c67dbdf6
+  insecure: '1'
+  name: 'B - 🇹🇼 TW 03 TG: @nodpai'
+  password: b02b9065-defa-495a-bef1-cd55c67dbdf6
+  port: 20183
+  server: tw.sevenka.top
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: usahy2.maocf1.top
+  type: hysteria2
 - name: TW_speednode_0034
   network: ws
   port: 17820
