@@ -1,39 +1,53 @@
 proxies:
 - name: 'B - 🇹🇼 TW 02 TG: @nodpai'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 16443
-  server: 114.32.9.249
-  sni: Koma-YT.PAGeS.Dev
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 160.187.100.109
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  type: hysteria2
+- name: 'B - 🇹🇼 TW 03 TG: @nodpai'
+  password: 0a9f1f5a397bd427
+  port: 443
+  server: 125.227.86.47
+  sni: TG.freecodes
   tls: true
   type: trojan
-- name: 'B - 🇹🇼 TW 03 TG: @nodpai'
-  password: 7e2b98ee-5a4c-4630-b389-4afb2087621b
-  port: 8080
-  server: tw07.352343.cc
-  sni: tw07.352343.cc
-  type: hysteria2
 - name: 'B - 🇹🇼 TW 04 TG: @nodpai'
+  password: 0a9f1f5a397bd427
+  port: 443
+  server: 125.227.86.45
+  sni: TG.freecodes
+  tls: true
+  type: trojan
+- name: 'B - 🇹🇼 TW 05 TG: @nodpai'
+  password: 3f5bc61547b1f0d9
+  port: 443
+  server: 125.227.86.47
+  sni: TG.freecodes
+  tls: true
+  type: trojan
+- name: 'B - 🇹🇼 TW 06 TG: @nodpai'
   password: 3f5bc61547b1f0d9
   port: 443
   server: 125.227.86.46
   sni: TG.freecodes
   tls: true
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'C - 🇹🇼 TW 05 TG: @nodpai'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: 2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE
-    short-id: '!!str 04d59340'
-  security: reality
-  server: tw5.453521.xyz
-  servername: www.python.org
+- name: 'B - 🇹🇼 TW 07 TG: @nodpai'
+  password: 3f5bc61547b1f0d9
+  port: 443
+  server: 125.227.86.48
+  sni: TG.freecodes
   tls: true
-  type: vless
-  uuid: 7e2b98ee-5a4c-4630-b389-4afb2087621b
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼TW_1|2.9MB/s
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: '50099'
+  server: r3mrcg007147vhp.cybervena.com
+  type: ss
+  udp: true
 - name: TW_speednode_0034
   network: ws
   port: 17820
