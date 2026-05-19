@@ -1,32 +1,25 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'A - 🇹🇼 TW 01 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: WvFsnr9f6DsQm0j5v1__ZyHiAAegCO5UCp6UM_rIDjM
-    short-id: '!!str b74c6649'
-  server: 114.26.147.9
-  servername: www.sony.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 54407de7-ef98-4849-b1fb-837a5092d368
-- name: 'A - 🇹🇼 TW 02 TG: @nodpai'
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 'A - 🇹🇼 TW 03 TG: @nodpai'
+- name: 'B - 🇹🇼 TW 01 TG: @nodpai'
   password: mrwdfNTD8M79LCukCieldrqZWqs=
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 'B - 🇹🇼 TW 02 TG: @nodpai'
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 'B - 🇹🇼 TW 03 TG: @nodpai'
+  password: b02b9065-defa-495a-bef1-cd55c67dbdf6
+  port: 20183
+  server: tw.sevenka.top
+  skip-cert-verify: true
+  sni: usahy2.maocf1.top
+  type: hysteria2
 - name: 🇨🇳TW_@WangCai_8
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
@@ -35,39 +28,29 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 'B - 🇹🇼 TW 06 TG: @nodpai'
+- client-fingerprint: qq
+  flow: xtls-rprx-vision-udp443
+  name: 'B - 🇹🇼 TW 06 TG: @nodpai'
+  port: 55309
+  security: tls
+  server: 216.23.108.4
+  servername: download.windowsupdate.com
+  tls: true
+  type: vless
+  uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
+- name: TW_speednode_0028
   password: e5c22f63-e473-496a-beff-fdc5655008c1
   port: 2096
   server: tvhinet.lajichang.xyz
   skip-cert-verify: true
   sni: bing.com
-  tls: true
   type: trojan
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 'B - 🇹🇼 TW 11 TG: @nodpai'
-  port: 55309
-  reality-opts:
-    public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
-    short-id: '!!str 4bcbc85d'
-  server: 216.23.108.4
-  servername: download.windowsupdate.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
   udp: true
-  uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
-- name: TW_speednode_0034
-  network: ws
-  port: 17820
-  server: s5.db-link.in
-  servername: 48afa0c5c9.shopify.com
+- name: TW_speednode_0029
+  password: e5c22f63-e473-496a-beff-fdc5655008c1
+  port: 2096
+  server: tvhinet.lajichang.xyz
   skip-cert-verify: true
-  tls: true
-  type: vless
+  sni: tvhinet.lajichang.xyz
+  type: trojan
   udp: true
-  uuid: 75d4d24d-ba8d-3676-a5c6-edd6ea6dbfb6
-  ws-opts:
-    headers:
-      Host: 48afa0c5c9.shopify.com
-    path: /db102448afa0c5c9fp=chrome
