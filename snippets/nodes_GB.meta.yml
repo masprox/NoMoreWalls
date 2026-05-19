@@ -1,5 +1,22 @@
 proxies:
 - client-fingerprint: chrome
+  name: 🇬🇧GB_1|1.0MB/s
+  network: ws
+  port: '52014'
+  server: 57.129.130.211
+  servername: ooa858iqkhza12.mesa.ip-ddns.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: ooa858iqkhza12.mesa.ip-ddns.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /@Marisa_kristifp=chrome
+  xudp: true
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: GB_speednode_0013
   port: 443
