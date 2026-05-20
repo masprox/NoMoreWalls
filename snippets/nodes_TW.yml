@@ -1,15 +1,16 @@
 proxies:
-- name: 'A - 🇹🇼 TW 01 TG: @nodpai'
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇹🇼 TW 06 TG: @nodpai'
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 16443
-  server: 114.32.9.249
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
+  port: 16616
+  server: m.cnmjin.net
+  type: vmess
+  uuid: 3c8246ab-d03a-4f5e-a65c-e80a30d613ee
   ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
+    headers:
+      Host: e140efa862213cbe6fba752512994ae6.mobgslb.tbcache.com
+    path: /
 - name: TW_speednode_0028
   password: e5c22f63-e473-496a-beff-fdc5655008c1
   port: 2096
