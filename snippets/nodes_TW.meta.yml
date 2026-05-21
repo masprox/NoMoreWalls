@@ -1,18 +1,11 @@
 proxies:
-- client-fingerprint: chrome
-  name: 'C - 🇹🇼 TW 01 TG: @nodpai'
-  network: ws
-  port: 995
-  security: tls
-  server: 60.251.232.240
-  servername: 2026.hhhhh.eu.org
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: /60.251.232.240:995
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇹🇼 TW 04 TG: @nodpai'
+  port: 30811
+  server: v11.zgtfqs.click
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: TW_speednode_0028
   password: e5c22f63-e473-496a-beff-fdc5655008c1
   port: 2096
