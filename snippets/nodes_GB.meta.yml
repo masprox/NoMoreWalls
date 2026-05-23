@@ -54,3 +54,29 @@ proxies:
   type: vless
   udp: true
   uuid: 980231fb-4372-5c81-b696-20aa34d33af0
+- client-fingerprint: chrome
+  name: GB_speednode_0018
+  port: 443
+  reality-opts:
+    public-key: jnlUXqaLeqZSYBQLjk1oUGTrxH0TTmLojXWb1X8vzgE
+    short-id: '!!str 33b973c3'
+  server: hongkong.cloudpath.live
+  servername: microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5e1083b9-4d4f-50ef-93e7-6e966dfce1f9
+- client-fingerprint: chrome
+  name: GB_speednode_0019
+  port: 443
+  reality-opts:
+    public-key: xPEXenK1VOMc2VKmnA8a4VSHb7AjcGIScGG7iy0EiwQ
+    short-id: '!!str 84fc368a'
+  server: singapore.cloudpath.live
+  servername: microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5e1083b9-4d4f-50ef-93e7-6e966dfce1f9
