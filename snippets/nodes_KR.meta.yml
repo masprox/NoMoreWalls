@@ -1,75 +1,24 @@
 proxies:
 - client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇰🇷KR_1|2.6MB/s
-  network: tcp
-  port: 21796
-  reality-opts:
-    _spider-x: /
-    public-key: dHK4t7AbVKnDxl6ondRWcwkkt4FDkrK89ugEzZfDuzw
-    short-id: '!!str 804d6574da9180'
-  server: 43.203.252.196
-  servername: www.sony.com
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🇰🇷KR_5|1.2MB/s
+  network: ws
+  port: 12312
+  server: 14.52.210.173
+  servername: juzi8186.qea.ccwu.cc
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: cd91af31-0c74-4bce-aac3-bdae367c84fa
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+  ws-opts:
+    headers:
+      Host: juzi8186.qea.ccwu.cc
+    path: /
   xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 🇰🇷KR_2|1.1MB/s
-  network: ws
-  port: 34237
-  security: tls
-  server: 146.56.110.135
-  servername: vfa9.cdn-stream.fgfw.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: vfa9.cdn-stream.fgfw.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 🇰🇷KR_3|1.5MB/s
-  network: ws
-  port: 10001
-  security: tls
-  server: 59.30.189.250
-  servername: vfa9.cdn-stream.fgfw.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: vfa9.cdn-stream.fgfw.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  name: 🇰🇷KR_5|2.1MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: '26214'
-  server: 183.104.5.134
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
 - name: KR_speednode_0022
   password: test.+
   port: 30446

@@ -1,15 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  name: 🇫🇷FR_1|1.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk
-    short-id: '!!str b8aa'
-  server: 194.226.169.36
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: fae3277c-0541-4ae9-bbbb-8247453ea652
-  xudp: true
+proxies: []

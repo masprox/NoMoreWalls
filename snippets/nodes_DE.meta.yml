@@ -1,12 +1,60 @@
 proxies:
-- name: 🇩🇪DE_1|2.0MB/s
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|1.2MB/s
+  port: 443
+  reality-opts:
+    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+    short-id: '!!str d67ec5a8fc40ebea'
+  server: ger04.myxasecure.space
+  servername: ger04.myxasecure.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5381a1bb-479a-412a-9d99-08ccbc008828
+- name: 🇩🇪DE_2|1.2MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 152.53.153.158
+  server: 77.221.156.92
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳+@WangCai2
+- name: 🇩🇪DE_3|1.2MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 83.147.253.55
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇩🇪DE_4|1.2MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 5.129.219.72
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- down: ''
+  fingerprint: ''
+  name: 🇩🇪DE_5|1.7MB/s
+  obfs: ''
+  obfs-password: ''
+  password: fe9b17e8-41e1-4d1b-b588-93a23665724f
+  port: '2056'
+  server: 84.200.33.151
+  skip-cert-verify: true
+  sni: ''
+  type: hysteria2
+  up: ''
