@@ -1,18 +1,20 @@
 proxies:
-- alpn:
-  - h3
-  down: ''
-  fingerprint: ''
-  name: 🇷🇺RU_1|3.2MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
-  port: '443'
-  server: 193.53.126.108
+- client-fingerprint: randomized
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|1.0MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: APwi9yR-ezZtFU6xj2a3SBoXvEoWOoiRuZSit0N9xWI
+  server: 185.139.214.151
+  servername: cloudcdn-m9-15.cdn.yandex.net
   skip-cert-verify: false
-  sni: s463.okgfwbackxyz.xyz
-  type: hysteria2
-  up: ''
+  tls: true
+  type: vless
+  udp: true
+  uuid: ea35c030-5628-11f1-9df5-54db13ea7d40
+  xudp: true
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: RU_speednode_0029

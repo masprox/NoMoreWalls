@@ -1,1 +1,17 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_1|3.2MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: DHsthrDRMCGcOyJd4xTce_4CCSAJZGwxCdfNrkB_Pgs
+    short-id: '!!str 479826bdfc3eb86e'
+  server: 54.37.75.187
+  servername: www.speedtest.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: a0b067ac-162d-4237-956d-10b8b471d3f5
+  xudp: true

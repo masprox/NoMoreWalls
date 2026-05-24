@@ -1,5 +1,14 @@
 proxies:
 - flow: xtls-rprx-vision
+  name: 'A - 🇹🇼 TW 02 TG: @nodpai'
+  port: 443
+  security: tls
+  server: taipei1.ap221.com
+  servername: taipei.ap221.com
+  tls: true
+  type: vless
+  uuid: 8ded7f1f-6858-4502-b224-0c45df1d52df
+- flow: xtls-rprx-vision
   name: 'A - 🇹🇼 TW 03 TG: @nodpai'
   port: 443
   security: tls
@@ -17,17 +26,8 @@ proxies:
   tls: true
   type: vless
   uuid: 4f85f6b8-7b35-4c1e-bf46-2b68acc99230
-- flow: xtls-rprx-vision
-  name: 'A - 🇹🇼 TW 05 TG: @nodpai'
-  port: 443
-  security: tls
-  server: taipei1.ap221.com
-  servername: taipei.ap221.com
-  tls: true
-  type: vless
-  uuid: e74de85f-61a2-413a-a18b-1be496dd2cf6
-- flow: xtls-rprx-vision
-  name: 'A - 🇹🇼 TW 06 TG: @nodpai'
+- flow: xtls-rprx-vision-udp443-udp443
+  name: 'A - 🇹🇼 TW 07 TG: @nodpai'
   port: 443
   security: tls
   server: taipei1.ap221.com
@@ -35,21 +35,28 @@ proxies:
   tls: true
   type: vless
   uuid: 0599bfbb-64c9-47dd-abf2-9cca1e87109c
-- name: TW_speednode_0035
-  password: mrwdfNTD8M79LCukCieldrqZWqs=
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision-udp443
+  name: 🇹🇼TW_1|1.0MB/s
+  network: tcp
+  port: '443'
+  security: tls
+  server: taipei1.ap221.com
+  servername: taipei.ap221.com
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇹🇼 TW 09 TG: @nodpai'
-  port: 35034
-  server: 165.154.195.38
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  uuid: e74de85f-61a2-413a-a18b-1be496dd2cf6
+  xudp: true
+- flow: xtls-rprx-vision-udp443
+  name: 'B - 🇹🇼 TW 12 TG: @nodpai'
+  port: 443
+  security: tls
+  server: taipei1.ap221.com
+  servername: taipei.ap221.com
+  tls: true
+  type: vless
+  uuid: 5c0aeda1-c9b7-4e3f-9fc9-8067f4867ede
 - name: TW_speednode_0034
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
@@ -58,70 +65,42 @@ proxies:
   type: http
   udp: true
   username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: TW_speednode_0035
+  password: mrwdfNTD8M79LCukCieldrqZWqs=
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: true
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alterId: 2
   cipher: auto
-  name: 'B - 🇹🇼 TW 13 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 16 TG: @nodpai'
   port: 30811
   server: 61.227.198.218
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇹🇼 TW 17 TG: @nodpai'
+  port: 35034
+  server: 165.154.195.38
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇹🇼 TW 18 TG: @nodpai'
+  port: 30811
+  server: v11.zgtfqs.click
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'C - 🇹🇼 TW 23 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: q42m1wg11kZLyRtjaKus8T-NNl1vriRG3V1eVTL6ICc
-    short-id: '!!str c3eda72ab57f'
-  security: reality
-  server: download.riferoser.icu
-  servername: www.hollywoodreporter.com
+  name: 'B - 🇹🇼 TW 21 TG: @nodpai'
+  password: gcuCpQfaiVeDBdWG
+  port: 19128
+  server: jpbgp.netvigor.cc
+  sni: yazhou10.dynu.net
   tls: true
-  type: vless
-  uuid: db88683a-b4d2-482c-8925-70c4d4927172
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'C - 🇹🇼 TW 24 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: q42m1wg11kZLyRtjaKus8T-NNl1vriRG3V1eVTL6ICc
-    short-id: '!!str bff6a88f0127'
-  security: reality
-  server: download.riferoser.icu
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: b6c0c044-7329-4b40-b342-133d047bf1e2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'C - 🇹🇼 TW 25 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: q42m1wg11kZLyRtjaKus8T-NNl1vriRG3V1eVTL6ICc
-    short-id: '!!str 37e6f3e4339e'
-  security: reality
-  server: 46.249.109.128
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: 9f1b677f-aeea-43a9-9927-12188cdc1249
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'C - 🇹🇼 TW 26 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: q42m1wg11kZLyRtjaKus8T-NNl1vriRG3V1eVTL6ICc
-    short-id: '!!str 37e6f3e4339e'
-  security: reality
-  server: download.riferoser.icu
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: 9f1b677f-aeea-43a9-9927-12188cdc1249
+  type: trojan
