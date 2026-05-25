@@ -1,71 +1,36 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
+- alterId: 0
+  cipher: auto
   name: 'A - 🇯🇵 JP 01 TG: @nodpai'
   network: ws
-  port: 2096
-  security: tls
-  server: 172.64.47.168
-  servername: jp.aniua.qzz.io
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
+  port: 16617
+  server: planb.mojcn.com
+  type: vmess
+  uuid: 6bcea42f-4f70-49e5-8ed8-8067338ee7b3
   ws-opts:
     headers:
-      Host: jp.aniua.qzz.io
-    path: //?ed=2095
-- client-fingerprint: chrome
+      Host: 9f212577fc1fa9a13ccf657f03a1a20f.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 'A - 🇯🇵 JP 02 TG: @nodpai'
   network: ws
-  port: 634
-  server: 158.180.81.137
-  servername: qi4rysu2u-e8j2zzhk.bsld.de5.net
-  skip-cert-verify: true
-  sni: qi4rysu2u-e8j2zzhk.bsld.de5.net
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 00000000-0000-4000-8000-000000000000
+  port: 16617
+  server: m.cnmjin.net
+  type: vmess
+  uuid: 6bcea42f-4f70-49e5-8ed8-8067338ee7b3
   ws-opts:
     headers:
-      Host: qi4rysu2u-e8j2zzhk.bsld.de5.net
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
+      Host: 9f212577fc1fa9a13ccf657f03a1a20f.mobgslb.tbcache.com
+    path: /
+- alterId: 2
+  cipher: auto
   name: 'B - 🇯🇵 JP 03 TG: @nodpai'
-  network: ws
-  port: 16443
-  server: 107.149.239.177
-  servername: qi4rysu2u-e8j2zzhk.bsld.de5.net
-  skip-cert-verify: true
-  sni: qi4rysu2u-e8j2zzhk.bsld.de5.net
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: qi4rysu2u-e8j2zzhk.bsld.de5.net
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: 'B - 🇯🇵 JP 04 TG: @nodpai'
-  network: ws
-  port: 8998
-  server: 45.93.31.193
-  servername: qi4rysu2u-e8j2zzhk.bsld.de5.net
-  skip-cert-verify: true
-  sni: qi4rysu2u-e8j2zzhk.bsld.de5.net
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: qi4rysu2u-e8j2zzhk.bsld.de5.net
-    path: /@Marisa_kristi
-- name: 'B - 🇯🇵 JP 05 TG: @nodpai'
+  port: 30806
+  server: v6.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 'B - 🇯🇵 JP 04 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -78,37 +43,18 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 06 TG: @nodpai'
-  network: ws
-  port: 74
-  server: 172.105.194.182
-  servername: dcsrzh.ccwu.cc
-  skip-cert-verify: true
-  type: vless
-  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
-  ws-opts:
-    headers:
-      Host: dcsrzh.ccwu.cc
-    path: /?ed=2560security=tls
-- name: 'B - 🇯🇵 JP 07 TG: @nodpai'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk42TU23T365A==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 60017
-  server: zf.9966690.xyz
-  skip-cert-verify: true
-  type: hysteria2
-- name: 'B - 🇯🇵 JP 08 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 05 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 142.91.108.54
+  server: 140.83.50.165
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
-    path: /trTelegram
-- name: 'B - 🇯🇵 JP 09 TG: @nodpai'
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇯🇵 JP 06 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -119,16 +65,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram
-- name: 'B - 🇯🇵 JP 10 TG: @nodpai'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk42TU23T365A==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 60019
-  server: zf.9966690.xyz
-  skip-cert-verify: true
-  sni: zf.9966690.xyz
-  type: hysteria2
-- name: 'B - 🇯🇵 JP 11 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 07 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -136,6 +73,18 @@ proxies:
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇸🇪SE_2|1.2MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 185.130.46.81
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
