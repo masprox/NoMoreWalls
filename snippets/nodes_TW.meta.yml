@@ -1,62 +1,39 @@
 proxies:
-- flow: xtls-rprx-vision
-  name: 'A - 🇹🇼 TW 02 TG: @nodpai'
-  port: 443
-  security: tls
-  server: taipei1.ap221.com
-  servername: taipei.ap221.com
-  tls: true
-  type: vless
-  uuid: 8ded7f1f-6858-4502-b224-0c45df1d52df
-- flow: xtls-rprx-vision
-  name: 'A - 🇹🇼 TW 03 TG: @nodpai'
-  port: 443
-  security: tls
-  server: taipei1.ap221.com
-  servername: taipei.ap221.com
-  tls: true
-  type: vless
-  uuid: d0e1f202-3791-4cf5-b689-e5833375d343
-- flow: xtls-rprx-vision
-  name: 'A - 🇹🇼 TW 04 TG: @nodpai'
-  port: 443
-  security: tls
-  server: taipei1.ap221.com
-  servername: taipei.ap221.com
-  tls: true
-  type: vless
-  uuid: 4f85f6b8-7b35-4c1e-bf46-2b68acc99230
-- flow: xtls-rprx-vision-udp443-udp443
-  name: 'A - 🇹🇼 TW 07 TG: @nodpai'
-  port: 443
-  security: tls
-  server: taipei1.ap221.com
-  servername: taipei.ap221.com
-  tls: true
-  type: vless
-  uuid: 0599bfbb-64c9-47dd-abf2-9cca1e87109c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision-udp443
-  name: 🇹🇼TW_1|1.0MB/s
-  network: tcp
-  port: '443'
-  security: tls
-  server: taipei1.ap221.com
-  servername: taipei.ap221.com
+- insecure: '1'
+  mport: 40000-49999
+  name: 'A - 🇹🇼 TW 01 TG: @nodpai'
+  obfs: salamander
+  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 40000
+  server: tw.9966690.xyz
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: iosapps.itunes.apple.com
+  type: hysteria2
+- alpn:
+  - http%2F1.1%0A
+  client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 'C - 🇹🇼 TW 03 TG: @nodpai'
+  network: ws
+  port: 8818
+  server: 60.249.21.50
+  servername: c1mxc.api-gateway.fgfw.qzz.io
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: e74de85f-61a2-413a-a18b-1be496dd2cf6
-  xudp: true
-- flow: xtls-rprx-vision-udp443
-  name: 'B - 🇹🇼 TW 12 TG: @nodpai'
-  port: 443
-  security: tls
-  server: taipei1.ap221.com
-  servername: taipei.ap221.com
-  tls: true
-  type: vless
-  uuid: 5c0aeda1-c9b7-4e3f-9fc9-8067f4867ede
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c1mxc.api-gateway.fgfw.qzz.io
+    path: /danfeng-2cm3?ed=2560
 - name: TW_speednode_0034
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
@@ -69,38 +46,7 @@ proxies:
   password: mrwdfNTD8M79LCukCieldrqZWqs=
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: true
-  sni: twmoon1-cdn-route.couldflare-cdn.com
   tls: true
   type: http
   udp: true
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- alterId: 2
-  cipher: auto
-  name: 'B - 🇹🇼 TW 16 TG: @nodpai'
-  port: 30811
-  server: 61.227.198.218
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇹🇼 TW 17 TG: @nodpai'
-  port: 35034
-  server: 165.154.195.38
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-- alterId: 2
-  cipher: auto
-  name: 'B - 🇹🇼 TW 18 TG: @nodpai'
-  port: 30811
-  server: v11.zgtfqs.click
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 'B - 🇹🇼 TW 21 TG: @nodpai'
-  password: gcuCpQfaiVeDBdWG
-  port: 19128
-  server: jpbgp.netvigor.cc
-  sni: yazhou10.dynu.net
-  tls: true
-  type: trojan

@@ -1,17 +1,35 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_1|3.2MB/s
-  network: tcp
+- down: ''
+  fingerprint: ''
+  name: 🇫🇷FR_1|1.1MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 65bc8227-48db-4993-9e9d-68394de672a1
   port: '443'
-  reality-opts:
-    public-key: DHsthrDRMCGcOyJd4xTce_4CCSAJZGwxCdfNrkB_Pgs
-    short-id: '!!str 479826bdfc3eb86e'
-  server: 54.37.75.187
-  servername: www.speedtest.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: a0b067ac-162d-4237-956d-10b8b471d3f5
-  xudp: true
+  server: 45.92.218.150
+  skip-cert-verify: false
+  sni: holz3.api3-max.ru
+  type: hysteria2
+  up: ''
+- name: 🇫🇷FR_2|1.1MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 31.57.109.126
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 🇫🇷FR_3|2.2MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 161.97.183.222
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
