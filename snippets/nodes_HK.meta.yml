@@ -1,40 +1,5 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'A - 🇭🇰 HK 01 TG: @nodpai'
-  network: tcp
-  port: 29876
-  security: tls
-  server: xsus.xs-us.net
-  servername: sni.eos-suzhou-4.cmecloud.cn
-  tls: true
-  type: vless
-  uuid: b6096ffb-656a-4fec-8840-0d032089a3e0
-- name: 'A - 🇭🇰 HK 02 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 108.162.196.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime59.workers.dev
-- client-fingerprint: chrome
-  name: 'A - 🇭🇰 HK 03 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 47.76.218.163
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇭🇰 HK 04 TG: @nodpai'
+- name: 'B - 🇭🇰 HK 03 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -47,6 +12,21 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇭🇰 HK 04 TG: @nodpai'
+  network: tcp
+  port: 30396
+  reality-opts:
+    public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE
+    short-id: '!!str 693b25e06841ac7f'
+  security: reality
+  server: cdn.hk6.cocoduck.org
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
 - name: 'B - 🇭🇰 HK 05 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
@@ -58,51 +38,49 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers: {}
-    path:
-    - /ABCDE
+- insecure: '1'
   name: 'B - 🇭🇰 HK 06 TG: @nodpai'
-  network: http
-  port: 55386
-  server: 103.127.243.60
-  tls: false
-  type: vmess
-  uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
-- client-fingerprint: chrome
-  encryption: none
-  name: 'B - 🇭🇰 HK 08 TG: @nodpai'
-  network: tcp
+  obfs: salamander
+  obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 60007
+  server: zf.9966690.xyz
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: iosapps.itunes.apple.com
+  type: hysteria2
+- name: 'B - 🇭🇰 HK 09 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  reality-opts:
-    public-key: 6NCa8hdmqu3ZpYSQkODtsExGL1M0wR0GI4XZbb3Kdxo
-    short-id: '!!str ce1b'
-  security: reality
-  server: 216.57.108.24
-  servername: yahoo.com
+  server: 219.76.13.177
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: vless
-  uuid: 61bf6a18-727e-4492-ab5f-01dea4aa2df9
+  type: trojan
+  ws-opts:
+    path: /trTelegram
+- name: 'B - 🇭🇰 HK 12 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 46639
+  server: 192.131.142.161
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram
 - alterId: 0
   cipher: auto
-  delay: 206
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: 'B - 🇭🇰 HK 09 TG: @nodpai'
-  network: http
-  port: 53229
-  server: 103.127.243.54
+  name: 'C - 🇭🇰 HK 16 TG: @nodpai'
+  port: 51556
+  server: 103.181.164.145
   type: vmess
-  udp: true
-  uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 'C - 🇭🇰 HK 15 TG: @nodpai'
+  name: 'C - 🇭🇰 HK 18 TG: @nodpai'
   port: 54022
   server: 103.181.164.145
   type: vmess
@@ -150,3 +128,31 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: HK_speednode_0009
+  port: 443
+  reality-opts:
+    public-key: 8mv22T5d1KHXlT1EQiQMcgbOZpwkospsUb8WLkuDsAA
+    short-id: '!!str 7994d24409820c44'
+  server: qfaxrs.sgvless.yydzx.xyz
+  servername: deb.debian.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: HK_speednode_0010
+  port: 443
+  reality-opts:
+    public-key: 8mv22T5d1KHXlT1EQiQMcgbOZpwkospsUb8WLkuDsAA
+    short-id: '!!str 7994d24409820c44'
+  server: mx0wbu.sgvless.yydzx.xyz
+  servername: deb.debian.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
