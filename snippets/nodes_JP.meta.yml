@@ -1,36 +1,155 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇯🇵 JP 01 TG: @nodpai'
+- name: 'A - 🇯🇵 JP 01 TG: @nodpai'
   network: ws
-  port: 16617
-  server: planb.mojcn.com
-  type: vmess
-  uuid: 6bcea42f-4f70-49e5-8ed8-8067338ee7b3
+  port: 30030
+  security: tls
+  server: 175.118.151.148
+  servername: rolaqoubhqt.bpd67081tsq.ddns-ip.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: 9f212577fc1fa9a13ccf657f03a1a20f.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇯🇵 JP 02 TG: @nodpai'
+      Host: rolaqoubhqt.bpd67081tsq.ddns-ip.net
+    path: /@Marisa_kristifp=chrome
+- name: 'A - 🇯🇵 JP 02 TG: @nodpai'
   network: ws
-  port: 16617
-  server: m.cnmjin.net
-  type: vmess
-  uuid: 6bcea42f-4f70-49e5-8ed8-8067338ee7b3
+  port: 10227
+  security: tls
+  server: 59.6.239.208
+  servername: nn9jdg-k7yewrrk.acg.xx.kg
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: 9f212577fc1fa9a13ccf657f03a1a20f.mobgslb.tbcache.com
+      Host: nn9jdg-k7yewrrk.acg.xx.kg
+    path: /@Marisa_kristifp=chrome
+- encryption: none
+  name: 'A - 🇯🇵 JP 03 TG: @nodpai'
+  network: ws
+  port: 30032
+  security: tls
+  server: 138.3.210.67
+  servername: dcsrzh.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  ws-opts:
+    headers:
+      Host: dcsrzh.ccwu.cc
+    path: /?ed=2560
+- name: 'A - 🇯🇵 JP 04 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 114.129.43.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime04.workers.dev
     path: /
-- alterId: 2
-  cipher: auto
-  name: 'B - 🇯🇵 JP 03 TG: @nodpai'
-  port: 30806
-  server: v6.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 'B - 🇯🇵 JP 04 TG: @nodpai'
+- name: 'A - 🇯🇵 JP 05 TG: @nodpai'
+  network: ws
+  port: 37811
+  security: tls
+  server: 154.17.237.73
+  servername: rolaqoubhqt.bpd67081tsq.ddns-ip.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: rolaqoubhqt.bpd67081tsq.ddns-ip.net
+    path: /@Marisa_kristifp=chrome
+- name: 'A - 🇯🇵 JP 06 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 194.53.53.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+    path: /
+- name: 'B - 🇯🇵 JP 07 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 198.71.190.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime05.workers.dev
+    path: /
+- name: 'B - 🇯🇵 JP 08 TG: @nodpai'
+  network: ws
+  port: 2093
+  security: tls
+  server: 146.235.219.13
+  servername: ooa858iqkhza12.mesa.ip-ddns.com
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: ooa858iqkhza12.mesa.ip-ddns.com
+    path: /@Marisa_kristifp=chrome
+- name: 'B - 🇯🇵 JP 09 TG: @nodpai'
+  network: ws
+  port: 59801
+  security: tls
+  server: 5.180.30.229
+  servername: adv2m5gy-wrhiahph85c.ovtc.qzz.io
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: adv2m5gy-wrhiahph85c.ovtc.qzz.io
+    path: /@Marisa_kristifp=chrome
+- name: 'B - 🇯🇵 JP 10 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 138.2.59.112
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇯🇵 JP 11 TG: @nodpai'
+  network: ws
+  port: 59801
+  security: tls
+  server: 45.140.167.190
+  servername: ooa858iqkhza12.mesa.ip-ddns.com
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: ooa858iqkhza12.mesa.ip-ddns.com
+    path: /@Marisa_kristifp=chrome
+- name: 'B - 🇯🇵 JP 12 TG: @nodpai'
+  network: ws
+  port: 11144
+  security: tls
+  server: 59.6.239.208
+  servername: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
+    path: /@Marisa_kristifp=chrome
+- name: 'B - 🇯🇵 JP 13 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -43,7 +162,19 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 05 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 14 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 103.75.118.144
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳
+- name: 'B - 🇯🇵 JP 15 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -54,18 +185,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 06 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 103.125.216.22
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram
-- name: 'B - 🇯🇵 JP 07 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 16 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -78,39 +198,73 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 🇸🇪SE_2|1.2MB/s
+- name: 'B - 🇯🇵 JP 17 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 185.130.46.81
-  skip-cert-verify: true
+  server: 142.91.108.54
   sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
   ws-opts:
+    path: /trTelegram
+- name: 'B - 🇯🇵 JP 18 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 103.125.216.22
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram
+- name: 'B - 🇯🇵 JP 19 TG: @nodpai'
+  network: ws
+  port: 20205
+  security: tls
+  server: 152.42.217.192
+  servername: nisav2de2t0ai8p-hd0.misa.cc.cd
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+      Host: nisav2de2t0ai8p-hd0.misa.cc.cd
+    path: /@Marisa_kristifp=chrome
+- name: 'B - 🇯🇵 JP 20 TG: @nodpai'
+  network: ws
+  port: 33496
+  security: tls
+  server: 62.60.250.193
+  servername: rolaqoubhqt.bpd67081tsq.ddns-ip.net
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: rolaqoubhqt.bpd67081tsq.ddns-ip.net
+    path: /@Marisa_kristifp=chrome
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2140
-  server: 13.158.82.174
+  port: 4633
+  server: 13.114.188.23
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 3135
-  server: 18.183.203.240
+  port: 11541
+  server: 52.199.67.57
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 11541
-  server: 52.195.217.94
+  port: 3135
+  server: 18.167.167.26
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan

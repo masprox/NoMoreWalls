@@ -1,30 +1,27 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇭🇰 HK 01 TG: @nodpai'
-  network: ws
-  port: 16622
-  server: planb.mojcn.com
-  type: vmess
-  uuid: 6bcea42f-4f70-49e5-8ed8-8067338ee7b3
-  ws-opts:
-    headers:
-      Host: 9f212577fc1fa9a13ccf657f03a1a20f.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇭🇰 HK 02 TG: @nodpai'
-  network: ws
-  port: 16622
-  server: m.cnmjin.net
-  type: vmess
-  uuid: 6bcea42f-4f70-49e5-8ed8-8067338ee7b3
-  ws-opts:
-    headers:
-      Host: 9f212577fc1fa9a13ccf657f03a1a20f.mobgslb.tbcache.com
-    path: /
 - client-fingerprint: chrome
-  name: 'B - 🇭🇰 HK 04 TG: @nodpai'
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'A - 🇭🇰 HK 01 TG: @nodpai'
+  network: tcp
+  port: 29876
+  security: tls
+  server: xsus.xs-us.net
+  servername: sni.eos-suzhou-4.cmecloud.cn
+  tls: true
+  type: vless
+  uuid: b6096ffb-656a-4fec-8840-0d032089a3e0
+- name: 'A - 🇭🇰 HK 02 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 108.162.196.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- client-fingerprint: chrome
+  name: 'A - 🇭🇰 HK 03 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -37,7 +34,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇭🇰 HK 05 TG: @nodpai'
+- name: 'B - 🇭🇰 HK 04 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -50,7 +47,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇭🇰 HK 06 TG: @nodpai'
+- name: 'B - 🇭🇰 HK 05 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -64,40 +61,19 @@ proxies:
 - alterId: 0
   cipher: auto
   http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: 'B - 🇭🇰 HK 07 TG: @nodpai'
-  network: http
-  port: 58051
-  server: 103.127.243.55
-  tls: false
-  type: vmess
-  uuid: 8e5b521a-4a56-4bd7-baf1-bfcdf55d6cf1
-- alterId: 0
-  cipher: auto
-  http-opts:
     headers: {}
     path:
     - /ABCDE
-  name: 'B - 🇭🇰 HK 08 TG: @nodpai'
+  name: 'B - 🇭🇰 HK 06 TG: @nodpai'
   network: http
   port: 55386
   server: 103.127.243.60
   tls: false
   type: vmess
   uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
-- name: 'B - 🇭🇰 HK 09 TG: @nodpai'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 60006
-  server: zf.9966690.xyz
-  skip-cert-verify: true
-  type: hysteria2
 - client-fingerprint: chrome
   encryption: none
-  name: 'B - 🇭🇰 HK 11 TG: @nodpai'
+  name: 'B - 🇭🇰 HK 08 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
@@ -111,29 +87,23 @@ proxies:
   uuid: 61bf6a18-727e-4492-ab5f-01dea4aa2df9
 - alterId: 0
   cipher: auto
-  name: 'B - 🇭🇰 HK 12 TG: @nodpai'
-  network: ws
-  port: 443
-  server: cdn.31514926.xyz
-  servername: admit-statute-live-undertaken.trycloudflare.com
-  tls: true
+  delay: 206
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 'B - 🇭🇰 HK 09 TG: @nodpai'
+  network: http
+  port: 53229
+  server: 103.127.243.54
   type: vmess
-  uuid: 48d5eb0f-fd55-4357-baec-a68fa39a4b1b
-  ws-opts:
-    headers:
-      Host: admit-statute-live-undertaken.trycloudflare.com
-    path: /48d5eb0f-fd55-4357-baec-a68fa39a4b1b-vm
-- alterId: 2
-  cipher: auto
-  name: 'C - 🇭🇰 HK 17 TG: @nodpai'
-  port: 30809
-  server: v9.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  udp: true
+  uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134
 - alterId: 0
   cipher: auto
-  name: 'C - 🇭🇰 HK 20 TG: @nodpai'
-  port: 51556
+  name: 'C - 🇭🇰 HK 15 TG: @nodpai'
+  port: 54022
   server: 103.181.164.145
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -149,16 +119,16 @@ proxies:
 - name: 香港3|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 53018
-  server: 52.195.217.94
-  skip-cert-verify: true
+  port: 2008
+  server: 13.231.74.103
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1123
-  server: 54.250.202.23
+  port: 4327
+  server: 95.40.61.5
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
