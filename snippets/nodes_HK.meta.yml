@@ -6,35 +6,85 @@ proxies:
   server: world.t.51guangtaobao.com
   type: vmess
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK_1|2.0MB/s
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'A - 🇭🇰 HK 02 TG: @nodpai'
   network: tcp
-  port: 6001
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  port: 54503
+  reality-opts:
+    public-key: lh2UnEc7kA8vqoB1oSrLrK-YhkuNI2DOu-MW-ZgLJT4
+    short-id: '!!str 089bdc8f'
+  server: hkbgpnolixx01.odxxplay.com
+  servername: www.hkhs.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: 'B - 🇭🇰 HK 06 TG: @nodpai'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 60010
-  server: zfde.9966690.xyz
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+- name: 'A - 🇭🇰 HK 03 TG: @nodpai'
+  password: 45a90d32-08bd-4dea-8345-f1f541cc7f90
+  port: 10085
+  server: hk02.jgpy.help
   skip-cert-verify: true
+  sni: apple.com
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 'B - 🇭🇰 HK 07 TG: @nodpai'
+  name: 'A - 🇭🇰 HK 04 TG: @nodpai'
   port: 6012
   server: world.t.51guangtaobao.com
   type: vmess
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
 - alterId: 0
   cipher: auto
-  name: 'C - 🇭🇰 HK 08 TG: @nodpai'
-  port: 51556
+  name: 'A - 🇭🇰 HK 05 TG: @nodpai'
+  port: 6001
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- name: 'B - 🇭🇰 HK 06 TG: @nodpai'
+  password: 71e75cc1-d625-4be2-b3e4-ea2b197abf25
+  port: 20000
+  server: hkt03ddns.poke-mon.xyz
+  servername: www.bing.com
+  skip-cert-verify: true
+  sni: www.bing.com
+  tfo: false
+  type: hysteria2
+  udp: true
+- client-fingerprint: random
+  encryption: none
+  name: 'B - 🇭🇰 HK 07 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 45.221.112.81
+  servername: ioioioi.pages.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
+  ws-opts:
+    headers:
+      Host: ioioioi.pages.dev
+    path: /?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  name: 'C - 🇭🇰 HK 10 TG: @nodpai'
+  network: ws
+  port: 25100
+  server: 151.242.85.19
+  servername: 151.242.85.19
+  type: vless
+  uuid: 7eaea5bb-9129-42f5-98ca-23a73ebaa989
+  ws-opts:
+    headers:
+      Host: 151.242.85.19
+    path: /ws-bf6bb2499d21
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇭🇰 HK 11 TG: @nodpai'
+  port: 54022
   server: 103.181.164.145
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -82,39 +132,20 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: 🇭🇰HK_2|1.0MB/s
-  password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
+  name: 🇭🇰HK_1|1.2MB/s
+  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
   port: 8300
-  server: ec1c1972-t9lmo0-ta37qp-b4pt.hkt.east.wctype.com
+  server: 0a34c055-t9t1c0-tb7mup-4550.hkt.east.wctype.com
   skip-cert-verify: true
-  sni: ec1c1972-t9lmo0-ta37qp-b4pt.hkt.east.wctype.com
+  sni: 0a34c055-t9t1c0-tb7mup-4550.hkt.east.wctype.com
   type: anytls
   udp: true
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: HK_speednode_0009
-  port: 443
-  reality-opts:
-    public-key: 8mv22T5d1KHXlT1EQiQMcgbOZpwkospsUb8WLkuDsAA
-    short-id: '!!str 7994d24409820c44'
-  server: qfaxrs.sgvless.yydzx.xyz
-  servername: deb.debian.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  name: 🇭🇰HK_2|1.6MB/s
+  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+  port: 8300
+  server: 1dfe1864-t9ylc0-tb7mup-4550.hkt.east.wctype.com
+  skip-cert-verify: true
+  sni: 1dfe1864-t9ylc0-tb7mup-4550.hkt.east.wctype.com
+  type: anytls
   udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: HK_speednode_0010
-  port: 443
-  reality-opts:
-    public-key: 8mv22T5d1KHXlT1EQiQMcgbOZpwkospsUb8WLkuDsAA
-    short-id: '!!str 7994d24409820c44'
-  server: mx0wbu.sgvless.yydzx.xyz
-  servername: deb.debian.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280

@@ -1,8 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇬🇧 GB 01 TG: @nodpai'
-  port: 6009
-  server: world.t.51guangtaobao.com
-  type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+proxies: []

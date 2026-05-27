@@ -1,11 +1,11 @@
 proxies:
-- flow: xtls-rprx-vision
-  name: 'B - 🇫🇷 FR 01 TG: @nodpai'
-  network: tcp
-  port: 443
-  security: tls
-  server: fr-tx.sbrf-cdn342.ru
-  servername: sub.sbrf-cdn342.ru
+- alpn:
+  - h2
+  name: FR_speednode_0017
+  port: 8443
+  server: cdg-1.fromblancwithlove.com
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 01ea3b87-b7b1-4aef-b24a-9c43fbd3b26f
+  udp: true
+  uuid: 55f7d143-a594-4a91-b030-f227039f85ef

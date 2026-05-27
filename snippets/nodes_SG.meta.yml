@@ -1,117 +1,77 @@
 proxies:
+- name: 'A - 🇸🇬 SG 01 TG: @nodpai'
+  password: aecd8c25-fd16-42a3-aefb-89c89557828f
+  port: 8080
+  server: hkt05.769970.xyz
+  skip-cert-verify: true
+  sni: hkt05.769970.xyz
+  type: hysteria2
+- encryption: none
+  name: 'A - 🇸🇬 SG 02 TG: @nodpai'
+  network: ws
+  port: 2087
+  security: tls
+  server: 104.26.2.252
+  servername: pagescm.freen11.cc.cd
+  tls: true
+  type: vless
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  ws-opts:
+    headers:
+      Host: pagescm.freen11.cc.cd
+    path: /acg/torrent/infofp=chrome
 - alterId: 0
   cipher: auto
-  name: 'A - 🇸🇬 SG 01 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 03 TG: @nodpai'
+  port: 6004
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇸🇬 SG 04 TG: @nodpai'
   port: 2504
   server: world.t.51guangtaobao.com
   type: vmess
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇸🇬 SG 02 TG: @nodpai'
-  port: 6004
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- client-fingerprint: chrome
-  name: 'A - 🇸🇬 SG 03 TG: @nodpai'
-  network: ws
-  port: 443
-  server: 172.67.71.187
-  servername: pagescm.freen35.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  ws-opts:
-    headers:
-      Host: pagescm.freen35.cc.cd
-    path: /setting/torrent/task
-- name: 'A - 🇸🇬 SG 04 TG: @nodpai'
-  password: 16955d72-1794-11f0-a035-f23c95b6f51d
-  port: 3233
-  server: 4b41083b-tea5c0-tequ5b-dnss.fourtwo.cdnbytescm.com
-  tls: true
-  type: http
-  username: 16955d72-1794-11f0-a035-f23c95b6f51d
 - name: 'B - 🇸🇬 SG 05 TG: @nodpai'
+  password: 45a90d32-08bd-4dea-8345-f1f541cc7f90
+  port: 10026
+  server: sg02.jgpy.help
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+- client-fingerprint: random
+  encryption: none
+  name: 'B - 🇸🇬 SG 06 TG: @nodpai'
   network: ws
-  port: 443
+  port: 8443
   security: tls
-  server: dx.mmhh.eu.cc
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: true
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /fp=random
-- name: 'B - 🇸🇬 SG 06 TG: @nodpai'
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 3233
-  server: b5eb2edf-te8ao0-tfnl0i-au6.fourtwo.cdnbytescm.com
-  tls: true
-  type: http
-  username: 1b609740-eec2-11ef-8543-f23c93136cb3
-- encryption: none
-  name: 'B - 🇸🇬 SG 07 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 104.17.150.241
-  servername: juzi.qea.ccwu.cc
+  server: 92.243.74.4
+  servername: ioioioi.pages.dev
   skip-cert-verify: true
   tls: true
   type: vless
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
   ws-opts:
     headers:
-      Host: juzi.qea.ccwu.cc
-    path: /
-- client-fingerprint: random
+      Host: ioioioi.pages.dev
+    path: /?ed=2560
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 'B - 🇸🇬 SG 08 TG: @nodpai'
-  port: 443
-  reality-opts:
-    public-key: fS59W37_i8457GqkbB9_kdCfLCtWbl14qmVRnm2ty2I
-    short-id: '!!str 2da4299da566b7'
-  server: 84.32.22.143
-  servername: maps.apple.com
-  tls: true
-  type: vless
-  uuid: 91a3f712-c4e0-42a0-9475-bdd551a06e73
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'B - 🇸🇬 SG 09 TG: @nodpai'
   network: tcp
-  port: 10001
-  reality-opts:
-    public-key: 7qP6YKWx5CJXia1qjQoIcD7FRjUBbioaioioI729D34
-    short-id: '!!str 2afe4310'
-  security: reality
-  server: 50.114.55.14
-  servername: www.icloud.com
-  tls: true
-  type: vless
-  uuid: 9c79aceb-4649-44ea-9698-b5e9ecf6d6da
-- name: 'B - 🇸🇬 SG 10 TG: @nodpai'
-  network: ws
   port: 443
-  security: tls
-  server: cdn.tzpro.xyz
-  servername: juzi.qea.ccwu.cc
+  reality-opts:
+    public-key: 4RZb56SmePtMZSY0T_PJlaDx0Yh3QT9-qSiMFac0TzI
+    short-id: '!!str a0845462'
+  server: sg.hsyun.top
+  servername: www.propertyguru.com.sg
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
-  ws-opts:
-    headers:
-      Host: juzi.qea.ccwu.cc
-    path: /?ed=2048fp=chrome
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
@@ -137,7 +97,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-128-gcm
-  name: 🇸🇬SG_1|1.8MB/s
+  name: 🇸🇬SG_1|2.0MB/s
   password: '!!str 666'
   plugin: v2ray-plugin
   plugin-opts:
@@ -152,7 +112,7 @@ proxies:
   udp: false
 - client-fingerprint: chrome
   encryption: none
-  name: 🇸🇬SG_2|3.9MB/s
+  name: 🇸🇬SG_2|1.6MB/s
   network: xhttp
   port: '443'
   server: 198.41.223.119
@@ -165,18 +125,31 @@ proxies:
     mode: stream-one
     path: /de
   xudp: true
-- encryption: none
-  name: 🇸🇬SG_3|4.3MB/s
-  network: ws
-  port: '80'
-  server: 162.159.19.202
-  type: vless
+- name: NN_speednode_0036
+  password: 16955d72-1794-11f0-a035-f23c95b6f51d
+  port: 3233
+  server: 4b41083b-tea5c0-tequ5b-dnss.fourtwo.cdnbytescm.com
+  tls: true
+  type: http
   udp: true
-  uuid: e284098e-7ffd-4fce-a9d3-ea6bc98ce629
-  ws-opts:
-    headers:
-      Host: empty-sea-3392.amir-1385-poo.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /?ed=2048
+  username: 16955d72-1794-11f0-a035-f23c95b6f51d
+- name: NN_speednode_0037
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  port: 3233
+  server: b5eb2edf-te8ao0-tfnl0i-au6.fourtwo.cdnbytescm.com
+  tls: true
+  type: http
+  udp: true
+  username: 1b609740-eec2-11ef-8543-f23c93136cb3
+- alterId: '0'
+  cipher: auto
+  name: 🇸🇬SG_5|2.4MB/s
+  network: tcp
+  port: 2504
+  server: world.t.51guangtaobao.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
   xudp: true
