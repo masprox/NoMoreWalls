@@ -1,207 +1,33 @@
 proxies:
-- name: 'A - 🇹🇼 TW 01 TG: @nodpai'
-  password: 3f2d3497-6843-46f1-aa34-5469dc953259
-  port: 8080
-  server: tw3.769970.xyz
-  skip-cert-verify: true
-  sni: tw3.769970.xyz
-  type: hysteria2
-- name: 'B - 🇹🇼 TW 02 TG: @nodpai'
+- down: ''
+  fingerprint: ''
+  name: 🇹🇼TW_1|1.7MB/s
+  obfs: ''
+  obfs-password: ''
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
+  port: '443'
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
   sni: vpn-tw-002.fastervpn.world
   type: hysteria2
+  up: ''
 - name: 'B - 🇹🇼 TW 03 TG: @nodpai'
-  password: aecd8c25-fd16-42a3-aefb-89c89557828f
-  port: 8080
-  server: tw11.769970.xyz
-  skip-cert-verify: true
-  sni: tw11.769970.xyz
-  type: hysteria2
+  password: gcuCpQfaiVeDBdWG
+  port: 19128
+  server: jpbgp.netvigor.cc
+  sni: yazhou10.dynu.net
+  tls: true
+  type: trojan
 - name: 'B - 🇹🇼 TW 04 TG: @nodpai'
-  password: 3f2d3497-6843-46f1-aa34-5469dc953259
-  port: 8080
-  server: tw07.769970.xyz
-  skip-cert-verify: true
-  sni: tw07.769970.xyz
-  type: hysteria2
-- name: 'B - 🇹🇼 TW 05 TG: @nodpai'
-  password: 15893455-4d21-4338-a273-01aed1d77fa2
-  port: 8080
-  server: 5gzdx.769970.xyz
-  skip-cert-verify: true
-  sni: 5gzdx.769970.xyz
-  type: hysteria2
-- name: 'B - 🇹🇼 TW 06 TG: @nodpai'
-  password: 94a5dea9-6175-4cd1-8f0b-786bde8eaf9b
-  port: 8080
-  server: 5gzdx.769970.xyz
-  skip-cert-verify: true
-  sni: 5gzdx.769970.xyz
-  type: hysteria2
-- name: 'B - 🇹🇼 TW 07 TG: @nodpai'
-  password: aecd8c25-fd16-42a3-aefb-89c89557828f
-  port: 8080
-  server: 5gzdx.769970.xyz
-  skip-cert-verify: true
-  sni: 5gzdx.769970.xyz
-  type: hysteria2
-- name: 'B - 🇹🇼 TW 08 TG: @nodpai'
-  password: 522c2107-f297-4420-bd56-ec82b175aa2d
-  port: 8080
-  server: tw3.769970.xyz
-  skip-cert-verify: true
-  sni: tw3.769970.xyz
-  type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'B - 🇹🇼 TW 09 TG: @nodpai'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: 2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE
-    short-id: '!!str 04d59340'
-  security: reality
-  server: tw1.459292.xyz
-  servername: www.python.org
+  network: ws
+  port: 43
+  security: tls
+  server: 220.128.110.108
+  servername: pagescm.freen6.cc.cd
   tls: true
   type: vless
-  uuid: 247c71ea-fc3b-415f-92d2-db4c11f0f7c8
-- name: 'B - 🇹🇼 TW 10 TG: @nodpai'
-  password: 64c5b7d0-87aa-45eb-9721-3602325fa106
-  port: 8080
-  server: tw3.769970.xyz
-  skip-cert-verify: true
-  sni: tw3.769970.xyz
-  type: hysteria2
-- name: 'B - 🇹🇼 TW 11 TG: @nodpai'
-  password: f6836112-e9f3-4803-a366-5606ac214324
-  port: 8080
-  server: tw3.769970.xyz
-  skip-cert-verify: true
-  sni: tw3.769970.xyz
-  type: hysteria2
-- name: 'B - 🇹🇼 TW 12 TG: @nodpai'
-  password: 505cb813-5647-4898-918c-cde760d515a8
-  port: 8080
-  server: tw11.769970.xyz
-  skip-cert-verify: true
-  sni: tw11.769970.xyz
-  type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'B - 🇹🇼 TW 13 TG: @nodpai'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: 2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE
-    short-id: '!!str 04d59340'
-  security: reality
-  server: tw1.459292.xyz
-  servername: www.python.org
-  tls: true
-  type: vless
-  uuid: 10f02d23-1d74-4b6e-b830-815be053281d
-- name: 'B - 🇹🇼 TW 14 TG: @nodpai'
-  password: 10f02d23-1d74-4b6e-b830-815be053281d
-  port: 8080
-  server: tw07.769970.xyz
-  skip-cert-verify: true
-  sni: tw07.769970.xyz
-  type: hysteria2
-- name: 'B - 🇹🇼 TW 15 TG: @nodpai'
-  password: c90cedc3-8d7f-4c7d-8bd7-d011d694aef3
-  port: 8080
-  server: tw07.769970.xyz
-  skip-cert-verify: true
-  sni: tw07.769970.xyz
-  type: hysteria2
-- name: 'B - 🇹🇼 TW 16 TG: @nodpai'
-  password: df1a0967-5b79-41ec-8d12-915e9056c6e2
-  port: 8080
-  server: tw11.769970.xyz
-  skip-cert-verify: true
-  sni: tw11.769970.xyz
-  type: hysteria2
-- name: 'B - 🇹🇼 TW 17 TG: @nodpai'
-  password: 94a5dea9-6175-4cd1-8f0b-786bde8eaf9b
-  port: 8080
-  server: tw07.769970.xyz
-  skip-cert-verify: true
-  sni: tw07.769970.xyz
-  type: hysteria2
-- name: 'B - 🇹🇼 TW 18 TG: @nodpai'
-  password: 9c0347aa-80f3-42bd-a906-9c645b4574cf
-  port: 8080
-  server: 5gzdx.769970.xyz
-  skip-cert-verify: true
-  sni: 5gzdx.769970.xyz
-  type: hysteria2
-- name: 'C - 🇹🇼 TW 19 TG: @nodpai'
-  password: 15893455-4d21-4338-a273-01aed1d77fa2
-  port: 8080
-  server: tw3.769970.xyz
-  skip-cert-verify: true
-  sni: tw3.769970.xyz
-  type: hysteria2
-- name: 'C - 🇹🇼 TW 20 TG: @nodpai'
-  password: 9c0347aa-80f3-42bd-a906-9c645b4574cf
-  port: 8080
-  server: tw07.769970.xyz
-  skip-cert-verify: true
-  sni: tw07.769970.xyz
-  type: hysteria2
-- name: 'C - 🇹🇼 TW 21 TG: @nodpai'
-  password: df1a0967-5b79-41ec-8d12-915e9056c6e2
-  port: 8080
-  server: tw07.769970.xyz
-  skip-cert-verify: true
-  sni: tw07.769970.xyz
-  type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'C - 🇹🇼 TW 22 TG: @nodpai'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: 2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE
-    short-id: '!!str 04d59340'
-  security: reality
-  server: tw1.459292.xyz
-  servername: www.python.org
-  tls: true
-  type: vless
-  uuid: df1a0967-5b79-41ec-8d12-915e9056c6e2
-- name: 'C - 🇹🇼 TW 23 TG: @nodpai'
-  password: 247c71ea-fc3b-415f-92d2-db4c11f0f7c8
-  port: 8080
-  server: tw3.769970.xyz
-  skip-cert-verify: true
-  sni: tw3.769970.xyz
-  type: hysteria2
-- name: 'C - 🇹🇼 TW 24 TG: @nodpai'
-  password: 9c0347aa-80f3-42bd-a906-9c645b4574cf
-  port: 8080
-  server: tw3.769970.xyz
-  skip-cert-verify: true
-  sni: tw3.769970.xyz
-  type: hysteria2
-- name: 'C - 🇹🇼 TW 25 TG: @nodpai'
-  password: 522c2107-f297-4420-bd56-ec82b175aa2d
-  port: 8080
-  server: tw07.769970.xyz
-  skip-cert-verify: true
-  sni: tw07.769970.xyz
-  type: hysteria2
-- name: 'C - 🇹🇼 TW 26 TG: @nodpai'
-  password: 10f02d23-1d74-4b6e-b830-815be053281d
-  port: 8080
-  server: tw3.769970.xyz
-  skip-cert-verify: true
-  sni: tw3.769970.xyz
-  type: hysteria2
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  ws-opts:
+    headers:
+      Host: pagescm.freen6.cc.cd
+    path: /tags/detailsfp=chrome

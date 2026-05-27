@@ -1,16 +1,26 @@
 proxies:
-- down: ''
-  fingerprint: ''
-  name: 🇬🇧GB_1|2.5MB/s
-  obfs: ''
-  obfs-password: ''
-  password: fe9b17e8-41e1-4d1b-b588-93a23665724f
-  port: '2056'
-  server: 5.39.254.225
-  skip-cert-verify: true
-  sni: ld1.mangshe.xyz
-  type: hysteria2
-  up: ''
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇬🇧 GB 01 TG: @nodpai'
+  port: 6009
+  server: world.t.51guangtaobao.com
+  type: vmess
+  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇬🇧 GB 02 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Mn0DIMKW6zu0_D3E1qKO7xMlIVZvB-rqO_-f7Le2vAs
+    short-id: '!!str 428ef87fd47a3a32'
+  security: reality
+  server: gb.nodes.rocketnetwork.ru
+  servername: gb.nodes.rocketnetwork.ru
+  tls: true
+  type: vless
+  uuid: bdd008a1-7acb-4847-91b8-a6fc23bc5d4c
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: GB_speednode_0007
