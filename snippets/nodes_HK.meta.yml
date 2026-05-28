@@ -2,89 +2,108 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 'A - 🇭🇰 HK 01 TG: @nodpai'
-  port: 9002
-  server: world.t.51guangtaobao.com
+  port: 11104
+  server: dotu-hkv1.kunlun03dns.com
   type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
   name: 'A - 🇭🇰 HK 02 TG: @nodpai'
-  network: tcp
-  port: 54503
-  reality-opts:
-    public-key: lh2UnEc7kA8vqoB1oSrLrK-YhkuNI2DOu-MW-ZgLJT4
-    short-id: '!!str 089bdc8f'
-  server: hkbgpnolixx01.odxxplay.com
-  servername: www.hkhs.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
-- name: 'A - 🇭🇰 HK 03 TG: @nodpai'
-  password: 45a90d32-08bd-4dea-8345-f1f541cc7f90
-  port: 10085
-  server: hk02.jgpy.help
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇭🇰 HK 04 TG: @nodpai'
-  port: 6012
-  server: world.t.51guangtaobao.com
+  port: 11105
+  server: dotu-hkv1.kunlun03dns.com
   type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: 'A - 🇭🇰 HK 05 TG: @nodpai'
+  name: 'A - 🇭🇰 HK 03 TG: @nodpai'
+  port: 11103
+  server: dotu-hkv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- name: 'B - 🇭🇰 HK 04 TG: @nodpai'
+  password: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
+  port: 5228
+  server: be27ab36-t9zts0-tg010c-1r7od.cm4.oshuawei.com
+  sni: be27ab36-t9zts0-tg010c-1r7od.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇭🇰 HK 05 TG: @nodpai'
+  network: ws
+  port: 33411
+  server: ct2.ainivp.com
+  servername: ct2.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: ct2.ainivp.com
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇭🇰 HK 06 TG: @nodpai'
   port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: 'B - 🇭🇰 HK 06 TG: @nodpai'
-  password: 71e75cc1-d625-4be2-b3e4-ea2b197abf25
-  port: 20000
-  server: hkt03ddns.poke-mon.xyz
-  servername: www.bing.com
-  skip-cert-verify: true
-  sni: www.bing.com
-  tfo: false
-  type: hysteria2
   udp: true
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇭🇰 HK 07 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 45.221.112.81
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: chrome
-  encryption: none
-  name: 'C - 🇭🇰 HK 10 TG: @nodpai'
-  network: ws
-  port: 25100
-  server: 151.242.85.19
-  servername: 151.242.85.19
-  type: vless
-  uuid: 7eaea5bb-9129-42f5-98ca-23a73ebaa989
-  ws-opts:
-    headers:
-      Host: 151.242.85.19
-    path: /ws-bf6bb2499d21
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 0
   cipher: auto
-  name: 'C - 🇭🇰 HK 11 TG: @nodpai'
-  port: 54022
+  name: 'B - 🇭🇰 HK 07 TG: @nodpai'
+  network: ws
+  port: 33414
+  server: cu7.ainivp.com
+  servername: cu7.ainivp.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: cu7.ainivp.com
+    path: /ray
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 'B - 🇭🇰 HK 08 TG: @nodpai'
+  network: tcp
+  port: 11112
+  server: dotu-twv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 'B - 🇭🇰 HK 09 TG: @nodpai'
+  network: tcp
+  port: 11121
+  server: dotu-jpv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇭🇰 HK 10 TG: @nodpai'
+  port: 51556
   server: 103.181.164.145
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -101,7 +120,7 @@ proxies:
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2008
-  server: 3.112.12.209
+  server: 52.69.114.14
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -109,7 +128,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 4327
-  server: 35.77.230.224
+  server: 54.168.196.137
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -131,21 +150,24 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 🇭🇰HK_1|1.2MB/s
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  port: 8300
-  server: 0a34c055-t9t1c0-tb7mup-4550.hkt.east.wctype.com
-  skip-cert-verify: true
-  sni: 0a34c055-t9t1c0-tb7mup-4550.hkt.east.wctype.com
-  type: anytls
+- encryption: none
+  name: 🇭🇰HK_1|4.7MB/s
+  network: tcp
+  port: '47683'
+  server: 47.242.43.198
+  type: vless
   udp: true
-- client-fingerprint: chrome
-  name: 🇭🇰HK_2|1.6MB/s
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  port: 8300
-  server: 1dfe1864-t9ylc0-tb7mup-4550.hkt.east.wctype.com
+  uuid: 3825a504-7b6c-4f34-bf4d-a5b86f4650dd
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 🇭🇰HK_2|1.8MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 45a90d32-08bd-4dea-8345-f1f541cc7f90
+  port: '10085'
+  server: hk02.jgpy.help
   skip-cert-verify: true
-  sni: 1dfe1864-t9ylc0-tb7mup-4550.hkt.east.wctype.com
-  type: anytls
-  udp: true
+  sni: apple.com
+  type: hysteria2
+  up: ''

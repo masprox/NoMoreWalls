@@ -1,41 +1,47 @@
 proxies:
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 'A - 🇰🇷 KR 01 TG: @nodpai'
-  network: tcp
-  port: 11143
-  server: dotu-krv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
 - alterId: 0
   cipher: auto
-  name: 'A - 🇰🇷 KR 02 TG: @nodpai'
+  name: 'B - 🇰🇷 KR 01 TG: @nodpai'
   port: 11144
   server: dotu-krv1.kunlun03dns.com
   type: vmess
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇰🇷KR_1|3.4MB/s
-  network: tcp
-  port: '8686'
-  reality-opts:
-    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
-    short-id: '!!str 628b3c90c98ead4f'
-  server: 15.164.211.214
-  servername: www.apple.com
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇰🇷 KR 02 TG: @nodpai'
+  network: ws
+  port: 33204
+  server: yd4.ainivp.com
+  servername: yd4.ainivp.com
   tls: true
-  type: vless
+  type: vmess
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: yd4.ainivp.com
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇰🇷 KR 03 TG: @nodpai'
+  port: 11146
+  server: dotu-krv1.kunlun03dns.com
+  type: vmess
   udp: true
-  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  xudp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇰🇷 KR 04 TG: @nodpai'
+  network: ws
+  port: 33201
+  server: yd2.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: yd2.ainivp.com
+    path: /ray
 - name: KR_speednode_0025
   password: test.+
   port: 30446
@@ -45,6 +51,23 @@ proxies:
   type: http
   udp: true
   username: test
+- client-fingerprint: chrome
+  name: 🇰🇷KR_2|2.8MB/s
+  network: ws
+  port: '30006'
+  server: 114.204.40.185
+  servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/55.0.2883.87 Safari/537.36
+    path: /@Marisa_kristifp=chrome
+  xudp: true
 - name: KR_speednode_0028
   port: 1090
   server: 121.169.46.116

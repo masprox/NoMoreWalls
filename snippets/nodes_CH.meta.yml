@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- client-fingerprint: randomized
+  flow: xtls-rprx-vision
+  name: 'B - 🇨🇭 CH 01 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk
+    short-id: '!!str 6d6f13013d3e1d0c'
+  security: reality
+  server: 31.76.104.11
+  servername: g1.steptofreedom.one
+  tls: true
+  type: vless
+  uuid: 279828c6-13f2-439c-9a4e-ea7d4f470fa4
