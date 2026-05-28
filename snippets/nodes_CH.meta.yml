@@ -1,15 +1,10 @@
 proxies:
-- client-fingerprint: randomized
-  flow: xtls-rprx-vision
+- client-fingerprint: chrome
   name: 'B - 🇨🇭 CH 01 TG: @nodpai'
-  network: tcp
   port: 443
-  reality-opts:
-    public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk
-    short-id: '!!str 6d6f13013d3e1d0c'
-  security: reality
-  server: 31.76.104.11
-  servername: g1.steptofreedom.one
+  security: tls
+  server: 138.124.244.248
+  servername: yahoo.com
   tls: true
   type: vless
-  uuid: 279828c6-13f2-439c-9a4e-ea7d4f470fa4
+  uuid: 476caa1d-7c04-48ab-8de5-2c1af0d13a66
