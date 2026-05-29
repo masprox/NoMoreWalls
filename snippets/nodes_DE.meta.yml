@@ -1,6 +1,5 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- flow: xtls-rprx-vision
   name: 'B - 🇩🇪 DE 01 TG: @nodpai'
   network: tcp
   port: 443
@@ -10,196 +9,154 @@ proxies:
   tls: true
   type: vless
   uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
+- alpn:
+  - h3
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+  down: '55'
+  name: 🇩🇪DE_4|1.9MB/s
+  port: 10066
+  protocol: udp
+  server: 62.210.29.98
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  up: '11'
+- alterId: 0
+  cipher: chacha20-poly1305
+  name: 'B - 🇩🇪 DE 03 TG: @nodpai'
+  network: ws
+  port: 80
+  server: speedtest.org
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  ws-opts:
+    headers:
+      Host: de2.ping-game.ir
+    path: /IOebhLMhl1CTbFHbL95myfRX2
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 'B - 🇩🇪 DE 02 TG: @nodpai'
+  name: 'B - 🇩🇪 DE 04 TG: @nodpai'
+  network: tcp
+  port: 9443
+  security: tls
+  server: bero-3.bexum.fun
+  servername: bero-3.bexum.fun
+  tls: true
+  type: vless
+  uuid: e7902151-e2e1-4d29-a84b-86f0d5d91b65
+- encryption: none
+  name: 'B - 🇩🇪 DE 05 TG: @nodpai'
+  network: ws
+  port: 80
+  server: 204.168.234.22
+  type: vless
+  uuid: 997b5119-c015-4203-b402-0eb0f60b77c3
+  ws-opts:
+    headers:
+      Host: nobody.fastspeed.ir
+    path: /ws
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇩🇪 DE 06 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
-    public-key: rUCPHLqnPkePldNW05cfPZ8FM8VSmnB6e5dkGNHk_0M
-    short-id: '!!str a9ff'
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: '!!str 23'
   security: reality
-  server: 191.44.112.22
-  servername: www.yandex.ru
+  server: lav1.pineappled.org
+  servername: www.apple.com
+  spider-x: /
   tls: true
   type: vless
-  uuid: ab7ededa-a2cd-4381-8ea6-d39d2f91dcf6
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'B - 🇩🇪 DE 03 TG: @nodpai'
-  network: tcp
-  port: 443
-  security: tls
-  server: 87.120.93.240
-  servername: sub.sbrf-cdn342.ru
-  tls: true
-  type: vless
-  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
-- cipher: aes-256-cfb
-  name: 🇩🇪DE_1|1.1MB/s
-  password: amazonskr05
-  port: '443'
-  server: 63.180.239.185
-  type: ss
-  udp: true
+  uuid: b931b922-6129-42bb-9c1c-d51371d18980
 - alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: alalamtv.net.jamejamonline.ir.iribnews.ir.alef.ir.eghtesadonline.com.rajanews.com.khabaronline.ir
-  name: 🇩🇪DE_2|1.7MB/s
-  network: grpc
-  port: '2096'
-  server: 104.17.121.152
-  servername: aRTfuL-eXCHAnGed81Ihi4YWX.carbONblAckBMW.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6992f972-39ab-41e3-9d2e-39efc00ced3d
-  xudp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_3|1.4MB/s
-  network: xhttp
-  port: '443'
-  server: 116.203.138.13
-  servername: dir.antidogm.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 03fa2758-626f-47c7-ac66-5c549e4f4ce0
-  xhttp-opts:
-    host: dir.antidogm.xyz
-    mode: stream-one
-    path: /streamio
-  xudp: true
+  - h3
+  auth-str: dongtaiwang.com
+  down: '1000'
+  name: 'B - 🇩🇪 DE 07 TG: @nodpai'
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '500'
 - client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_4|2.6MB/s
-  network: xhttp
-  port: '443'
-  server: 45.130.125.5
-  servername: cd1.fix98.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2067e90-ca33-47ee-b55e-8ff7ce1e51f5
-  xhttp-opts:
-    mode: auto
-    path: /game
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: alalamtv.net.jamejamonline.ir.iribnews.ir.alef.ir.eghtesadonline.com.rajanews.com.khabaronline.ir
-  name: 🇩🇪DE_5|2.4MB/s
-  network: grpc
-  port: '2096'
-  server: 104.17.121.129
-  servername: aRTfuL-eXCHAnGed81Ihi4YWX.carbONblAckBMW.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6992f972-39ab-41e3-9d2e-39efc00ced3d
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_6|3.2MB/s
-  network: xhttp
-  port: '443'
-  server: fsxhh.fastshop1.com
-  servername: default.ssl.fastly.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 77e9ba08-5313-415b-955c-5609396eb512
-  xhttp-opts:
-    host: lizzard.global.ssl.fastly.net
-    mode: packet-up
-    path: /lizzard
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_7|2.6MB/s
-  network: xhttp
-  port: '2053'
-  server: 45.130.125.76
-  servername: drrfddgbv.turbooserver.net.tr
-  tls: true
-  type: vless
-  udp: true
-  uuid: b37be529-83c9-4851-a3cf-73d7d05bf308
-  xhttp-opts:
-    host: drrfddgbv.turbooserver.net.tr
-    mode: auto
-    path: /
-    sc-max-each-post-bytes: 1000000
-    sc-min-posts-interval-ms: 30
-    x-padding-bytes: 100-1000
-  xudp: true
-- encryption: none
-  name: 🇩🇪DE_8|1.4MB/s
-  network: tcp
-  port: '666'
-  server: 194.59.183.234
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇩🇪DE_9|2.1MB/s
+  name: 'B - 🇩🇪 DE 08 TG: @nodpai'
   network: ws
-  password: jprlmigrrmcmeu1u
-  port: '2053'
-  server: 104.18.32.47
+  port: 2096
+  security: tls
+  server: 104.17.231.69
+  servername: FiLEMAnageR.thESTaYleR.iR
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: af47392c-2a72-44da-bab4-545a3bce4958
+  ws-opts:
+    headers:
+      Host: FiLEMAnageR.thESTaYleR.iR
+    path: /e12JtBu9rVXrhCqy
+- encryption: none
+  name: 'B - 🇩🇪 DE 09 TG: @nodpai'
+  network: ws
+  port: 2095
+  server: cdn.applly.ir
+  type: vless
+  uuid: 723b503c-9b84-4d3b-b605-3b3a486c36af
+  ws-opts:
+    headers:
+      Host: my.app20.ir
+    path: /
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 'C - 🇩🇪 DE 10 TG: @nodpai'
+  port: 54177
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 500 Mbps
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪DE_1|1.0MB/s
+  network: ws
+  password: Mitivpn
+  port: '443'
+  server: www.hitgram.ir
   skip-cert-verify: false
-  sni: ai999.seemed369.xyz
+  sni: www.hitgram.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.71 Safari/537.36
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Chrome/12.0.742.100 Safari/534.30
     path: /?ed=2048
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_10|2.8MB/s
-  password: 453u6Gcei04NyXbrWLKa0M
-  port: '443'
-  server: 5.230.184.16
+- encryption: none
+  name: 🇩🇪DE_2|2.4MB/s
+  network: ws
+  port: '2086'
+  server: 104.17.150.76
+  type: vless
+  udp: true
+  uuid: de989f46-ce7c-4d94-9c58-5ccd80e8d7a1
+  ws-opts:
+    headers:
+      Host: war2.unlimiteddev-service2881.ir
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /
+  xudp: true
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_3|1.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 35.159.110.250
   type: ss
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: mizanonline.com.farsnews.ir.sharghdaily.com.donya-e-eqtesad.com.tehrantimes.com.sharghdaily.com.en.mehrnews.com
-  name: 🇩🇪DE_11|3.3MB/s
-  network: grpc
-  port: '2096'
-  server: 104.17.121.71
-  servername: DEft-peakABGj64vrj3.CaRbonblACKbmw.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5154b274-cbfa-44f6-8b64-22f169d66cc5
-  xudp: true
-- name: 🇩🇪DE_12|2.7MB/s
-  network: tcp
-  port: '2052'
-  server: azmononline.konkuriran.sbs
-  type: vless
-  udp: true
-  uuid: b5bd7d6d-5ab9-4965-bccc-32acdbc4f714
-  xudp: true

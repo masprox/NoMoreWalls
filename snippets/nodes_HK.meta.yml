@@ -1,191 +1,62 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇭🇰 HK 01 TG: @nodpai'
-  port: 11104
-  server: dotu-hkv1.kunlun03dns.com
-  skip-cert-verify: true
-  tfo: false
-  type: vmess
-  udp: false
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- name: 'A - 🇭🇰 HK 02 TG: @nodpai'
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  port: 54651
-  server: a.twodnwnpoe.xyz
-  skip-cert-verify: true
-  sni: 1.lossyesterday.xyz
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇭🇰 HK 01 TG: @nodpai'
+  port: 13413
+  reality-opts:
+    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
+    short-id: '!!str a1b2c3d4'
+  security: reality
+  server: zzhk4.ainivp.com
+  servername: www.microsoft.com
   tls: true
-  type: trojan
-  udp: true
+  type: vless
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇭🇰HK_1|1.1MB/s
+  name: 'B - 🇭🇰 HK 02 TG: @nodpai'
   port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  skip-cert-verify: true
-  tls: false
   type: vmess
-  udp: true
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: 'A - 🇭🇰 HK 04 TG: @nodpai'
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  port: 45184
-  server: a.twodnwnpoe.xyz
-  skip-cert-verify: true
-  sni: 1.lossyesterday.xyz
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇭🇰 HK 03 TG: @nodpai'
+  network: tcp
+  port: 10011
+  reality-opts:
+    public-key: 82bbZIdU-0s8fydncIhp9_sNDYQQH9ZY_7RVI5apXnk
+    short-id: '!!str 447f3a05ace2b748'
+  security: reality
+  server: 103.123.162.50
+  servername: www.microsoft.com
   tls: true
-  type: trojan
-  udp: true
-- name: 'A - 🇭🇰 HK 05 TG: @nodpai'
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  port: 40017
-  server: a.twodnwnpoe.xyz
-  skip-cert-verify: true
-  sni: water.waittomorrow.top
-  tls: true
-  type: trojan
-  udp: true
-- name: 'A - 🇭🇰 HK 06 TG: @nodpai'
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  port: 52225
-  server: a.twodnwnpoe.xyz
-  skip-cert-verify: true
-  sni: i.comfortableyou.top
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇭🇰 HK 07 TG: @nodpai'
-  network: ws
-  port: 33410
-  server: ct3.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: ct3.ainivp.com
-    path: /ray
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 'B - 🇭🇰 HK 08 TG: @nodpai'
-  port: 11122
-  server: dotu-jpv1.kunlun03dns.com
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- name: 'B - 🇭🇰 HK 09 TG: @nodpai'
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  port: 40015
-  server: a.twodnwnpoe.xyz
-  skip-cert-verify: true
-  sni: 1.lossyesterday.xyz
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 10 TG: @nodpai'
-  network: ws
-  port: 33414
-  server: cu7.ainivp.com
-  servername: cu7.ainivp.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: false
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: cu7.ainivp.com
-    path: /ray
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 'B - 🇭🇰 HK 11 TG: @nodpai'
-  port: 11130
-  server: dotu-usv1.kunlun03dns.com
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 'B - 🇭🇰 HK 12 TG: @nodpai'
-  port: 11114
-  server: dotu-twv1.kunlun03dns.com
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- name: 'B - 🇭🇰 HK 13 TG: @nodpai'
+  type: vless
+  uuid: 17011a43-97e2-44b0-b0da-a2ea151ad75c
+- name: 'B - 🇭🇰 HK 04 TG: @nodpai'
   password: c1785de0-212f-11ef-92aa-f23c9164ca5d
   port: 5228
   server: fc26ffd1-t9zts0-tfpsin-1q3dm.cm4.oshuawei.com
-  sni: fc26ffd1-t9zts0-tfpsin-1q3dm.cm4.oshuawei.com
   tls: true
   type: http
   username: c1785de0-212f-11ef-92aa-f23c9164ca5d
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 'B - 🇭🇰 HK 14 TG: @nodpai'
-  port: 11137
-  server: dotu-sgv1.kunlun03dns.com
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 15 TG: @nodpai'
+  name: 'B - 🇭🇰 HK 05 TG: @nodpai'
   network: ws
-  port: 33407
-  server: yd3.ainivp.com
+  port: 443
+  server: cf.scpnb.top
+  servername: graph-keep-beds-catalog.trycloudflare.com
   tls: true
   type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  uuid: 7fd8d1db-96ec-4e46-80a8-74ad9472384e
   ws-opts:
     headers:
-      Host: yd3.ainivp.com
-    path: /ray
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 16 TG: @nodpai'
-  port: 11145
-  server: dotu-krv1.kunlun03dns.com
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 17 TG: @nodpai'
-  network: ws
-  port: 10034
-  server: 1b267619c4812cc46ee281747884ca50.qos.onl
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  ws-opts:
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 'C - 🇭🇰 HK 18 TG: @nodpai'
-  port: 51556
-  server: 103.181.164.145
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 'C - 🇭🇰 HK 19 TG: @nodpai'
-  port: 54022
-  server: 103.181.164.145
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      Host: graph-keep-beds-catalog.trycloudflare.com
+    path: /7fd8d1db-96ec-4e46-80a8-74ad9472384e-vm
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian
@@ -229,15 +100,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: '0'
-  cipher: auto
-  name: 🇭🇰HK_2|2.6MB/s
-  network: tcp
-  port: '6001'
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-  xudp: true

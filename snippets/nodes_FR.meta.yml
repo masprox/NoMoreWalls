@@ -1,42 +1,36 @@
 proxies:
-- encryption: none
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 'B - 🇫🇷 FR 01 TG: @nodpai'
-  network: ws
-  port: 443
-  server: 95.182.97.249
-  type: vless
-  uuid: a2b81a67-3cd2-42c7-a3f9-fd47ac27d4a1
-  ws-opts:
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇷FR_1|2.8MB/s
-  network: ws
-  port: '443'
-  server: 170.114.46.28
-  tls: true
-  type: vless
-  udp: true
-  uuid: c8e2ba30-a6de-4660-8c62-5bf5cc9318f3
-  ws-opts:
-    headers:
-      Host: enquiries-commands-div-medal.trycloudflare.com
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇷FR_2|1.1MB/s
-  network: tcp
-  port: '443'
+  port: 55676
   reality-opts:
-    public-key: enBIOTqlP6CHTvic3CLgpUd_AcJAAbAQIa-oFIk4dVU
-    short-id: '!!str 302e'
-  server: 194.33.34.167
-  servername: yahoo.com
+    public-key: AavBPGGJUpyGWiriV_Fbx-SrAvR5t-9mHeQY8uIltyo
+    short-id: '!!str 41b9cb10b696'
+  security: reality
+  server: appvless.tnjxaon.cn
+  servername: www.tue.nl
   tls: true
   type: vless
-  udp: true
-  uuid: 391ff971-a901-415e-b0f1-e0c0047e7a24
-  xudp: true
+  uuid: 1f81303d-bdb7-4cf9-8bef-f4f8cd9562ff
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 'B - 🇫🇷 FR 02 TG: @nodpai'
+  port: 2053
+  server: uk5.taskflowhub.org
+  tls: true
+  type: vmess
+  uuid: 89371dfc-2618-40d7-a558-693ff4f7f1eb
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 'B - 🇫🇷 FR 03 TG: @nodpai'
+  port: 2053
+  server: es.connfull.org
+  tls: true
+  type: vmess
+  uuid: fd08f8fe-1521-4239-8a01-6d5d451a0edb

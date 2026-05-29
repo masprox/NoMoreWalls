@@ -1,93 +1,78 @@
 proxies:
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'A - 🇯🇵 JP 01 TG: @nodpai'
-  network: tcp
-  port: 54055
-  reality-opts:
-    public-key: OzoYp8homkMDMozggbwqswuBiWRykfmmszFpu2_YM1g
-    short-id: '!!str f0b670194e8d2401'
-  security: reality
-  server: 3.112.126.206
-  servername: www.icloud.com
-  spider-x: /
+- name: 'A - 🇯🇵 JP 02 TG: @nodpai'
+  password: 0b869f32-657e-11ee-a90c-f23c9313b177
+  port: 3443
+  server: 9bbaef12-ta0g00-taad0h-24c4.tkydc3.cdnbytescm.com
+  sni: 9bbaef12-ta0g00-taad0h-24c4.tkydc3.cdnbytescm.com
   tls: true
-  type: vless
-  uuid: a6b071ef-0d82-4f46-b04b-3310b8d6ca82
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'A - 🇯🇵 JP 02 TG: @nodpai'
-  port: 13102
-  reality-opts:
-    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
-    short-id: '!!str a1b2c3d4'
-  security: reality
-  server: zzjp1.ainivp.com
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-- name: 'A - 🇯🇵 JP 03 TG: @nodpai'
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  port: 32657
-  server: a.twodnwnpoe.xyz
-  skip-cert-verify: true
-  sni: water.waittomorrow.top
-  tls: true
-  type: trojan
-  udp: true
-- name: 'A - 🇯🇵 JP 04 TG: @nodpai'
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  port: 41666
-  server: a.twodnwnpoe.xyz
-  skip-cert-verify: true
-  sni: water.waittomorrow.top
-  tls: true
-  type: trojan
-  udp: true
+  type: http
+  username: 0b869f32-657e-11ee-a90c-f23c9313b177
 - alterId: 0
   cipher: auto
-  name: 'A - 🇯🇵 JP 05 TG: @nodpai'
+  name: 'A - 🇯🇵 JP 03 TG: @nodpai'
   port: 6003
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇯🇵 JP 04 TG: @nodpai'
+  port: 30806
+  server: v6.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 'B - 🇯🇵 JP 06 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 05 TG: @nodpai'
   network: ws
-  port: 33108
-  server: cu6.ainivp.com
+  port: 45228
+  server: 109.61.109.204
+  servername: imafake.locker
   tls: true
   type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  uuid: d0e97ee2-c6de-48f8-bd4a-8e63a9cd9e89
   ws-opts:
     headers:
-      Host: cu6.ainivp.com
-    path: /ray
+      Host: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 'B - 🇯🇵 JP 06 TG: @nodpai'
+  network: ws
+  port: 35240
+  server: 109.61.109.204
+  servername: imafake.locker
+  tls: true
+  type: vmess
+  uuid: 35f332d0-0b05-4cc6-91cb-ec0d4465055f
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 'B - 🇯🇵 JP 07 TG: @nodpai'
-  port: 11120
-  server: dotu-jpv1.kunlun03dns.com
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇯🇵 JP 08 TG: @nodpai'
   network: ws
-  port: 33203
-  server: cu2.ainivp.com
+  port: 19241
+  server: 109.61.109.204
+  servername: imafake.locker
   tls: true
   type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  uuid: fa8f8911-2e9b-494e-9a8d-f80239ee2214
   ws-opts:
     headers:
-      Host: cu2.ainivp.com
-    path: /ray
+      Host: imafake.locker
+    path: /speedtest
+- name: 'B - 🇯🇵 JP 08 TG: @nodpai'
+  password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+  port: 443
+  server: e9b9c37c-t9zts0-tcw58g-1p0be.jp.oshuawei.com
+  sni: e9b9c37c-t9zts0-tcw58g-1p0be.jp.oshuawei.com
+  tls: true
+  type: http
+  username: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -114,13 +99,18 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 🇯🇵JP_1|1.5MB/s
-  network: tcp
-  port: 6003
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  name: 🇯🇵JP_1|3.1MB/s
+  network: ws
+  port: 33108
+  server: cu3.ainivp.com
+  servername: cu3.ainivp.com
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: cu3.ainivp.com
+    path: /ray
   xudp: true
