@@ -1,147 +1,289 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'A - 🇺🇸 US 01 TG: @nodpai'
-  port: 13403
-  reality-opts:
-    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
-    short-id: '!!str a1b2c3d4'
-  security: reality
-  server: zzjp1.ainivp.com
-  servername: www.microsoft.com
-  tls: true
+- name: 'A - 🇺🇸 US 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 50.62.198.50
   type: vless
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-- client-fingerprint: edge
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime39.workers.dev
+    path: /?ed=2560
+- insecure: '1'
+  mport: 40000-49999
+  name: 'A - 🇺🇸 US 02 TG: @nodpai'
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 40000
+  server: usp-hdl9n8ovau.9966690.xyz
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: iosapps.itunes.apple.com
+  type: hysteria2
+- name: 'A - 🇺🇸 US 03 TG: @nodpai'
+  network: ws
+  port: 80
+  server: 198.41.208.203
+  type: vless
+  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
+  ws-opts:
+    headers:
+      Host: index.harmony715.workers.dev
+    path: /mpmva3e8rtr6v7qq
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: RU_speednode_0036
-  port: 443
-  server: 85.234.114.53
+  name: 'A - 🇺🇸 US 04 TG: @nodpai'
+  network: tcp
+  port: 22231
+  security: tls
+  server: 72.56.59.177
   servername: r1.mizulina.top
-  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'A - 🇺🇸 US 05 TG: @nodpai'
+  network: tcp
+  port: 22231
+  security: tls
+  server: 72.56.59.223
+  servername: r1.mizulina.top
+  tls: true
+  type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'B - 🇺🇸 US 03 TG: @nodpai'
+  name: 'A - 🇺🇸 US 06 TG: @nodpai'
   network: tcp
-  port: 64394
+  port: 443
   reality-opts:
-    public-key: PmgSuKvpxj7MsWPHoXxqNQuw5hiNZqciuzjebWIHRjY
+    public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
   security: reality
-  server: 216.167.8.253
-  servername: dash.cloudflare.com
+  server: 216.234.141.24
+  servername: blog.api.www.cloudflare.com
   tls: true
   type: vless
-  uuid: 2ca2f309-1ba9-4d23-a1d4-9645dfc4a882
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 'A - 🇺🇸 US 07 TG: @nodpai'
+  network: tcp
+  port: 180
+  server: 82.198.246.214
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: edge
+  encryption: none
   flow: xtls-rprx-vision
   name: RU_speednode_0038
   network: tcp
   port: 22231
+  security: tls
   server: 85.234.114.53
   servername: r1.mizulina.top
   skip-cert-verify: false
-  tfo: false
   tls: true
   type: vless
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'B - 🇺🇸 US 05 TG: @nodpai'
-  network: tcp
-  port: 29114
-  reality-opts:
-    public-key: wKYUtGeArhmBjEXGzTZKW3UxHMgJ2ETml0qIxv_ZERo
-  security: reality
-  server: 216.167.8.6
-  servername: dash.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 036f593f-98ea-4534-96b6-9e810982b9d2
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 06 TG: @nodpai'
-  port: 180
-  server: 82.198.246.214
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - multiplexing: MULTIPLEXING_LOW
-  name: 'B - 🇺🇸 US 07 TG: @nodpai'
+  name: 'B - 🇺🇸 US 09 TG: @nodpai'
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- client-fingerprint: chrome
-  name: 'B - 🇺🇸 US 09 TG: @nodpai'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 'B - 🇺🇸 US 10 TG: @nodpai'
+  network: ws
+  password: Mitivpn
+  port: 2053
+  server: 104.17.121.9
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dash.hitgram.ir
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 'B - 🇺🇸 US 11 TG: @nodpai'
+  network: ws
+  password: Mitivpn
+  port: 2053
+  server: 104.17.121.30
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dash.hitgram.ir
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 'B - 🇺🇸 US 12 TG: @nodpai'
+  network: ws
+  password: Mitivpn
+  port: 2053
+  server: 104.17.121.71
+  sni: dash.hitgram.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dash.hitgram.ir
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 'B - 🇺🇸 US 13 TG: @nodpai'
+  network: ws
+  password: Mitivpn
+  port: 2053
+  server: 104.17.121.171
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dash.hitgram.ir
+    path: /?ed=2048
+- client-fingerprint: edge
+  encryption: none
+  fp: edge
+  name: 'B - 🇺🇸 US 15 TG: @nodpai'
+  network: ws
+  port: 2053
+  security: tls
+  server: cf.130209.xyz
+  servername: usa.hybe.cc.cd
+  skip-cert-verify: false
+  sni: usa.hybe.cc.cd
+  tls: true
+  type: vless
+  uuid: 924106da-29ec-4822-bd13-703021e2a4f8
+  ws-opts:
+    headers:
+      Host: usa.hybe.cc.cd
+    path: /api/v2/check_update
+- name: 'B - 🇺🇸 US 16 TG: @nodpai'
+  password: f58cd113-a3b1-319d-a993-331481731e82
+  port: 23655
+  server: a.twodnwnpoe.xyz
+  skip-cert-verify: true
+  sni: water.waittomorrow.top
+  tls: true
+  type: trojan
+  udp: true
+- name: 'B - 🇺🇸 US 17 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: www.visakorea.com
+  servername: pagescm.freen4.cc.cd
+  tls: true
+  type: vless
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  ws-opts:
+    headers:
+      Host: pagescm.freen4.cc.cd
+    path: /moviefp=chrome
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: donya-e-eqtesad.com.fararu.com.alef.ir.hamshahrionline.ir.khabaronline.ir.asriran.com.alalamtv.net
+  name: 'B - 🇺🇸 US 18 TG: @nodpai'
+  network: grpc
+  port: 2096
+  security: tls
+  server: 104.17.121.71
+  servername: loVELY-bATtLeNn9IH0SniS.WInDlER.Co.Uk
+  tls: true
+  type: vless
+  uuid: 10be524f-e1dc-4d1c-a256-17df1399a739
+- name: 'B - 🇺🇸 US 19 TG: @nodpai'
+  password: f58cd113-a3b1-319d-a993-331481731e82
+  port: 35147
+  server: a.twodnwnpoe.xyz
+  skip-cert-verify: true
+  sni: i.comfortableyou.top
+  tls: true
+  type: trojan
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 'B - 🇺🇸 US 20 TG: @nodpai'
+  network: ws
+  password: Mitivpn
+  port: 2053
+  server: 104.18.32.47
+  sni: dash.hitgram.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dash.hitgram.ir
+    path: /?ed=2048
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  host: r1.mizulina.top
+  name: RU_speednode_0036
   network: tcp
   port: 443
+  security: tls
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- flow: xtls-rprx-vision
+  host: apple.com
+  name: 'B - 🇺🇸 US 22 TG: @nodpai'
+  network: tcp
+  port: 54254
   reality-opts:
-    public-key: RCp37oAO4E30SKBraaFaeUXeqvLGS7yH40VHl5a_6RE
-    short-id: '!!str 87ab'
+    public-key: HFEz9fAOugljXea_ZVOUHMju08su8h0P9RANNcHP2y4
+    short-id: '!!str db35ffdc'
   security: reality
-  server: 193.233.202.1
-  servername: yahoo.com
-  spider-x: /
+  server: 134.33.73.249
+  servername: apple.com
   tls: true
   type: vless
-  uuid: 838e036b-f229-480b-b0ef-86b1dc711add
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_speednode_0044
-  port: 54495
-  reality-opts:
-    public-key: 50IjQtR9zJG_3pXrbQDalYy_D4c7C_A8EEwVx0EfOjM
-    short-id: '!!str 5e8c37215982'
-  server: 89.117.94.111
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2042c7c4-f0c8-48ec-926b-65112b064e2c
-- auth: 5bd0aef8-00b2-42c2-b3af-15fe0a07e6ed
-  name: 'B - 🇺🇸 US 11 TG: @nodpai'
-  obfs: salamander
-  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
-  password: 5bd0aef8-00b2-42c2-b3af-15fe0a07e6ed
-  port: 443
-  server: vn2.yuntong.click
-  skip-cert-verify: false
-  sni: vn2.yuntong.click
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 12 TG: @nodpai'
-  port: 11127
-  server: dotu-usv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 13 TG: @nodpai'
-  port: 11128
-  server: dotu-usv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  uuid: acba684c-4098-4eca-f519-828b09f96464
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
   name: RU_speednode_0037
-  network: raw
+  network: tcp
   port: 22231
   security: tls
   server: r1.mizulina.top
@@ -152,25 +294,40 @@ proxies:
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
   xudp: true
-- name: 'B - 🇺🇸 US 15 TG: @nodpai'
-  network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 30303
-  server: 121.191.33.84
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0044
+  network: tcp
+  port: 54495
+  reality-opts:
+    public-key: 50IjQtR9zJG_3pXrbQDalYy_D4c7C_A8EEwVx0EfOjM
+    short-id: '!!str 5e8c37215982'
+  security: reality
+  server: 89.117.94.111
+  servername: yahoo.com
   skip-cert-verify: false
-  sni: vpn.rnmcnm.com
-  type: trojan
+  tls: true
+  type: vless
   udp: true
-  ws-opts:
-    headers:
-      Host: vpn.rnmcnm.com
-    path: /trojan
+  uuid: 2042c7c4-f0c8-48ec-926b-65112b064e2c
+  xudp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇺🇸US_3|2.5MB/s
+  name: 'B - 🇺🇸 US 27 TG: @nodpai'
   network: tcp
-  port: '12443'
+  port: 12443
   reality-opts:
     public-key: D3bNJPmy4YJqhWQ3Xv1Fu3Z1danrTzswShytnkkG9Q4
     short-id: '!!str ca4a1317e03791b3'
@@ -179,19 +336,107 @@ proxies:
   servername: sun6-21.userapi.com
   tls: true
   type: vless
-  udp: true
   uuid: ea484535-0170-4ec8-bb3c-a9dbaa7412d7
-  xudp: true
+- client-fingerprint: chrome
+  name: 'B - 🇺🇸 US 28 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: RCp37oAO4E30SKBraaFaeUXeqvLGS7yH40VHl5a_6RE
+    short-id: '!!str 87ab'
+  security: reality
+  server: 193.233.202.1
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: 838e036b-f229-480b-b0ef-86b1dc711add
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: donya-e-eqtesad.com.fararu.com.alef.ir.hamshahrionline.ir.khabaronline.ir.asriran.com.alalamtv.net
+  name: 'B - 🇺🇸 US 29 TG: @nodpai'
+  network: grpc
+  port: 2096
+  security: tls
+  server: 104.18.32.47
+  servername: loVELY-batTLeNn9IH0SniS.WInDlER.Co.Uk
+  tls: true
+  type: vless
+  uuid: 10be524f-e1dc-4d1c-a256-17df1399a739
+- client-fingerprint: randomized
+  flow: xtls-rprx-vision
+  name: 'B - 🇺🇸 US 30 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: APwi9yR-ezZtFU6xj2a3SBoXvEoWOoiRuZSit0N9xWI
+  security: reality
+  server: 185.139.214.254
+  servername: cloudcdn-m9-15.cdn.yandex.net
+  tls: true
+  type: vless
+  uuid: c55a51d9-48bd-11f1-941f-54db13ea7d40
+- name: 'B - 🇺🇸 US 31 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 32 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 33 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  tls: true
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 'B - 🇺🇸 US 17 TG: @nodpai'
-  port: 11120
-  server: dotu-jpv1.kunlun03dns.com
+  client-fingerprint: chrome
+  name: 'B - 🇺🇸 US 34 TG: @nodpai'
+  port: 11127
+  server: dotu-usv1.kunlun03dns.com
   type: vmess
-  udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- client-fingerprint: chrome
-  name: 'B - 🇺🇸 US 18 TG: @nodpai'
+- name: 'B - 🇺🇸 US 35 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: az.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 36 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 37 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 38 TG: @nodpai'
   network: ws
   port: 443
   security: tls
@@ -203,44 +448,37 @@ proxies:
   ws-opts:
     headers:
       Host: up2-df6.pages.dev
-    path: /uTZSXPBI2IfoxF86
-- client-fingerprint: chrome
-  name: 'C - 🇺🇸 US 20 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 104.16.213.194
-  servername: SaIWaI6.Pages.dEv
-  tls: true
-  type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  ws-opts:
-    headers:
-      Host: saiWAi6.Pages.dev
-- alterId: 2
-  cipher: auto
-  name: 'C - 🇺🇸 US 21 TG: @nodpai'
-  port: 30829
-  server: v29.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    path: /uTZSXPBI2IfoxF86fp=chrome
 - alterId: 0
   cipher: auto
-  name: 'C - 🇺🇸 US 22 TG: @nodpai'
+  name: 'B - 🇺🇸 US 40 TG: @nodpai'
   network: ws
-  port: 16648
-  server: planb.mojcn.com
+  port: 10011
+  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: 24e37e6e-7e01-4f68-afea-28fb14a47aef
+  udp: true
+  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
   ws-opts:
     headers:
-      Host: 08071ec6f38bfb263ee89b1bb0c3ca1b.mobgslb.tbcache.com
+      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
     path: /
-- name: 'C - 🇺🇸 US 23 TG: @nodpai'
-  port: 47518
-  server: de-on-demand.not-a-projects.xyz
-  type: vless
-  uuid: 25263c14-6cb5-499b-b462-dd498deecfe7
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 'B - 🇺🇸 US 41 TG: @nodpai'
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: 208.103.161.33
+  sni: www.hitgram.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.hitgram.ir
+    path: /?ed=2048
 - name: 美国|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
@@ -285,16 +523,6 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
   name: 美国5|@ripaojiedian
   network: tcp
   port: '180'
@@ -303,24 +531,268 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_1|3.2MB/s
+  network: ws
+  password: Mitivpn
+  port: '443'
+  server: 216.24.57.7
+  skip-cert-verify: true
+  sni: www.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/45.0.2454.101 Safari/537.36
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_2|2.9MB/s
+  network: ws
+  password: Mitivpn
+  port: '2053'
+  server: 45.130.125.91
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.77 Safari/537.36
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_3|2.6MB/s
+  network: ws
+  password: Mitivpn
+  port: '443'
+  server: 216.24.57.7
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /?ed=2048
 - client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸US_1|1.5MB/s
-  network: xhttp
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇺🇸US_4|2.5MB/s
+  network: grpc
   port: '443'
   reality-opts:
-    public-key: AhQkw1Ydp_ZkXnE7UbIZvwHk9KE_Bf5_TkojYZZUuGs
-    short-id: '!!str 2da46294d6a521B2'
-  server: 155.212.146.195
-  servername: ads.x5.ru
+    public-key: MchbHn3bpJaqAX-oqnNXYiXrbUTN0n-K203T8YGr8D4
+    short-id: '!!str 52506b7e2ebc9548'
+  server: stone.quietgrove.forum
+  servername: stone.quietgrove.forum
   tls: true
   type: vless
   udp: true
-  uuid: 91a3f712-c4e0-42a0-9475-bdd551a06e73
-  xhttp-opts:
-    host: ads.x5.ru
-    path: /api/v3/f29479507adb
+  uuid: 5c973309-c1c1-4d9c-a88e-5767a6bd0401
   xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_5|2.7MB/s
+  network: ws
+  password: Mitivpn
+  port: '2053'
+  server: 45.130.125.76
+  skip-cert-verify: false
+  sni: dash.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
+    path: /?ed=2048
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_7|2.2MB/s
+  network: ws
+  port: '443'
+  server: 194.53.53.174
+  tls: true
+  type: vless
+  udp: true
+  uuid: c168fde7-9306-4c71-b1c7-a31b255df61e
+  ws-opts:
+    headers:
+      Host: employer-procurement-professional-tips.trycloudflare.com
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+    path: /bslife
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 🇺🇸US_8|2.1MB/s
+  network: tcp
+  port: '11129'
+  server: dotu-usv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_9|3.4MB/s
+  network: ws
+  password: Mitivpn
+  port: '2053'
+  server: 45.130.125.241
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_10|2.7MB/s
+  network: ws
+  password: Mitivpn
+  port: '443'
+  server: 216.24.57.6
+  skip-cert-verify: false
+  sni: dash.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.81 Safari/537.36
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_11|1.5MB/s
+  network: ws
+  password: Mitivpn
+  port: '2053'
+  server: 104.17.121.9
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/45.0.2454.85 Safari/537.36
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_12|2.0MB/s
+  network: ws
+  password: Mitivpn
+  port: '2053'
+  server: 104.17.121.71
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_14|3.2MB/s
+  network: ws
+  password: Mitivpn
+  port: '443'
+  server: 216.24.57.7
+  skip-cert-verify: true
+  sni: cdn.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.135 Safari/537.36
+    path: /?ed=2048
+- alterId: '0'
+  cipher: auto
+  name: 🇺🇸US_16|3.5MB/s
+  network: tcp
+  port: '11127'
+  server: dotu-usv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_17|2.7MB/s
+  network: ws
+  password: Mitivpn
+  port: '443'
+  server: 216.24.57.6
+  skip-cert-verify: true
+  sni: www.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_18|3.2MB/s
+  network: ws
+  password: Mitivpn
+  port: '2053'
+  server: 104.17.121.171
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_19|3.1MB/s
+  network: ws
+  password: Mitivpn
+  port: '2053'
+  server: 104.17.121.30
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /?ed=2048
 - name: US_speednode_0042
   port: 7070
   server: 20.83.154.79
@@ -371,6 +843,19 @@ proxies:
   port: 443
   server: 14.102.228.76
   skip-cert-verify: true
+  sni: www.app-cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.app-cloud.ir
+    path: /
+- name: US_speednode_0049
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 104.18.20.213
+  skip-cert-verify: false
   sni: www.app-cloud.ir
   type: trojan
   udp: true

@@ -1,5 +1,22 @@
 proxies:
 - client-fingerprint: chrome
+  name: 'B - 🇬🇧 GB 01 TG: @nodpai'
+  network: ws
+  port: 15566
+  server: 5.181.27.81
+  servername: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
+  skip-cert-verify: true
+  sni: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: GB_speednode_0020
   port: 443
@@ -35,6 +52,20 @@ proxies:
     public-key: Aak3FEVpJGzxzVz4wWkNpFA9dANDnvQg15X4eYNr_hw
     short-id: '!!str 6ba8f65dee6e'
   server: cz.krevetkavpn.ru
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 729d3d1e-ee1a-4c42-84bc-2ff331518221
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: GB_speednode_0026
+  port: 443
+  reality-opts:
+    public-key: Aak3FEVpJGzxzVz4wWkNpFA9dANDnvQg15X4eYNr_hw
+    short-id: '!!str 6ba8f65dee6e'
+  server: 2.26.160.79
   servername: www.nvidia.com
   skip-cert-verify: false
   tls: true

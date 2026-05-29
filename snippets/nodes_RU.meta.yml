@@ -1,20 +1,19 @@
 proxies:
-- client-fingerprint: randomized
-  encryption: none
+- client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|2.5MB/s
+  name: 'B - 🇷🇺 RU 01 TG: @nodpai'
   network: tcp
-  port: '443'
+  port: 18543
   reality-opts:
-    public-key: APwi9yR-ezZtFU6xj2a3SBoXvEoWOoiRuZSit0N9xWI
-    short-id: '!!str '
-  server: 185.139.214.254
-  servername: cloudcdn-m9-15.cdn.yandex.net
+    public-key: N6QQQTEXQaXI9PRxOYdlnsdviaLwu4eP4sIq9ifz5VM
+    short-id: '!!str fb0839b3bc1d6e'
+  security: reality
+  server: ca-1.omuvpn.tech
+  servername: www.zvuk.com
+  spider-x: /ZYJ57oDaAQqvl3m
   tls: true
   type: vless
-  udp: true
-  uuid: c55a51d9-48bd-11f1-941f-54db13ea7d40
-  xudp: true
+  uuid: 6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5
 - client-fingerprint: chrome
   name: RU_speednode_0039
   port: 443

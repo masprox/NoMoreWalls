@@ -3,6 +3,40 @@ proxies:
   encryption: none
   flow: xtls-rprx-vision
   name: 'B - 🇸🇪 SE 02 TG: @nodpai'
+  network: tcp
+  port: 17625
+  reality-opts:
+    public-key: T2ASLlp8Nxcn55_yyuISpHGfzX5sVtC-byKy5_3JTVQ
+    short-id: '!!str 4efdc8168ee70972'
+  security: reality
+  server: 138.124.29.1
+  servername: www.yahoo.com
+  spider-x: /XXTrqYkqZCmRX7e
+  tls: true
+  type: vless
+  uuid: bbc7e59f-8b78-40f0-9fbb-0e8df1095ba4
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇪SE_1|1.1MB/s
+  network: tcp
+  port: '17625'
+  reality-opts:
+    public-key: T2ASLlp8Nxcn55_yyuISpHGfzX5sVtC-byKy5_3JTVQ
+    short-id: '!!str c138'
+  security: reality
+  server: 138.124.29.1
+  servername: www.yahoo.com
+  spider-x: /NEwbXgKPhGG0wG6
+  tls: true
+  type: vless
+  udp: true
+  uuid: 24d67aba-049e-4a31-b7f3-c0ecf3ebcdee
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇸🇪 SE 04 TG: @nodpai'
+  network: tcp
   port: 443
   reality-opts:
     public-key: 56RJlIcxwncUs5m9QSfd3waHxm6vJFBKso5IkMSsyCA
@@ -10,6 +44,7 @@ proxies:
   security: reality
   server: 194.238.57.104
   servername: www.icloud.com
+  spider-x: /
   tls: true
   type: vless
   uuid: 8046e3a1-83a7-4155-86e4-374153fe66f3

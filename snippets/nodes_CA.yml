@@ -1,11 +1,8 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇨🇦 CA 01 TG: @nodpai'
-  network: ws
-  port: 80
-  server: 158.69.208.120
-  type: vmess
-  uuid: bed62ee5-2b42-41b0-aeae-e95d043da869
-  ws-opts:
-    path: /api/v1
+- cipher: aes-256-cfb
+  name: 🇨🇦CA_1|2.0MB/s
+  password: amazonskr05
+  port: '443'
+  server: 15.157.68.13
+  type: ss
+  udp: true
