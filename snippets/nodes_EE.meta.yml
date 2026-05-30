@@ -1,13 +1,23 @@
 proxies:
+- name: 'A - 🇪🇪 EE 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.80.110.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+    path: /?ed=2560
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
   name: CZ_speednode_0016
-  network: tcp
+  network: raw
   port: 8443
   reality-opts:
     public-key: A9jwrodyycJJV-apFQ91_rrh1vfJ_hSzZGNP9GBPGCM
     short-id: '!!str 92d0c4089b6c1da3'
-  security: reality
   server: 95.85.228.146
   servername: io.ozone.ru
   skip-cert-verify: false
@@ -15,3 +25,4 @@ proxies:
   type: vless
   udp: true
   uuid: a67e3045-626c-42c9-8cc0-a5afa6b18b05
+  xudp: true

@@ -1,100 +1,47 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'A - 🇯🇵 JP 03 TG: @nodpai'
+  name: 🇯🇵JP_2|2.4MB/s
   port: 6003
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  skip-cert-verify: false
+  tls: false
   type: vmess
+  udp: true
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 2
-  cipher: auto
-  name: 'B - 🇯🇵 JP 04 TG: @nodpai'
-  port: 30806
-  server: v6.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇯🇵 JP 05 TG: @nodpai'
-  network: ws
-  port: 45228
-  server: 109.61.109.204
-  servername: imafake.locker
-  tls: true
-  type: vmess
-  uuid: d0e97ee2-c6de-48f8-bd4a-8e63a9cd9e89
-  ws-opts:
-    headers:
-      Host: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 'B - 🇯🇵 JP 06 TG: @nodpai'
-  network: ws
-  port: 35240
-  server: 109.61.109.204
-  servername: imafake.locker
-  tls: true
-  type: vmess
-  uuid: 35f332d0-0b05-4cc6-91cb-ec0d4465055f
-  ws-opts:
-    headers:
-      Host: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 'B - 🇯🇵 JP 07 TG: @nodpai'
-  network: ws
-  port: 19241
-  server: 109.61.109.204
-  servername: imafake.locker
-  tls: true
-  type: vmess
-  uuid: fa8f8911-2e9b-494e-9a8d-f80239ee2214
-  ws-opts:
-    headers:
-      Host: imafake.locker
-    path: /speedtest
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4099
-  server: 13.231.225.85
+  port: 53307
+  server: 13.231.192.34
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 8066
-  server: 16.163.29.124
+  port: 24184
+  server: 18.163.128.27
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 11541
-  server: 16.163.29.124
+  port: 3135
+  server: 18.163.128.27
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: 🇯🇵JP_1|3.1MB/s
-  network: ws
-  port: 33108
-  server: cu3.ainivp.com
-  servername: cu3.ainivp.com
+  name: 🇯🇵JP_1|2.5MB/s
+  network: tcp
+  port: '6003'
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: cu3.ainivp.com
-    path: /ray
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
   xudp: true

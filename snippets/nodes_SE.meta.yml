@@ -1,30 +1,16 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 'B - 🇸🇪 SE 01 TG: @nodpai'
+  name: 🇸🇪SE_1|2.5MB/s
   network: tcp
-  port: 443
+  port: '443'
   reality-opts:
     public-key: 56RJlIcxwncUs5m9QSfd3waHxm6vJFBKso5IkMSsyCA
     short-id: '!!str 5d'
-  security: reality
   server: 194.238.57.104
   servername: www.icloud.com
   tls: true
   type: vless
+  udp: true
   uuid: 8046e3a1-83a7-4155-86e4-374153fe66f3
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'B - 🇸🇪 SE 02 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 978-Yxgtd3AWTVfiXEQqCstdwrT1qgsgleGPIRGQDl8
-    short-id: '!!str bdac121c7debdaba'
-  security: reality
-  server: swe-8t.freeonline.pro
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
