@@ -1,42 +1,38 @@
 proxies:
-- name: 日本|@ripaojiedian
+- name: HK_speednode_0023
   network: tcp
   password: BxceQaOe
-  port: 4099
-  server: 3.112.60.98
+  port: 47655
+  server: 43.199.61.178
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 日本2|@ripaojiedian
-  network: tcp
-  password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 24184
-  server: 18.163.75.132
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
+  udp: true
 - name: 日本3|@ripaojiedian
   network: tcp
-  password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 3135
-  server: 43.199.160.155
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 11541
+  server: 13.115.175.169
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇯🇵JP_1|1.0MB/s
-  network: ws
-  port: 2087
-  server: 172.64.229.253
-  servername: darkness427edge-93h.pages.dev
+- down: ''
+  fingerprint: ''
+  name: 🇯🇵JP_2|1.0MB/s
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
+  port: 20577
+  server: jp3.dexlos.com
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: jp3.dexlos.com
+  type: hysteria2
+  up: ''
+- client-fingerprint: chrome
+  name: 🇯🇵JP_3|2.1MB/s
+  password: q6UYkw9nUn6MYZz8Sp
+  port: '443'
+  server: ty-2.tr202604.com
+  skip-cert-verify: false
+  type: trojan
   udp: true
-  uuid: b1f8283d-36f5-4ff9-8ad8-e6d733a18fa0
-  ws-opts:
-    headers:
-      Host: darkness427edge-93h.pages.dev
-    path: /
-  xudp: true
