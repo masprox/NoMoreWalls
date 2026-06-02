@@ -1,19 +1,19 @@
 proxies:
-- alpn:
-  - h2
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   encryption: none
-  grpc-opts:
-    grpc-service-name: /sequre/grpc
-  name: 🇷🇺RU_1|1.2MB/s
-  network: grpc
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|2.1MB/s
+  network: raw
   port: '443'
-  server: 185.14.46.20.blanesik.space
-  servername: 185.14.46.20.blanesik.space
+  reality-opts:
+    public-key: APwi9yR-ezZtFU6xj2a3SBoXvEoWOoiRuZSit0N9xWI
+    short-id: '!!str '
+  server: 185.139.214.254
+  servername: cloudcdn-m9-15.cdn.yandex.net
   tls: true
   type: vless
   udp: true
-  uuid: a1b19834-a5e3-4d49-9301-aaa3fb248f49
+  uuid: c55a51d9-48bd-11f1-941f-54db13ea7d40
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision

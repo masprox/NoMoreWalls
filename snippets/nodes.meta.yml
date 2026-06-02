@@ -89,15 +89,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: t.me/FREECONFIGSPLUS کانفیگ ها...
-  obfs: salamander
-  obfs-password: Masir_Sefid
-  password: Masir_Sefid
-  port: 444
-  server: 18.194.238.82
-  sni: qus.masir-sefid.shop
-  tls: false
-  type: hysteria2
 - name: '@KAFING_2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -108,14 +99,304 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: IPv4.@Vasl_b
+- name: '@internet_azad_2026'
   obfs: salamander
-  obfs-password: OzJ10Bk1Z9MfaTDFAgDX0HldGsMiI7C2
-  password: t8667063839
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 1040
+  server: 18.153.46.206
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #1'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 4040
+  server: 18.153.46.206
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #2'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
   port: 443
-  server: vids.jibijij.top
-  skip-cert-verify: true
-  sni: bts.com
+  server: 18.153.46.206
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #3'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 444
+  server: 18.153.46.206
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #4'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 54040
+  server: 18.153.46.206
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #5'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 8880
+  server: 18.153.46.206
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #6'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 1040
+  server: 18.157.205.223
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: 🇩🇪43990 | ⚡️Telegram = t.me/SO...
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 2083
+  server: 18.157.205.223
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #9'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 4040
+  server: 18.157.205.223
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #10'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 44044
+  server: 18.157.205.223
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #11'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 443
+  server: 18.157.205.223
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #12'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 444
+  server: 18.157.205.223
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #13'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 4784
+  server: 18.157.205.223
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #14'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 48637
+  server: 18.157.205.223
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: 🇩🇪43992 | ⚡️Telegram = t.me/SO...
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 48
+  server: 18.157.205.223
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #16'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 52848
+  server: 18.157.205.223
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #17'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 54040
+  server: 18.157.205.223
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #18'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 59826
+  server: 18.157.205.223
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #19'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 8443
+  server: 18.157.205.223
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #20'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 8880
+  server: 18.157.205.223
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: ARGO_VPNN_mci_5
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 1040
+  server: 18.159.66.5
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: ARGO_VPNN_mci_3
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 4040
+  server: 18.159.66.5
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: ARGO_VPNN_mci_1
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 443
+  server: 18.159.66.5
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: ARGO_VPNN_mci_7
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 444
+  server: 18.159.66.5
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: ARGO_VPNN_mci_4
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 54040
+  server: 18.159.66.5
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: ARGO_VPNN_mci_6
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 8880
+  server: 18.159.66.5
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #21'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 1040
+  server: 18.194.238.82
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #22'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 4040
+  server: 18.194.238.82
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 🕊'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 443
+  server: 18.194.238.82
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 #23'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 444
+  server: 18.194.238.82
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
   tls: false
   type: hysteria2
 - name: Echo_Center
@@ -128,12 +409,132 @@ proxies:
   sni: qus.masir-sefid.shop
   tls: false
   type: hysteria2
+- name: '@internet_azad_2026 #24'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 8880
+  server: 18.194.238.82
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 ❤️‍🔥'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 1040
+  server: 18.196.180.90
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 📲'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 4040
+  server: 18.196.180.90
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 💗'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 443
+  server: 18.196.180.90
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
 - name: 🚀@V2ray_official
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
   port: 444
   server: 18.196.180.90
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026🥳'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 54040
+  server: 18.196.180.90
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 💜'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 8880
+  server: 18.196.180.90
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026🫥'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 1040
+  server: 18.198.106.153
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 🤯'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 4040
+  server: 18.198.106.153
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 🌃'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 443
+  server: 18.198.106.153
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 ❤️'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 444
+  server: 18.198.106.153
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 🥳'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 54040
+  server: 18.198.106.153
+  skip-cert-verify: false
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '@internet_azad_2026 📲 #1'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 8880
+  server: 18.198.106.153
   skip-cert-verify: false
   sni: qus.masir-sefid.shop
   tls: false
@@ -166,26 +567,6 @@ proxies:
   sni: hy2.123266.xyz
   tls: false
   type: hysteria2
-- name: 4🔊@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: FxZylbqClUqVqAs2nezW9kPyFb2edZ2
-  password: rstnnl2705
-  port: 443
-  server: reddeadfan.rd-team.ru
-  skip-cert-verify: true
-  sni: reddeadfan.rd-team.ru
-  tls: false
-  type: hysteria2
-- name: 🔊76@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: CvxXZnSth1bVJKGFP2cof4rI52ifHJ2W
-  password: rstnnl2705
-  port: 443
-  server: nrealistic.nn-foto.ru
-  skip-cert-verify: true
-  sni: nrealistic.nn-foto.ru
-  tls: false
-  type: hysteria2
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -204,41 +585,48 @@ proxies:
 - name: 香港3|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
-  port: 2008
-  server: 13.115.175.169
-  skip-cert-verify: false
+  port: 53018
+  server: 18.163.33.60
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
+  port: 11541
+  server: 43.198.204.47
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 🇭🇰HK_1|1.3MB/s
+  network: tcp
+  password: BxceQaOe
   port: 50712
-  server: 13.231.249.183
+  server: 18.183.163.141
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 香港5|@ripaojiedian
+- name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 11233
-  server: 18.162.145.230
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: HK_speednode_0023
-  network: tcp
-  password: BxceQaOe
-  port: 47655
-  server: 43.199.61.178
+  port: 4099
+  server: 18.183.163.141
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-  udp: true
-- name: 日本3|@ripaojiedian
+- name: 日本2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 11541
-  server: 13.115.175.169
+  server: 43.198.204.47
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 日本3|@ripaojiedian
+  network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 8066
+  server: 18.181.199.223
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -246,7 +634,7 @@ proxies:
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 1180
-  server: 16.163.157.108
+  server: 18.181.199.223
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -254,57 +642,39 @@ proxies:
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 3842
-  server: 16.163.157.108
+  server: 18.163.33.60
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 🇸🇬SG_1|1.4MB/s
+- name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 29440
-  server: 52.69.79.73
+  port: 10478
+  server: 43.206.130.64
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 美国|@ripaojiedian
+- name: 🇺🇸US_8|1.1MB/s
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
-  port: 6604
-  server: 16.163.157.108
+  port: 5224
+  server: 18.163.33.60
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 美国2|@ripaojiedian
-  network: tcp
-  password: d84665c37878196ecf983cf6910e3b44
-  port: 6604
-  server: 54.238.76.39
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: US_speednode_0053
+- name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2520
-  server: 95.40.4.37
+  port: 17801
+  server: 95.40.68.192
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国4|@ripaojiedian
   port: 180
   server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国5|@ripaojiedian
-  port: 180
-  server: 82.198.246.233
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -329,32 +699,26 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 美国5|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.233
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - encryption: none
-  name: 🇩🇪DE_1|1006KB/s
-  network: xhttp
-  port: '443'
-  server: 156.243.246.185
-  servername: cloudflare.dns.xn--q9jyb4c
-  tls: true
+  http-opts:
+    headers: {}
+    path:
+    - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
+  name: 🇨🇭CH_1|1.5MB/s
+  network: http
+  port: '22'
+  server: 172.65.111.43
   type: vless
   udp: true
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  xhttp-opts:
-    host: cloudflare.dns.xn--q9jyb4c
-    mode: packet-up
-    path: /xn--q9jyb4c
-    x-padding-bytes: 100-1000
+  uuid: 88888888-8888-8888-8888-888888888888
   xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼TW_1|2.6MB/s
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: '50099'
+  server: 36.230.8.15
+  type: ss
+  udp: true
 - alpn:
   - http/1.1
   name: NZ_speednode_0033
@@ -372,103 +736,260 @@ proxies:
       Host: m.udemy.com.cyylr.eu.cc
     path: /id-tksi
 - encryption: none
-  name: 🇫🇮FI_1|1.5MB/s
+  name: 🇩🇪DE_1|1.1MB/s
   network: ws
-  port: '80'
-  server: 172.67.130.241
+  port: '8880'
+  server: 188.137.230.245
   type: vless
   udp: true
-  uuid: d8da6dd1-a27c-473b-9246-77ff4b0c8033
+  uuid: 762ca06a-daba-4510-8533-7ba0667fb1f1
   ws-opts:
     headers:
-      Host: xU.aSaCO.sTorE
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /
+  xudp: true
+- encryption: none
+  name: 🇺🇸US_2|2.2MB/s
+  network: ws
+  port: '443'
+  server: 45.130.125.160
+  servername: partner.catchplay.com.cyylr.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8ad2869d-1571-45cc-8d02-10aea6d600ac
+  ws-opts:
+    headers:
+      Host: partner.catchplay.com.cyylr.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+    path: /ae-bo
+  xudp: true
+- encryption: none
+  name: 🇺🇸US_3|2.0MB/s
+  network: ws
+  port: '443'
+  server: 45.130.125.160
+  servername: s.blibli.com.cyylr.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47422044-85e3-426b-b6c4-3588cb24a3e5
+  ws-opts:
+    headers:
+      Host: s.blibli.com.cyylr.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /ae-bo
+  xudp: true
+- encryption: none
+  name: 🇩🇪DE_2|2.9MB/s
+  network: ws
+  port: '443'
+  server: cyylr.eu.cc
+  servername: ads.ruangguru.com.cyylr.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: bbcfe26b-32a3-49b1-a357-d4b9d28ac919
+  ws-opts:
+    headers:
+      Host: ads.ruangguru.com.cyylr.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /id-tksi
+  xudp: true
+- encryption: none
+  name: 🇺🇸US_4|2.2MB/s
+  network: ws
+  port: '443'
+  server: 45.130.125.0
+  servername: ads.ruangguru.com.cyylr.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: d08d180d-cb07-4d82-b1bd-1e42fa523cd7
+  ws-opts:
+    headers:
+      Host: ads.ruangguru.com.cyylr.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    path: /sg-orcl
   xudp: true
 - encryption: none
   flow: xtls-rprx-vision
-  name: 🇳🇱NL_1|2.0MB/s
+  name: 🇸🇬SG_1|1.3MB/s
   network: tcp
-  port: '2053'
-  reality-opts:
-    public-key: klqenfvPoePfiVDDeWb7GwcIB25cWF1bjuNVjVDc8BA
-    short-id: '17e9a4f3'
-  server: 185.23.19.93
-  servername: www.gitlab.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2896b35d-1de4-4458-a5ff-340a7bc2ebbe
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  encryption: none
-  name: 🇳🇱NL_2|2.0MB/s
-  network: xhttp
   port: '443'
-  server: 104.17.121.71
-  servername: sabko.tll-far.ir
+  reality-opts:
+    public-key: 5nvAsUrFIVynQK9nPwDLzhh8upfTz3VGAaBvPh0U-RY
+    short-id: 'ce41e5e590'
+  server: poland1.banovano.space
+  servername: www.icloud.com:443
   tls: true
   type: vless
   udp: true
-  uuid: 70956ee4-e812-4417-9094-5bd568af4903
-  xhttp-opts:
-    host: sabko.tll-far.ir
-    mode: auto
-    path: /Telegram-Zedmodeon
+  uuid: ca219009-9b8e-4e97-8938-e53678d4aba1
   xudp: true
 - encryption: none
-  name: 🇮🇹IT_1|2.4MB/s
+  name: 🇫🇮FI_1|1.5MB/s
   network: ws
   port: '80'
-  server: accountdb.ir
+  server: 146.75.119.82
   type: vless
   udp: true
-  uuid: af77d53f-a0e4-456e-b977-696bf081dcc8
+  uuid: 1b25c52f-31d7-435a-a53c-3a2a010feaff
   ws-opts:
     headers:
-      Host: g1.nybaz.space
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /
+      Host: rb24.ir
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
   xudp: true
 - encryption: none
-  name: 🇮🇹IT_2|2.0MB/s
-  network: ws
-  port: '2082'
-  server: yeksanaat.ir
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_1|2.4MB/s
+  network: tcp
+  port: '8443'
+  reality-opts:
+    public-key: TxeJaR7AeMcpnSi8A45lOSc8xMSFlYu6x7mHjeQMQWU
+    short-id: '4adcbc3df6cdd138'
+  server: 147.90.14.161
+  servername: www.cloudflare.com
+  tls: true
   type: vless
   udp: true
-  uuid: 536b1843-a13a-4a57-b778-bfc58e6cadb9
-  ws-opts:
-    headers:
-      Host: g1.nybaz.space
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
-        Safari/537.36
-    path: /
+  uuid: a8f7bfbc-4bb8-4f10-ac8f-93e0ce4cc46a
   xudp: true
-- encryption: none
-  name: 🇮🇹IT_3|2.5MB/s
-  network: ws
-  port: '8880'
-  server: yeksanaat.ir
+- flow: xtls-rprx-vision
+  name: 🇬🇧GB_1|1.0MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+    short-id: '7a3f9e2b1c8d4f6a'
+  server: 31.76.113.112
+  servername: it.s3-cloud.xyz
+  tls: true
   type: vless
   udp: true
-  uuid: d232ff60-0f45-418d-8eae-a03982d9a7cf
-  ws-opts:
-    headers:
-      Host: g1.nybaz.space
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
   xudp: true
 - alpn:
   - http/1.1
+  name: 🇳🇱NL_1|1.2MB/s
+  network: ws
+  password: mitivpn
+  port: '443'
+  server: 188.114.97.6
+  skip-cert-verify: true
+  sni: dash.linkman1.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /720f09dba195249b423f771661162528/workers/services/view/mitivpn/production/settings
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_2|1.2MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 3WzSgL8uXA3vE3IHrfdBpJmOO4MYrsWpczDSY_jJRjI
+    short-id: '226509f017e4c36d'
+  server: vsgch.mostserv.xyz
+  servername: vsgch.mostserv.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0ddc1b7c-ce23-4a30-8ede-8a9e19f02fb7
+  xudp: true
+- name: 🇺🇸US_5|2.0MB/s
+  network: tcp
+  password: BxceQaOe
+  port: '2520'
+  server: 95.40.4.37
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|2.1MB/s
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: APwi9yR-ezZtFU6xj2a3SBoXvEoWOoiRuZSit0N9xWI
+    short-id: ''
+  server: 185.139.214.254
+  servername: cloudcdn-m9-15.cdn.yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: c55a51d9-48bd-11f1-941f-54db13ea7d40
+  xudp: true
+- encryption: none
+  name: 🇩🇪DE_3|3.5MB/s
+  network: ws
+  port: '80'
+  server: cyylr.eu.cc
+  type: vless
+  udp: true
+  uuid: bbcfe26b-32a3-49b1-a357-d4b9d28ac919
+  ws-opts:
+    headers:
+      Host: ads.ruangguru.com.cyylr.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /id-tksi
+  xudp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 🇱🇻LV_1|1.5MB/s
+  network: tcp
+  port: '8443'
+  reality-opts:
+    public-key: mgIiNnujl3pahea0WW3bCFqmdwofldk85e9XD3rQcQc
+    short-id: 'd8d900'
+  server: 194.76.155.12
+  servername: www.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 69a2af58-d74a-44ca-864a-e09b493f4274
+  xudp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_2|1.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: FurqA-2jJHS4vNj92Ya5i2ZTxf0sWSjUTaz5Y_KMBgk
+    short-id: '57cc65bfd5ef7465'
+  server: 185.212.117.34
+  servername: www.scaleway.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bb2b0112-577f-4862-886a-3c2ee004ca23
+  xudp: true
+- name: US_speednode_0053
+  network: tcp
+  password: BxceQaOe
+  port: 2520
+  server: 95.40.4.37
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- alpn:
+  - http/1.1
   encryption: none
-  name: 🇺🇸US_2|2.9MB/s
+  name: 🇺🇸US_7|2.6MB/s
   network: ws
   port: '443'
   server: 216.24.57.1
@@ -480,151 +1001,42 @@ proxies:
   ws-opts:
     headers:
       Host: dl.cvs.freefiremobile.com.cyylr.eu.cc
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /id-pusat
   xudp: true
-- encryption: none
-  name: 🇮🇹IT_4|2.0MB/s
-  network: ws
-  port: '8080'
-  server: yeksanaat.ir
-  type: vless
-  udp: true
-  uuid: acf01633-4f02-4c03-ba31-1b7da7744d22
-  ws-opts:
-    headers:
-      Host: g1.nybaz.space
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  encryption: none
-  name: 🇫🇮FI_2|2.1MB/s
-  network: ws
-  port: '2096'
-  server: 185.18.250.127
-  servername: 69565ce3109804e7813f98ee.mmdbay.blog
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2ee26119-94e5-40b4-ba3a-16354021b600
-  ws-opts:
-    headers:
-      Host: 69565ce3109804e7813f98ee.mmdbay.blog
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.116 Safari/537.36
-    path: /graphql
-  xudp: true
-- encryption: none
-  name: 🇺🇸US_3|2.7MB/s
-  network: ws
-  port: '8880'
-  server: 80.93.202.40
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime02.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/53.0.2785.143 Safari/537.36
-    path: /
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬SG_2|1.2MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)c18ca9e:213221
-    mode: tls
-  port: 2377
-  server: 13.229.249.124
-  type: ss
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: 🇯🇵JP_2|1.0MB/s
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20577
-  server: jp3.dexlos.com
-  skip-cert-verify: false
-  sni: jp3.dexlos.com
-  type: hysteria2
-  up: ''
-- encryption: none
-  grpc-opts:
-    grpc-service-name: update
-  name: 🇸🇬SG_3|1.3MB/s
-  network: grpc
-  port: 10036
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '686c0ef0'
-  server: sg1-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  xudp: true
-- name: NL_speednode_0029
-  password: ''
-  port: 1080
-  server: 5.255.99.75
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-  username: ''
-- down: ''
-  fingerprint: ''
-  name: 🇰🇭KH_1|1.1MB/s
-  obfs: salamander
-  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
-  password: 25cccf16-5693-4c6e-9bb9-0e38da7d4475
-  port: '443'
-  server: kh2.yuntong.click
-  skip-cert-verify: false
-  sni: kh2.yuntong.click
-  type: hysteria2
-  up: ''
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: BE_speednode_0001
-  network: tcp
-  port: 443
-  server: 150.251.158.76
-  servername: s646.okgg.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 10550754-cf62-3d3b-ba6a-50be27a275d7
-  xudp: true
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇿🇦ZA_1|2.0MB/s
-  password: dongtaiwang.com
-  port: 28866
-  server: 45.221.98.11
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- name: 🇦🇿AZ_1|1.2MB/s
-  network: tcp
+- name: 🇩🇪DE_4|1.2MB/s
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 41943
+  port: 46424
   server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
-  sni: az.01.naiun.bilibili.com
+  sni: de.01.naiun.bilibili.com
+  tls: true
   type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR_3|1.0MB/s
+  password: 89NQRFg7Pcybkl9FrDxqj5
+  port: '443'
+  server: 193.17.57.155
+  type: ss
+  udp: true
 - encryption: none
-  name: 🇩🇪DE_2|1.4MB/s
+  name: 🇳🇱NL_2|1.1MB/s
+  network: ws
+  port: 80
+  server: 188.114.97.6
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: 733e0a4f-a9c8-4d75-9d57-97cc13a4f517
+  ws-opts:
+    headers:
+      Host: zaintest.vuclip.com.cyylr.eu.cc
+    path: /sg-amz
+  xudp: true
+- encryption: none
+  name: 🇩🇪DE_5|2.4MB/s
   network: xhttp
   port: 443
   server: 185.207.198.99
@@ -642,69 +1054,163 @@ proxies:
     sc-min-posts-interval-ms: 30
     x-padding-bytes: 100-1000
   xudp: true
-- down: ''
-  fingerprint: ''
-  name: 🇫🇮FI_3|1.9MB/s
-  obfs: salamander
-  obfs-password: hH0l2Acqz3RtodoSCNCpNJqDSZtp4Qw
-  password: rstnnl2705:56Uhk1CcaR5mCmGpaN0AsOAmRscZSIaM
-  port: '8443'
-  server: musicclips.videolinks.ru
-  skip-cert-verify: true
-  sni: musicclips.videolinks.ru
-  type: hysteria2
-  up: ''
-- name: 🇩🇪DE_3|1.2MB/s
-  network: tcp
-  password: ASoZeIVwzX4w4wxwig
-  port: '443'
-  server: de-3.tr202605.com
+- encryption: none
+  name: 🇩🇪DE_6|1.0MB/s
+  network: xhttp
+  port: 15530
+  reality-opts:
+    public-key: w8JMWRzOsYUuBeI0i_te745nBRlDocMOTgGMMZLioik
+    short-id: 'aa45df0f'
+  server: 178.18.147.163
+  servername: www.microsoft.com
   skip-cert-verify: false
-  type: trojan
+  tls: true
+  type: vless
   udp: true
-- name: 🇬🇧GB_1|1.6MB/s
-  network: tcp
-  password: ASoZeIVwzX4w4wxwig
-  port: '443'
-  server: uk-1.tr202605.com
+  uuid: ac121f97-544b-47b3-bf91-eca9c45db548
+  xhttp-opts:
+    path: /github.com/Alvin9999-newpac/fanqiang
+  xudp: true
+- encryption: none
+  name: 🇩🇪DE_7|2.6MB/s
+  network: xhttp
+  port: 443
+  server: 156.243.246.185
+  servername: cloudflare.dns.xn--q9jyb4c
   skip-cert-verify: false
-  type: trojan
+  tls: true
+  type: vless
   udp: true
-- name: 🇳🇱NL_5|1.4MB/s
-  network: tcp
-  password: LSS6HLnp7IeEEJUcox
-  port: '443'
-  server: nl-1.tr202607.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇬🇧GB_2|1.4MB/s
-  network: tcp
-  password: LSS6HLnp7IeEEJUcox
-  port: '443'
-  server: uk-1.tr202607.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇳🇱NL_7|2.1MB/s
-  network: tcp
-  password: RJbtIstwtcU5buDY3r
-  port: '443'
-  server: nl-1.tr202604.com
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: 🇯🇵JP_3|2.1MB/s
-  password: q6UYkw9nUn6MYZz8Sp
-  port: '443'
-  server: ty-2.tr202604.com
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: 🇰🇷KR_1|1.2MB/s
+  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
+  xhttp-opts:
+    host: cloudflare.dns.xn--q9jyb4c
+    mode: packet-up
+    path: /xn--q9jyb4c
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 30
+    x-padding-bytes: 100-1000
+  xudp: true
+- encryption: none
+  name: 🇱🇺LU_1|2.5MB/s
   network: ws
-  port: '10891'
-  server: 165.246.171.218
+  port: 2095
+  server: 5.175.141.9
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 23bdeba2-5e59-43d3-a770-b23a52200e18
+  ws-opts:
+    headers:
+      Host: g.nargil01.site
+    path: /
+    v2ray-http-upgrade: true
+  xudp: true
+- name: 🇺🇸US_10|1.1MB/s
+  network: ws
+  port: 443
+  server: 172.67.195.79
+  servername: cdn.veilvpn.fans
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30980fc4-8789-42df-80d1-0c8e5cd26881
+  ws-opts:
+    headers:
+      Host: cdn.veilvpn.fans
+    path: /vpnhu
+    v2ray-http-upgrade: true
+  xudp: true
+- name: 🇷🇴RO_1|1.1MB/s
+  port: 9002
+  server: 84.239.49.211
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇷🇴RO_2|1.6MB/s
+  port: 9002
+  server: 84.239.49.154
+  skip-cert-verify: true
+  tls: true
+  type: http
+- alpn:
+  - http/1.1
+  encryption: none
+  name: 🇳🇱NL_3|1.1MB/s
+  network: ws
+  port: 443
+  server: 89.116.46.42
+  servername: del.ccnnx.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 179718c1-27b3-449d-9626-98c2c854d010
+  ws-opts:
+    headers:
+      Host: del.ccnnx.ir
+    path: /@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia
+  xudp: true
+- name: 🇺🇸US_11|1.5MB/s
+  network: ws
+  password: 5e40c007-9ea9-470f-8824-cdf4eaa6441f
+  port: '443'
+  server: 108.181.4.83
+  skip-cert-verify: false
+  sni: us6lh1fsyabizv5m.lovebaipiao.net
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /images
+- name: 🇺🇸US_12|1022KB/s
+  network: ws
+  password: 5e40c007-9ea9-470f-8824-cdf4eaa6441f
+  port: '443'
+  server: us6lh1fsyabizv5m.lovebaipiao.net
+  skip-cert-verify: false
+  sni: us6lh1fsyabizv5m.lovebaipiao.net
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.143 Safari/537.36
+    path: /images
+- name: 🇭🇰HK_2|1.2MB/s
+  network: tcp
+  password: da292191-b895-3264-b41c-200512b8f965
+  port: '40015'
+  server: 85.211.198.109
+  skip-cert-verify: true
+  sni: 1.lossyesterday.xyz
+  type: trojan
+  udp: true
+- name: 🇭🇰HK_3|1.1MB/s
+  network: tcp
+  password: da292191-b895-3264-b41c-200512b8f965
+  port: '52225'
+  server: 85.211.198.109
+  skip-cert-verify: true
+  sni: i.comfortableyou.top
+  type: trojan
+  udp: true
+- name: GB_speednode_0020
+  network: raw
+  password: da292191-b895-3264-b41c-200512b8f965
+  port: 40017
+  server: a.twodnwnpoe.xyz
+  skip-cert-verify: true
+  sni: water.waittomorrow.top
+  type: trojan
+  udp: true
+- name: 🇰🇷KR_1|1.1MB/s
+  network: ws
+  port: '30001'
+  server: 114.204.40.185
   servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
   tls: true
   type: vless
@@ -713,281 +1219,167 @@ proxies:
   ws-opts:
     headers:
       Host: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /@Marisa_kristifp=chrome
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.116 Safari/537.36
+    path: /@Marisa_kristi
   xudp: true
-- name: 🇬🇧GB_3|1.2MB/s
+- name: 🇰🇷KR_2|1.4MB/s
   network: ws
-  port: '15566'
-  server: 5.181.27.81
-  servername: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
+  port: '30006'
+  server: 114.204.40.185
+  servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
   tls: true
   type: vless
   udp: true
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+      Host: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /@Marisa_kristifp=chrome
+  xudp: true
+- name: 🇸🇬SG_3|1.8MB/s
+  network: ws
+  port: '30003'
+  server: 140.235.10.14
+  servername: rolaqoubhqt.bpd67081tsq.ddns-ip.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: rolaqoubhqt.bpd67081tsq.ddns-ip.net
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /@Marisa_kristifp=chrome
   xudp: true
+- name: 🇺🇸US_13|1.4MB/s
+  network: ws
+  port: '16353'
+  server: 173.249.203.40
+  servername: r8wez3psbuhgs6lgju.sate.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: r8wez3psbuhgs6lgju.sate.qzz.io
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    path: /@Marisa_kristifp=chrome
+  xudp: true
 - encryption: none
-  name: 🇺🇸US_4|2.5MB/s
-  network: ws
-  port: '80'
-  server: 162.159.81.177
-  type: vless
-  udp: true
-  uuid: 4b00d726-e072-429b-997e-f07affea3b7f
-  ws-opts:
-    headers:
-      Host: icy-darkness-8ff1.farzambia12mo.workers.dev
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
-        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
-    path: /eyJqdW5rIjoibHFUM0pwRHZXIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19?ed=2560
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  encryption: none
-  name: 🇩🇪DE_4|1.0MB/s
+  name: 🇸🇬SG_4|1.2MB/s
   network: ws
   port: '443'
-  server: germany2.samanidempire.org
+  server: mfa.gov.ua
+  servername: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
   tls: true
   type: vless
   udp: true
-  uuid: 54327070-1d45-42ac-9ebb-8dffcb343c93
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /hZvWArgsaxqa
+      Host: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /@Marisa_kristi
   xudp: true
-- alpn:
-  - http/1.1
-  encryption: none
-  name: 🇺🇸US_5|1.1MB/s
+- encryption: none
+  name: 🇸🇬SG_5|1.3MB/s
   network: ws
   port: '443'
-  server: 216.24.57.1
-  servername: dl.cvs.freefiremobile.com.cyylr.eu.cc
+  server: youxuan.cf.090227.xyz
+  servername: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
   tls: true
   type: vless
   udp: true
-  uuid: 565b50d4-604d-4a60-9fc2-d9d3dac0aec6
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: dl.cvs.freefiremobile.com.cyylr.eu.cc
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
-        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
-    path: /id-pusat
+      Host: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /@Marisa_kristi
   xudp: true
-- name: 🇸🇬SG_4|3.7MB/s
-  network: ws
-  port: '2096'
-  server: 8.35.211.87
-  servername: go.iranfree.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
-  ws-opts:
-    headers:
-      Host: go.iranfree.de5.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.75 Safari/537.36
-    path: /fp=chrome
-  xudp: true
-- client-fingerprint: edge
+- client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇳🇱NL_8|1.4MB/s
+  name: 🇭🇺HU_1|1.6MB/s
   network: tcp
   port: '443'
   reality-opts:
-    public-key: 57wfdSxZrjZMVeohIwTpAU6spdT6oYrzzw_LRjSBfVI
-    short-id: '7d897f0b4cf1b848'
-  server: nl-3.legendary.ac
-  servername: nl-3.legendary.ac
+    public-key: z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU
+    short-id: ''
+  server: hu01.bearbeer.digital
+  servername: hu01.bearbeer.digital
   tls: true
   type: vless
   udp: true
-  uuid: 593f4d6c-aff1-4832-87a7-b5d8e71584ea
+  uuid: 017510da-8b42-49de-8ea9-ab60e3e9072e
   xudp: true
 - encryption: none
-  grpc-opts:
-    grpc-service-name: errornl-cdn-api-v1
-  name: 🇺🇸US_6|1.7MB/s
-  network: grpc
+  flow: xtls-rprx-vision
+  name: 🇳🇱NL_4|1.3MB/s
+  network: tcp
   port: '443'
-  server: errornl.zapret-tg.ru
-  type: vless
-  udp: true
-  uuid: 658a822b-5bba-4bb8-88aa-5bb6d3be1ef8
-  xudp: true
-- encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
-  name: 🇨🇭CH_1|2.9MB/s
-  network: http
-  port: '22'
-  server: 172.65.111.43
-  type: vless
-  udp: true
-  uuid: 8a38623a-3e7f-5598-bdc9-894cbad4c5b6
-  xudp: true
-- client-fingerprint: edge
-  name: 🇹🇼TW_1|3.1MB/s
-  network: ws
-  port: '2053'
-  server: xmm.130209.xyz
-  servername: taiwanv6.xiaomaimai.qzz.io
+  reality-opts:
+    public-key: qgQAQ19q2EhKzfolYMDsvTlmP9EAiCT8kng4uWR4QVg
+    short-id: '53c48ca798bde2e9'
+  server: nl.prime-net.me
+  servername: nl.prime-net.me
   tls: true
   type: vless
   udp: true
-  uuid: 924106da-29ec-4822-bd13-703021e2a4f8
-  ws-opts:
-    headers:
-      Host: taiwanv6.xiaomaimai.qzz.io
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /api/v2/check_update
-  xudp: true
-- alpn:
-  - h2
-  encryption: none
-  grpc-opts:
-    grpc-service-name: /sequre/grpc
-  name: 🇷🇺RU_1|1.2MB/s
-  network: grpc
-  port: '443'
-  server: 185.14.46.20.blanesik.space
-  servername: 185.14.46.20.blanesik.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: a1b19834-a5e3-4d49-9301-aaa3fb248f49
+  uuid: 0d45ce3e-96e4-45f4-8f7f-72c6d7d3406d
   xudp: true
 - encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: 🇦🇹AT_1|1.4MB/s
+  name: 🇩🇪DE_8|2.5MB/s
   network: grpc
-  port: '7443'
+  port: '2053'
   reality-opts:
-    public-key: J7kVt25xZozh2eLHffHi7JvzwVTbUaHYoANgnySb_Vc
-    short-id: '0e54c76c'
-  server: 152.53.103.35
-  servername: www.aviasales.com
+    public-key: sOTlswV3fg3MBJSiQek_a2fMs824tGNRFNRdQVYu1R8
+    short-id: 'ef96a8323b38a60e'
+  server: 169.40.15.135
+  servername: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: c4d69096-4026-4da5-9485-20a3da91cb14
+  uuid: 0dc3fe97-73e3-4cc2-89a7-331e66540365
   xudp: true
 - encryption: none
-  name: 🇸🇬SG_5|3.7MB/s
+  name: 🇳🇱NL_5|2.0MB/s
   network: ws
-  port: '2052'
-  server: 172.64.149.54
+  port: '443'
+  server: 188.114.97.6
+  servername: ads.ruangguru.com.cyylr.eu.cc
+  tls: true
   type: vless
   udp: true
-  uuid: cdec8542-a21f-4377-9da3-ea60bb6d3a30
+  uuid: 12d8b109-394d-4d0c-a208-2b9a41f09f36
   ws-opts:
     headers:
-      Host: chosenflyesqt-q3y28ipf-v2.chosen-fly-esqt.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /
+      Host: ads.ruangguru.com.cyylr.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /my-wbv
   xudp: true
-- name: 🇺🇸US_7|1.1MB/s
-  network: ws
-  port: '2083'
-  server: 172.66.44.211
-  servername: wk1.f1w.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: wk1.f1w.de5.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  name: US_speednode_0054
-  network: ws
-  port: 443
-  server: kobe.ns.cloudflare.com
-  servername: 35cdnws.frnstatic.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e277ac9b-3225-4381-a9fb-3585419f7142
-  ws-opts:
-    headers:
-      Host: 35cdnws.frnstatic.info
-    path: /35cdnws
-  xudp: true
-- flow: xtls-rprx-vision
-  name: 🇰🇷KR_2|1.2MB/s
-  network: tcp
-  port: '8899'
-  reality-opts:
-    public-key: B7eELUOn0QM6fKSrr5v_AE4JPHQIxvb9-xX3WLqnLAk
-    short-id: '11d27eb4'
-  server: 152.67.211.233
-  servername: www.lovelive-anime.jp
-  tls: true
-  type: vless
-  udp: true
-  uuid: ed285fbd-528e-4610-9a8d-2ad95767c00b
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  encryption: none
-  name: 🇩🇪DE_5|1.4MB/s
-  network: xhttp
-  port: '8443'
-  server: 104.16.134.176
-  servername: Freealireza1.nscl.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: eebf96e8-3616-4ff6-8602-82d2c30f1eec
-  xhttp-opts:
-    host: Freealireza1.nscl.ir
-    mode: auto
-    path: /Kose-nanat-decoder
-  xudp: true
-- encryption: none
+- client-fingerprint: random
   flow: xtls-rprx-vision
-  name: CZ_speednode_0016
-  network: raw
+  name: BE_speednode_0001
   port: 443
-  reality-opts:
-    public-key: 0aGTmSxEW21dFVomobDSRjUWnPptI4yT_eL-0PCf-h0
-    short-id: '5a7216aec1371894'
-  server: 95.85.228.212
-  servername: est.hatvpn.org
+  server: 150.251.158.76
+  servername: s646.okgg.top
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f85f6c65-1b35-4c56-b766-80c5a4457b3e
-  xudp: true
+  uuid: 10550754-cf62-3d3b-ba6a-50be27a275d7
 - name: BR_speednode_0002
   port: 8443
   server: 152.233.35.228
@@ -1066,6 +1458,19 @@ proxies:
   udp: true
   username: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
 - flow: xtls-rprx-vision
+  name: CZ_speednode_0016
+  port: 443
+  reality-opts:
+    public-key: 0aGTmSxEW21dFVomobDSRjUWnPptI4yT_eL-0PCf-h0
+    short-id: '5a7216aec1371894'
+  server: 95.85.228.212
+  servername: est.hatvpn.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f85f6c65-1b35-4c56-b766-80c5a4457b3e
+- flow: xtls-rprx-vision
   name: ES_speednode_0017
   port: 443
   reality-opts:
@@ -1094,12 +1499,12 @@ proxies:
   sni: i.comfortableyou.top
   type: trojan
   udp: true
-- name: GB_speednode_0020
-  password: da292191-b895-3264-b41c-200512b8f965
-  port: 40017
-  server: a.twodnwnpoe.xyz
+- name: HK_speednode_0023
+  password: BxceQaOe
+  port: 47655
+  server: 43.199.61.178
   skip-cert-verify: true
-  sni: water.waittomorrow.top
+  sni: t.me%252Fripaojiedian
   type: trojan
   udp: true
 - name: KR_speednode_0026
@@ -1123,6 +1528,11 @@ proxies:
   type: vless
   udp: true
   uuid: 296bbba2-b100-4d91-b8df-3fe03cc863c4
+- name: NL_speednode_0029
+  port: 1080
+  server: 5.255.99.75
+  type: socks5
+  udp: true
 - name: NN_speednode_0030
   password: 16955d72-1794-11f0-a035-f23c95b6f51d
   port: 3233
@@ -1264,3 +1674,20 @@ proxies:
   type: http
   udp: true
   username: 0b869f32-657e-11ee-a90c-f23c9313b177
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: US_speednode_0054
+  network: ws
+  port: 443
+  server: kobe.ns.cloudflare.com
+  servername: 35cdnws.frnstatic.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e277ac9b-3225-4381-a9fb-3585419f7142
+  ws-opts:
+    headers:
+      Host: 35cdnws.frnstatic.info
+    path: /35cdnws
