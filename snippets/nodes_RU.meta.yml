@@ -1,8 +1,23 @@
 proxies:
+- encryption: none
+  name: 🇷🇺RU_1|2.1MB/s
+  network: ws
+  port: '2087'
+  server: p1.rug.locker
+  type: vless
+  udp: true
+  uuid: faeecaef-7f19-4496-b0c8-07b83ab2bdf3
+  ws-opts:
+    headers:
+      Host: p1.rug.locker
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /ws
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|2.1MB/s
+  name: 🇷🇺RU_2|2.5MB/s
   network: raw
   port: '443'
   reality-opts:
@@ -16,18 +31,25 @@ proxies:
   uuid: c55a51d9-48bd-11f1-941f-54db13ea7d40
   xudp: true
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: RU_speednode_0042
-  port: 22231
-  server: r1.mizulina.top
-  servername: r1.mizulina.top
+  name: 🇷🇺RU_3|1.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 3WzSgL8uXA3vE3IHrfdBpJmOO4MYrsWpczDSY_jJRjI
+    short-id: '!!str 226509f017e4c36d'
+  server: vrubg.mostserv.xyz
+  servername: vrubg.mostserv.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  uuid: 0ddc1b7c-ce23-000a-8ede-8a9e19f02fb7
+  xudp: true
 - client-fingerprint: chrome
-  name: RU_speednode_0040
+  name: RU_speednode_0041
   port: 443
   reality-opts:
     public-key: i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk
@@ -50,40 +72,17 @@ proxies:
   type: vless
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: RU_speednode_0046
-  port: 22231
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- client-fingerprint: chrome
-  name: RU_speednode_0045
-  port: 443
-  reality-opts:
-    public-key: i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk
-    short-id: '!!str b8aa'
-  server: 194.226.169.36
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4706d9c3-eec0-4666-9d84-e608a200e872
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: RU_speednode_0047
-  port: 23151
+  port: 443
   reality-opts:
-    public-key: eP0MKUFOcNVSVFbHT8GgBLP4LIHZFq8JuVGlCAlH1HI
-  server: 217.26.24.101
-  servername: cms-res-web.online.sberbank.ru
+    public-key: FurqA-2jJHS4vNj92Ya5i2ZTxf0sWSjUTaz5Y_KMBgk
+    short-id: '!!str 57cc65bfd5ef7465'
+  server: 185.212.117.34
+  servername: www.scaleway.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 9287f532-4150-48ff-a755-64b21e30e9c3
+  uuid: bb2b0112-577f-4862-886a-3c2ee004ca23
