@@ -1,10 +1,71 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 🇨🇭CH_1|2.0MB/s
-  password: kfuzkwdg4oynv495aywc
-  port: 13262
-  server: 86.106.84.195
+- name: 🇨🇭50436 | ⚡️Telegram = t.me/SO...
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 1040
+  server: 195.15.201.34
+  skip-cert-verify: false
+  sni: free.masir-sefid-1.my
+  tls: false
+  type: hysteria2
+- name: 🇨🇭50439 | ⚡️Telegram = t.me/SO...
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 4040
+  server: 195.15.201.34
+  skip-cert-verify: false
+  sni: free.masir-sefid-1.my
+  tls: false
+  type: hysteria2
+- name: 🇨🇭50441 | ⚡️Telegram = t.me/SO...
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 44044
+  server: 195.15.201.34
+  skip-cert-verify: false
+  sni: free.masir-sefid-1.my
+  tls: false
+  type: hysteria2
+- name: 🇨🇭50433 | ⚡️Telegram = t.me/SO...
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 443
+  server: 195.15.201.34
   skip-cert-verify: true
-  tfo: false
-  type: ss
-  udp: false
+  sni: free.masir-sefid-1.my
+  tls: false
+  type: hysteria2
+- name: 🇨🇭50434 | ⚡️Telegram = t.me/SO...
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 444
+  server: 195.15.201.34
+  skip-cert-verify: false
+  sni: free.masir-sefid-1.my
+  tls: false
+  type: hysteria2
+- name: 🇨🇭50440 | ⚡️Telegram = t.me/SO...
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 54040
+  server: 195.15.201.34
+  skip-cert-verify: false
+  sni: free.masir-sefid-1.my
+  tls: false
+  type: hysteria2
+- name: 🇨🇭50435 | ⚡️Telegram = t.me/SO...
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 8880
+  server: 195.15.201.34
+  skip-cert-verify: false
+  sni: free.masir-sefid-1.my
+  tls: false
+  type: hysteria2
