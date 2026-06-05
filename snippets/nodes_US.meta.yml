@@ -1,25 +1,17 @@
 proxies:
-- name: 美国|@ripaojiedian
-  network: tcp
-  password: d84665c37878196ecf983cf6910e3b44
-  port: 5224
-  server: 18.167.173.1
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
-  port: 6604
-  server: 18.167.173.1
+  port: 5224
+  server: 16.162.93.34
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 美国3|@ripaojiedian
+- name: 🇺🇸US_4|1.9MB/s
   network: tcp
   password: BxceQaOe
-  port: 22057
-  server: 18.166.154.20
+  port: 2520
+  server: 95.40.84.43
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -42,29 +34,87 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_1|2.2MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- client-fingerprint: randomized
-  name: 🇺🇸US_2|1.1MB/s
+- name: 🇺🇸US_1|1.4MB/s
   network: ws
-  password: d0298536-d670-4045-bbb1-ddd5ea68683e
-  port: '443'
-  server: 104.19.174.68
-  skip-cert-verify: false
-  sni: azadnet-5vk.pages.dev
-  type: trojan
+  port: 8880
+  server: 45.153.7.40
+  tls: false
+  type: vless
   udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /azadnet-5vk.pages.dev/?ed=2560&PROT_TYPE=trojan
+      Host: vms.lifetime11.workers.dev
+    path: /
+- name: 🇺🇸US_2|1.0MB/s
+  network: ws
+  port: 8880
+  server: 45.153.7.50
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime11.workers.dev
+    path: /
+- name: 🇺🇸US_3|1023KB/s
+  network: ws
+  port: 8880
+  server: 185.162.230.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime02.workers.dev
+    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  fp: chrome
+  name: 🇺🇸US_5|1.5MB/s
+  packet-encoding: xudp
+  password: 1c61845e-2a5c-45ae-a34e-8968cb85cc0d
+  port: 51112
+  server: 38.99.248.217
+  skip-cert-verify: false
+  sni: nauk.eu.cc
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_7|2.4MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: K7no4vVZPV-eW6uFsq2xP3m5bwuau4bSvRU1bnFs80k
+    short-id: '!!str fcfb56dcc1d63834'
+  server: 150.241.72.169
+  servername: cxcczechia1.chickenkiller.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d78c12c4-6927-40b8-8550-ed9be00334da
+- client-fingerprint: chrome
+  name: 🇺🇸US_8|2.0MB/s
+  network: ws
+  port: '16353'
+  server: 173.249.203.40
+  servername: r8wez3psbuhgs6lgju.sate.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: r8wez3psbuhgs6lgju.sate.qzz.io
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /@Marisa_kristifp=chrome
+  xudp: true
 - client-fingerprint: chrome
   name: US_speednode_0045
   port: 443
