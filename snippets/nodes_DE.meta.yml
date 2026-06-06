@@ -27,6 +27,16 @@ proxies:
   sni: free.masir-sefid.shop
   tls: false
   type: hysteria2
+- name: 'https://t.me/v2rayNplus |🇩🇪 #1'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 44044
+  server: 18.157.222.169
+  skip-cert-verify: false
+  sni: free.masir-sefid.shop
+  tls: false
+  type: hysteria2
 - alpn:
   - h2
   client-fingerprint: chrome
