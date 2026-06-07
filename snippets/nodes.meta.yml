@@ -153,7 +153,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: telegram @mtmvpn
+- name: '@mehrosaboran'
   obfs: salamander
   obfs-password: https://speed.cloudflare.com
   password: 0xver2tkqad4kvr4
@@ -163,7 +163,7 @@ proxies:
   sni: xuipanel.akgoldvip.shop
   tls: false
   type: hysteria2
-- name: '@meliproxyy #1'
+- name: '@meliproxyy'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: '@Masir_Sefid'
@@ -193,7 +193,7 @@ proxies:
   sni: free.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: '@meliproxyy #4'
+- name: '@meliproxyy #3'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: '@Masir_Sefid'
@@ -223,7 +223,7 @@ proxies:
   sni: free.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: '@meliproxyy #6'
+- name: '@meliproxyy #5'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: '@Masir_Sefid'
@@ -273,16 +273,6 @@ proxies:
   sni: free.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: '@internet_azad_2026 #9'
-  obfs: salamander
-  obfs-password: Masir_Sefid
-  password: Masir_Sefid
-  port: 443
-  server: 18.157.222.169
-  skip-cert-verify: false
-  sni: free.masir-sefid.shop
-  tls: false
-  type: hysteria2
 - name: '⚡@V2ray_official #1'
   obfs: salamander
   obfs-password: Masir_Sefid
@@ -313,37 +303,7 @@ proxies:
   sni: free.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: '@@FreeConffning'
-  obfs: salamander
-  obfs-password: Masir_Sefid
-  password: Masir_Sefid
-  port: 443
-  server: 18.193.90.31
-  skip-cert-verify: false
-  sni: qs.masir-sefid.shop
-  tls: false
-  type: hysteria2
-- name: '@'
-  obfs: salamander
-  obfs-password: Masir_Sefid
-  password: Masir_Sefid
-  port: 59826
-  server: 18.193.90.31
-  skip-cert-verify: false
-  sni: qs.masir-sefid.shop
-  tls: false
-  type: hysteria2
-- name: '@vmesskhodam #1'
-  obfs: salamander
-  obfs-password: Masir_Sefid
-  password: Masir_Sefid
-  port: 443
-  server: 195.15.253.119
-  skip-cert-verify: false
-  sni: free2.masir-sefid-1.my
-  tls: false
-  type: hysteria2
-- name: '@internet_azad_2026 #13'
+- name: '@internet_azad_2026 #11'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -353,7 +313,7 @@ proxies:
   sni: free3.masir-sefid-1.my
   tls: false
   type: hysteria2
-- name: '@internet_azad_2026 #14'
+- name: '@internet_azad_2026 #12'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -363,7 +323,7 @@ proxies:
   sni: free3.masir-sefid-1.my
   tls: false
   type: hysteria2
-- name: '@internet_azad_2026 #15'
+- name: '@internet_azad_2026 #13'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -373,7 +333,7 @@ proxies:
   sni: free3.masir-sefid-1.my
   tls: false
   type: hysteria2
-- name: '@internet_azad_2026 #16'
+- name: '@internet_azad_2026 #14'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -403,7 +363,27 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '@meliproxyy #12'
+- name: '✅  @vistav2ray  👈👈کانال ما ✅ #1'
+  obfs: salamander
+  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  port: 443
+  server: sg2.yuntong.click
+  skip-cert-verify: false
+  sni: sg2.yuntong.click
+  tls: false
+  type: hysteria2
+- name: kurdconfig
+  obfs: salamander
+  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  port: 443
+  server: sg2.yuntong.click
+  skip-cert-verify: false
+  sni: sg2.yuntong.click#@Kia_Net (465.2)
+  tls: false
+  type: hysteria2
+- name: '@meliproxyy #7'
   obfs: salamander
   obfs-password: masir_sefid
   password: masir_sefid
@@ -421,6 +401,16 @@ proxies:
   server: 18.194.63.255
   skip-cert-verify: false
   sni: content.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: '🤍: @SIMSEFYD'
+  obfs: salamander
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  port: 443
+  server: hy2.aspidnet.xyz
+  skip-cert-verify: false
+  sni: hy2.aspidnet.xyz
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
