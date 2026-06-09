@@ -1,33 +1,17 @@
 proxies:
-- client-fingerprint: firefox
-  name: 🇨🇭CH_1|3.8MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA
-    short-id: '!!str 6ba85179e30d4fc3'
-  server: l10-1.l-itx.info
-  servername: yandex.by
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4
-  xhttp-opts:
-    mode: stream-up
-    path: /xh
 - client-fingerprint: chrome
-  name: 🇨🇭CH_2|1.6MB/s
-  network: xhttp
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇨🇭CH_1|1.2MB/s
+  network: tcp
   port: '443'
-  server: ch-xh-01.hpdata.click
-  servername: ch-xh-01.hpdata.click
+  reality-opts:
+    public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
+    short-id: '!!str '
+  server: de25.whost-solutions.ru
+  servername: nl05.whost-solutions.ru
   tls: true
   type: vless
   udp: true
-  uuid: 1014818b-5c5c-46b1-98fe-eaf8d5eba642
-  xhttp-opts:
-    mode: packet-up
-    path: /vk
+  uuid: e7cb547e-5a74-4695-9019-a2c93e7593ea
   xudp: true

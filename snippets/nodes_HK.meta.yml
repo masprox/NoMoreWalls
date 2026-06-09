@@ -1,5 +1,5 @@
 proxies:
-- name: 🇭🇰 HK
+- name: 🇭🇰58435 | ⚡️Telegram = t.me/SO...
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
   server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
@@ -18,16 +18,16 @@ proxies:
 - name: 香港3|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 2008
-  server: 16.163.146.65
+  port: 53018
+  server: 43.199.189.110
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 11031
-  server: 16.162.142.74
+  port: 443
+  server: 119.246.1.143
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -50,17 +50,8 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 🇭🇰HK_1|1.0MB/s
-  password: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
-  port: 5228
-  server: ff28248a-t9zts0-tb08pe-luwe.cm4.oshuawei.com
-  sni: ff28248a-t9zts0-tb08pe-luwe.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
-- name: 🇭🇰HK_2|1.1MB/s
-  password: 4729b4c8-1790-11eb-8684-f23c913c8d2b
-  port: 5228
-  server: 79673ec2-tekn40-ts40sw-14g76.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: 4729b4c8-1790-11eb-8684-f23c913c8d2b
+  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  port: 56309
+  server: hkt.ccwink.cc
+  skip-cert-verify: true
+  type: hysteria2
