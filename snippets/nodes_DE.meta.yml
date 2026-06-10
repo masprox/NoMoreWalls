@@ -17,47 +17,41 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🪭63@oneclickvpnkeys
-  password: zhangyang
-  port: 6443
-  server: 130.61.50.75
-  skip-cert-verify: true
-  sni: dash.cloudflare.com
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 🇩🇪DE_1|1.3MB/s
-  network: ws
-  password: cczQCxQBdYzynosgqLVSmUnZzwjJcWEnpWnMAjZQUy94hDdN
-  port: '443'
-  server: gm2.bw8848.org
-  skip-cert-verify: false
-  sni: gm2.bw8848.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /gm2-gm2-mo9ag9
 - alpn:
   - h2
-  - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_2|1.7MB/s
-  network: ws
-  port: '8443'
-  server: 188.114.97.6
-  servername: free.neternet.shop
+  name: 🇩🇪DE_1|1.5MB/s
+  network: xhttp
+  port: '2087'
+  server: ip.feywebsite.ir
+  servername: sni9.feyweapon.com
   tls: true
   type: vless
   udp: true
-  uuid: 2d392cd2-1e79-4be2-bb0d-3c537d6560a1
+  uuid: 13615086-3ce5-4bef-8802-9c5e83bf5d7a
+  xhttp-opts:
+    host: sni9.feyweapon.com
+    mode: auto
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_2|1.7MB/s
+  network: ws
+  port: '443'
+  server: 104.20.6.134
+  servername: r.meDiASHOPPp.sbS
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2088ef0d-4d2c-43b3-874b-b6a03531c81b
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: free.neternet.shop
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.116 Safari/537.36
-    path: /
+      Host: r.mediashoppp.sbs
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
+        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
+        Mobile Safari/537.36
+    max-early-data: 2560
+    path: /eyJqdW5rIjoiVVpPeXNodUFQMHNVcU12aCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
   xudp: true
