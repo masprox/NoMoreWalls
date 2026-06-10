@@ -1,14 +1,45 @@
 proxies:
-- name: KR_speednode_0008
-  network: ws
-  password: pUkVhYVSnjbEy4xbkNJ2QvXTSSLHxRN6sRbdSnnwpbMSXTbC
+- name: 🇰🇷KR-🚀@VPNine1
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
   port: 443
-  server: node3.bw8848.org
+  server: starlink-kr1.mfa.cat
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: KR_speednode_0004
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6pZxjabeHoyJlsc2cP3Q5YK7G0bIOQwzWFyiarbUQXc
+    short-id: '!!str c8af1462debbc1'
+  server: kr2.miyazono-kaori.com
+  servername: www.coway.com
   skip-cert-verify: false
-  sni: node3.bw8848.org
-  type: trojan
+  tls: true
+  type: vless
   udp: true
-  ws-opts:
-    headers:
-      Host: node3.bw8848.org
-    path: /node3-node3-jgnkjy
+  uuid: 4442c33c-9889-4e0f-bff7-14f1f626dd6c
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇰🇷KR_2|3.6MB/s
+  network: tcp
+  port: '8686'
+  reality-opts:
+    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
+    short-id: '!!str 628b3c90c98ead4f'
+  server: 54.180.89.193
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  xudp: true
