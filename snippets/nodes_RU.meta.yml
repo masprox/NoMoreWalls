@@ -1,11 +1,18 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: RU_speednode_0062
-  port: 22231
-  server: r1.mizulina.top
-  skip-cert-verify: false
+- client-fingerprint: firefox
+  name: 🇷🇺RU_1|2.3MB/s
+  network: xhttp
+  port: '443'
+  reality-opts:
+    public-key: F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA
+    short-id: '!!str 6ba85179e30d4fc3'
+  server: l12.l-itx.info
+  servername: yandex.by
   tls: true
   type: vless
   udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  uuid: f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4
+  xhttp-opts:
+    mode: stream-up
+    path: /xh
+  xudp: true
