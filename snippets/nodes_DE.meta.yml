@@ -17,25 +17,68 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 🇩🇪DE_1|2.0MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  port: '4433'
-  server: 185.228.139.247
-  skip-cert-verify: true
-  sni: de2.xiaoliyu.cyou
-  type: hysteria2
-  up: ''
+- encryption: none
+  name: 🇩🇪DE_1|1.6MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 104.29.124.101
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3d663ca2-98b2-4f2b-8652-c527b12bebfc
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: orange-truth-c6d1.rhyljiti.workers.dev
+    max-early-data: 2560
+    path: /eyJqdW5rIjoiVjBwVjN1TEMwd3JZNVciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_2|1006KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 104.16.174.39
+  servername: Drping.nscl.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1c4046d3-333f-4e8d-b9cc-333e7ec3143b
+  ws-opts:
+    headers:
+      Host: Drping.nscl.ir
+    path: /DrPing_channel
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_3|1.3MB/s
+  network: xhttp
+  port: '2087'
+  server: www.speedtest.net
+  servername: r1.firefly-service.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2330f424-ef1f-47ad-a42a-815e5c576820
+  xhttp-opts:
+    mode: stream-up
+    path: /
+  xudp: true
 - alpn:
   - h2
   - http/1.1
   - h3
   client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_2|2.5MB/s
+  name: 🇩🇪DE_4|1.3MB/s
   network: xhttp
   port: '8443'
   server: xco.xonline.sbs
@@ -43,24 +86,7 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 6ecedc16-5766-4f33-b08a-0624317f9b75
-  xhttp-opts:
-    host: xco.trevor.ir
-    mode: auto
-    path: /cocjslfnr
-    x-padding-bytes: 100-1000
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_3|2.1MB/s
-  network: xhttp
-  port: '8443'
-  server: xco.xonline.sbs
-  servername: xco.trevor.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: ae8afe68-10f6-4f27-90b1-b9a735a5a02a
+  uuid: f1db386e-3c0e-4da3-8eb3-cd738701c523
   xhttp-opts:
     host: xco.trevor.ir
     mode: auto

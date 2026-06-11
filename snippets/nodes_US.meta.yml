@@ -7,75 +7,27 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 🇺🇸US-🚀@VPNine1
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 443
-  server: starlink-us1.mfa.cat
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: false
-  type: hysteria2
-- name: '🇺🇸US-🚀@VPNine1 #1'
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 443
-  server: starlink-us2.mfa.cat
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: false
-  type: hysteria2
-- name: '🇺🇸US-🚀@VPNine1 #2'
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 443
-  server: starlink-us3.mfa.cat
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: false
-  type: hysteria2
-- name: '🇺🇸US-🚀@VPNine1 #3'
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 443
-  server: starlink-us4.mfa.cat
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: false
-  type: hysteria2
-- name: '🇺🇸US-🚀@VPNine1 #4'
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 443
-  server: starlink-us6.mfa.cat
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: false
-  type: hysteria2
-- name: '🇺🇸US-🚀@VPNine1 #5'
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 443
-  server: starlink-us7.mfa.cat
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: false
-  type: hysteria2
 - name: 美国|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 49277
-  server: 43.198.203.3
+  port: 17005
+  server: 43.199.62.44
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 17005
-  server: 18.166.223.23
+  port: 49277
+  server: 95.40.109.247
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 17801
-  server: 18.163.120.29
+  port: 54240
+  server: 16.162.220.245
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -98,21 +50,46 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇺🇸US_1|2.0MB/s
-  network: tcp
-  port: '1005'
-  reality-opts:
-    public-key: aEyXUqZ4doy7Qse745h5IKGo31Jc2YEK3QOVaOuPPns
-    short-id: '!!str 4f2087146c1f587a'
-  server: newyorkcity.instasup.ir
-  servername: yahoo.com
+- multiplexing: MULTIPLEXING_LOW
+  name: 🇺🇸US_1|1009KB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- encryption: none
+  name: 🇺🇸US_2|1.5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 45.85.118.1
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3d663ca2-98b2-4f2b-8652-c527b12bebfc
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: orange-truth-c6d1.rhyljiti.workers.dev
+    max-early-data: 2560
+    path: /eyJqdW5rIjoiRVF4cEpmc1Y2SFUzIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==
+- client-fingerprint: chrome
+  name: 🇺🇸US_3|1.7MB/s
+  network: ws
+  port: 2083
+  server: 91.193.58.17
+  servername: edgetunnel-cmliu.lyqnihao.dpdns.org
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ad356e93-cc14-417d-9f4e-32376d03f5b7
-  xudp: true
+  uuid: af475b0e-0c07-40fe-b4db-3dea2c0a481d
+  ws-opts:
+    headers:
+      Host: edgetunnel-cmliu.lyqnihao.dpdns.org
+    path: /
 - name: US_speednode_0066
   network: ws
   port: 80
@@ -226,3 +203,31 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0074
+  port: 443
+  reality-opts:
+    public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
+    short-id: '!!str 473277e2'
+  server: tw3.miyazono-kaori.com
+  servername: dlcdnets.asus.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4442c33c-9889-4e0f-bff7-14f1f626dd6c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0075
+  port: 443
+  reality-opts:
+    public-key: IqsN_cPeCP6oEXtYQMMWBiUim-r9lxq7YGj_mE3992g
+    short-id: '!!str e6d59aff03e5b0'
+  server: tw4.miyazono-kaori.com
+  servername: dlcdnets.asus.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4442c33c-9889-4e0f-bff7-14f1f626dd6c
