@@ -161,6 +161,14 @@ proxies:
   sni: newlte.kihsuyhf8jkiugsxb.cfd
   tls: false
   type: hysteria2
+- name: Tel-@NapsterNetvIrani🫂 1
+  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+  port: 4433
+  server: 202.61.205.86
+  skip-cert-verify: false
+  sni: de1.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
 - name: '@bored_vpn'
   obfs: salamander
   obfs-password: lmzo7ebpr6m8theh
@@ -195,15 +203,6 @@ proxies:
   port: 443
   server: social.klipp.su
   sni: social.klipp.su
-  tls: false
-  type: hysteria2
-- name: 🦀94@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: EsimObfs_9mK2x7
-  password: EsimHy2Game_7xK9mPq2
-  port: 443
-  server: 198.105.112.118
-  sni: nl.esimpson.org
   tls: false
   type: hysteria2
 - name: '@prrofile_purple  ♥️👈 تلگرام'
@@ -283,13 +282,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '@ReleaseNet'
-  password: c6b2924e-a913-4864-a910-b446b9841b4b
-  port: 443
-  server: connect-ger2.gadmap.online
-  sni: connect-ger2.gadmap.online
-  tls: false
-  type: hysteria2
 - name: telegram @mtmvpn
   obfs: salamander
   obfs-password: T.me/V2RayyNGvpn
@@ -297,14 +289,6 @@ proxies:
   port: 443
   server: 185.250.41.245
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 🇫🇷FR-🚀@VPNine1
-  password: dongtaiwang.com
-  port: 22000
-  server: 62.210.124.146
-  skip-cert-verify: true
-  sni: www.microsoft.com
   tls: false
   type: hysteria2
 - name: 'telegram @mtmvpn #1'
@@ -334,6 +318,16 @@ proxies:
   server: 80.66.81.78
   skip-cert-verify: false
   sni: tunel1.washing.help
+  tls: false
+  type: hysteria2
+- name: '🇩🇪@V2RayyNGvpn🇩🇪 #1'
+  obfs: salamander
+  obfs-password: T.me/V2RayyNGvpn
+  password: t.me.V2RayyNGvpn
+  port: 443
+  server: 185.250.41.245
+  skip-cert-verify: true
+  sni: www.wordreference.com
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
