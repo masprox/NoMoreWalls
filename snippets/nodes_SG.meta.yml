@@ -99,18 +99,6 @@ proxies:
         Gecko) Chrome/37.0.2062.120 Safari/537.36
     path: /QiangLieTuiJian?ed=2560
   xudp: true
-- down: ''
-  fingerprint: ''
-  name: 🇸🇬SG_4|2.5MB/s
-  obfs: ''
-  obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: '443'
-  server: 18.143.165.76
-  skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
-  type: hysteria2
-  up: ''
 - client-fingerprint: chrome
   ech-opts:
     _dns: https://dns.alidns.com/dns-query
