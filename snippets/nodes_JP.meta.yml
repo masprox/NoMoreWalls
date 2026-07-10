@@ -6,27 +6,54 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 日本|@ripaojiedian
+- name: 🇯🇵JP_1|3.3MB/s
   network: tcp
   password: BxceQaOe
-  port: 6769
-  server: 13.158.76.164
+  port: 54411
+  server: 18.183.199.219
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 日本2|@ripaojiedian
+- name: 🇯🇵JP_2|3.5MB/s
   network: tcp
-  password: d6788cf74e6844c45538204efd24b00f
-  port: 3743
-  server: 18.162.148.64
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 日本3|@ripaojiedian
-  network: tcp
-  password: d6788cf74e6844c45538204efd24b00f
+  password: bb839d14960b7a4fb1e95a3aef990528
   port: 24370
-  server: 18.162.148.64
+  server: 95.40.99.31
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- name: 🇯🇵JP_3|2.7MB/s
+  network: ws
+  port: '8880'
+  server: download.yunzhongzhuan.com
+  type: vless
+  udp: true
+  uuid: 0c13ef54-3890-4bbc-baec-e80335db9fe7
+  ws-opts:
+    headers:
+      Host: plain-dawn-765f.452.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /pyip=ProxyIP.US.CMLiussss.net
+  xudp: true
+- name: 🇯🇵JP_4|3.6MB/s
+  network: ws
+  port: '8880'
+  server: download.yunzhongzhuan.com
+  type: vless
+  udp: true
+  uuid: ad9b1b12-71bb-46dd-ba24-8820252ce6f9
+  ws-opts:
+    headers:
+      Host: cold-lake-9266.480-c0e.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /pyip=ProxyIP.US.CMLiussss.net
+  xudp: true
+- cipher: aes-256-cfb
+  name: 🇯🇵JP_5|5.3MB/s
+  password: amazonskr05
+  port: '443'
+  server: 13.193.101.147
+  type: ss
+  udp: true

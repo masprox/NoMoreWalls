@@ -17,16 +17,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🇩🇪@V2RayyNGvpn
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: Hd04Vxxpn2
-  port: 40460
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
 - name: 🇩🇪@V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -37,7 +27,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '🇩🇪@V2RayyNGvpn #1'
+- name: 🇩🇪@V2RayyNGvpn
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: TGzLlWQaFb
@@ -47,7 +37,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '🇩🇪@V2RayyNGvpn #2'
+- name: '🇩🇪@V2RayyNGvpn #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: y4nJ8poIsh
@@ -66,25 +56,9 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.8dEUINg1gnE8w2Ze1FXC0wsst-t_fowZV_eU0RUGT6uTOAUz4yofCXOaZ1eHrgtMg-PD_wQcKZdZiBMUAOCvwGGybzEjyIhD0FDLGIpxPkrC4ukMkmVmfnWXRNsPG4SVVfKUtHV0TZicl4JHXFFoQ-cS4nx5G0JZeTnJKPYptgU_DCNf5OgM4opQggerb4leLymbagzOwBWySuha-UB7AkAHTGEnI8VYsOS0SJZmqnUX-MZMGfVLuMsVx-iiXkMVcZYi7kEV1lK8K3JD5Rhim6WfzKyUGrpwpSkSbIe2yiZM5RVP0Fih1IAGQVde_ryYnoI3EkNP1oBAhQeRNSsrxSm0PWZruHZFucxbFokFJOiZttALXXo9CRyWUcyqkSAfgwafMzPDfcZ11auFgeI8WuBMCXg4QrRzZSWLyKvG80Ca9LYgf7k-tQtjC9quPAWuDnkblRUFvER1a4A9xYLKyPw9LwpcFeAwGTcu3FK1X2y1gdWDhKMKCLGNpyQ0QsMfDgjHLQm4xaesL2pcuCKLtGpGdWaKUKSq2iTIIrtCofoCKUkK2jUghpAudWEV6DCci-JfeXG1HMYaiipyRYop2wGB5LV_kkkzTJC-ZfErs-BEqrMZHIgRvjKx_3KcCuUqugAvrCtFcWSqo7EpByl5IWVHi2txR_CC2Pyn21gvW5pPTCIsuLjAeVkIAF1BxMMxL_I9EVRKz0u41EEjzZV4six-T3G9smeBaEET08Qxy7QU6EetLLeaoNsm_QatvhuB-op3ziO1cDcwehuPmPilfaB8hzqDzLVfJPOCMtozYaQ6QEgytHwsidYxbqNRyWjARnw4s3Qe6Kp5zHAXsakTzEFQ_8mvbPuke8HH7As1jReRo8W-J9AnZXFak3UPqyw-4LUdpkq7-ad9kGdGxjzMG6dFtHIWcIoAWOevXNkydHwDPkMH2-lkwdt9kftZt3DAuXa6eKx1PYKT_eIgDtY1boFiPSuD8GaipieJZtw9PjmJjbKg0fi9WbQytgqnY9eh-7ElX4NU9aB5MIUbAKcJ7ByhaplaArSoZtoTbSkDdGt96eEAEgUc7ex8S5gAktvEFBhiZqnPo0aQ72xWJtFeZzQ2CoRgLtWn6SKRY5wvGXynWsK5_KtfVCw79dyOOVYCHqmpQGUo7RJ1qUUVA-iTDcq73TOSHjR8XQYtw1Gms1JS2ulESeSw5vF5yciu9htDrOqUxOlnIfBQA8KVHUN6LQWWt1aA3byyO7oSf4Y1fVRc-UgyxmZq0ZJCSoYntOspZgSttwWhtGE0nnu5T2oGW-ddQDdtYFA6cDtWaXtIaYhlQbQdJPsdgBgw9bNMHzJfu5MZzLYmIYZbJzp-EveP_VbN9DITSbR0xhGD9HpGErXFRTtm8ne7BwNw8zGfX9m6skh8fpAXq5I9yESgEYx67fMdJ3GkQzafc3KJBQgGwSoW0_OW4Hhhe6NL4vhQ-5Wm97KgjiU4FqoQIPJwnfF2lAF5dNAWY5RTiMSWOSNdv0lYlIBv5Yhx-zm5HHWPytlVyaDUIRsz5EcIcQ5udgE4dWvxK5V8YyiunL9AE-ilLK4
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|3.0MB/s
-  network: tcp
-  port: '2096'
-  reality-opts:
-    public-key: HPTuu9ZSAwEPHxFjSTNZhOUXBiwxLkUHmYXEoJ2HD24
-    short-id: '!!str 9762'
-  server: 195.201.169.164
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00874e80-0d25-4ff6-c25d-edb5a28546e6
-  xudp: true
-- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|2.5MB/s
+  name: 🇩🇪DE_1|3.2MB/s
   network: tcp
   port: '40443'
   reality-opts:
@@ -97,59 +71,106 @@ proxies:
   udp: true
   uuid: d3ed4cb7-cf16-4ec6-bfcf-cf3ead1c8625
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_5|2.6MB/s
-  network: xhttp
-  port: '8443'
-  server: securitytrails.com
-  servername: api.somethingelse.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3a5fd8d7-4182-4f65-a005-ee8d39fe96b9
-  xhttp-opts:
-    host: api.somethingelse.dpdns.org
-    mode: auto
-    path: /forall
-    x-padding-bytes: 100-1000
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_6|2.6MB/s
+- client-fingerprint: chrome
+  name: 🇩🇪DE_2|2.4MB/s
   network: ws
-  port: '443'
-  server: 195.209.87.198
-  servername: s52061.cdn.ngenix.net
+  port: 443
+  server: cf.877771.xyz
+  servername: zyzzzoao.xn--fiqv8j.eu.org
   tls: true
   type: vless
   udp: true
-  uuid: 9727d3cf-d839-4d8b-b22e-6d62483fea25
+  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
   ws-opts:
     headers:
-      Host: s52061.cdn.ngenix.net
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-    path: /v1/data/sync/
+      Host: zyzzzoao.xn--fiqv8j.eu.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /?ed=2048fp=randomized
   xudp: true
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_7|2.6MB/s
-  network: raw
+  name: 🇩🇪DE_3|2.0MB/s
+  network: tcp
   port: '443'
   reality-opts:
-    public-key: bAbF5K_pk8MRvVIXJfH65xYiksNPNFYqLHLwaTEHojQ
-    short-id: '!!str '
-  server: 95.163.208.184
-  servername: ads.x5.ru
+    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
+    short-id: '!!str e1f8a3b6'
+  server: 5.253.66.31
+  servername: www.amd.com
   tls: true
   type: vless
   udp: true
-  uuid: d3d932d2-ff06-4005-8ce7-b49b73f13967
+  uuid: b97e287f-a24e-4028-a103-7e7ecef83139
+  xudp: true
+- name: 🇩🇪DE_4|2.7MB/s
+  network: ws
+  port: '8880'
+  server: www.zsu.gov.ua
+  type: vless
+  udp: true
+  uuid: 30a2a9a6-6a03-4353-a7fb-63831d64f718
+  ws-opts:
+    headers:
+      Host: orange-lab-896e.365-80b.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+  xudp: true
+- name: 🇩🇪DE_5|2.5MB/s
+  network: ws
+  port: '8880'
+  server: 162.159.156.214
+  type: vless
+  udp: true
+  uuid: 31f345f3-b8eb-4ca6-8b14-bb555ae2c1f9
+  ws-opts:
+    headers:
+      Host: tiny-feather-4c41.227.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+  xudp: true
+- name: 🇩🇪DE_6|2.3MB/s
+  network: ws
+  port: '8880'
+  server: 162.159.156.214
+  type: vless
+  udp: true
+  uuid: 8dd8af16-cae0-4431-b04c-a637b4d7645b
+  ws-opts:
+    headers:
+      Host: wild-frog-c709.403-6ff.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /pyip=ProxyIP.US.CMLiussss.net
+  xudp: true
+- name: 🇩🇪DE_7|2.6MB/s
+  network: ws
+  port: '8880'
+  server: icook.tw
+  type: vless
+  udp: true
+  uuid: 80cead8e-0d28-4b0a-bacd-8005471a5c39
+  ws-opts:
+    headers:
+      Host: flat-fire-40ed.96-042.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+  xudp: true
+- name: 🇩🇪DE_8|2.2MB/s
+  network: ws
+  port: '8880'
+  server: skk.moe
+  type: vless
+  udp: true
+  uuid: ad9b1b12-71bb-46dd-ba24-8820252ce6f9
+  ws-opts:
+    headers:
+      Host: cold-lake-9266.480-c0e.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
