@@ -55,98 +55,7 @@ proxies:
   sni: https://www.calmloud.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|3.2MB/s
-  network: tcp
-  port: '40443'
-  reality-opts:
-    public-key: 6AOnobBShzL_N96JRBNMfbL84_3myz8ZbKfZUEqRXiY
-    short-id: '!!str '
-  server: 138.124.114.29
-  servername: deepl.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d3ed4cb7-cf16-4ec6-bfcf-cf3ead1c8625
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇩🇪DE_2|2.4MB/s
-  network: ws
-  port: 443
-  server: cf.877771.xyz
-  servername: zyzzzoao.xn--fiqv8j.eu.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
-  ws-opts:
-    headers:
-      Host: zyzzzoao.xn--fiqv8j.eu.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /?ed=2048fp=randomized
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_3|2.0MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
-    short-id: '!!str e1f8a3b6'
-  server: 5.253.66.31
-  servername: www.amd.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b97e287f-a24e-4028-a103-7e7ecef83139
-  xudp: true
-- name: 🇩🇪DE_4|2.7MB/s
-  network: ws
-  port: '8880'
-  server: www.zsu.gov.ua
-  type: vless
-  udp: true
-  uuid: 30a2a9a6-6a03-4353-a7fb-63831d64f718
-  ws-opts:
-    headers:
-      Host: orange-lab-896e.365-80b.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-  xudp: true
-- name: 🇩🇪DE_5|2.5MB/s
-  network: ws
-  port: '8880'
-  server: 162.159.156.214
-  type: vless
-  udp: true
-  uuid: 31f345f3-b8eb-4ca6-8b14-bb555ae2c1f9
-  ws-opts:
-    headers:
-      Host: tiny-feather-4c41.227.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-  xudp: true
-- name: 🇩🇪DE_6|2.3MB/s
-  network: ws
-  port: '8880'
-  server: 162.159.156.214
-  type: vless
-  udp: true
-  uuid: 8dd8af16-cae0-4431-b04c-a637b4d7645b
-  ws-opts:
-    headers:
-      Host: wild-frog-c709.403-6ff.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /pyip=ProxyIP.US.CMLiussss.net
-  xudp: true
-- name: 🇩🇪DE_7|2.6MB/s
+- name: 🇩🇪DE_1|3.3MB/s
   network: ws
   port: '8880'
   server: icook.tw
@@ -156,21 +65,7 @@ proxies:
   ws-opts:
     headers:
       Host: flat-fire-40ed.96-042.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /pyip=ProxyIP.KR.CMLiussss.net
-  xudp: true
-- name: 🇩🇪DE_8|2.2MB/s
-  network: ws
-  port: '8880'
-  server: skk.moe
-  type: vless
-  udp: true
-  uuid: ad9b1b12-71bb-46dd-ba24-8820252ce6f9
-  ws-opts:
-    headers:
-      Host: cold-lake-9266.480-c0e.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true

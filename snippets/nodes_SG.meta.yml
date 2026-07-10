@@ -15,7 +15,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 🇸🇬SG_4|2.8MB/s
+- name: 🇸🇬SG_3|2.6MB/s
   network: tcp
   password: bb839d14960b7a4fb1e95a3aef990528
   port: 6357
@@ -23,7 +23,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 🇸🇬SG_2|2.9MB/s
+- name: 新加坡2|@ripaojiedian
   network: tcp
   password: bb839d14960b7a4fb1e95a3aef990528
   port: 6357
@@ -31,7 +31,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 🇸🇬SG_5|2.6MB/s
+- name: 🇸🇬SG_4|3.3MB/s
   network: tcp
   password: BxceQaOe
   port: 51396
@@ -40,7 +40,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: 🇸🇬SG_6|2.3MB/s
+  name: 🇸🇬SG_5|4.2MB/s
   network: ws
   password: '!!str 666'
   port: '443'
@@ -51,8 +51,8 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /glasspanel/guest000_0_5de14443985f/
 - client-fingerprint: chrome
   ech-opts:
@@ -60,11 +60,11 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_7|2.5MB/s
+  name: 🇸🇬SG_6|3.5MB/s
   network: ws
   packet-encoding: xudp
-  port: 8443
-  server: 207.148.125.245
+  port: 443
+  server: 172.64.42.44
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -75,64 +75,76 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- encryption: none
-  name: 🇸🇬SG_8|1.9MB/s
+- client-fingerprint: chrome
+  name: 🇸🇬SG_7|3.4MB/s
+  password: BxceQaOe
+  port: '51396'
+  server: 43.199.202.97
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇸🇬SG_8|3.8MB/s
+  password: bb839d14960b7a4fb1e95a3aef990528
+  port: '6357'
+  server: 95.40.50.224
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇸🇬SG_9|1.8MB/s
   network: ws
   port: '8880'
-  server: chat.openai.com
+  server: 162.159.48.193
   type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 8995976a-1c81-4b44-a414-d3bc71058a21
   ws-opts:
     headers:
-      Host: vms.lifetime29.workers.dev
-      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /
-  xudp: true
-- encryption: none
-  name: 🇸🇬SG_9|2.6MB/s
-  network: ws
-  port: '80'
-  server: 108.162.192.206
-  servername: zeus-panel-otnc61.rtfastest.workers.dev
-  type: vless
-  udp: true
-  uuid: b73006bc-1a7a-44e2-9865-d8d302714adf
-  ws-opts:
-    headers:
-      Host: zeus-panel-otnc61.rtfastest.workers.dev
+      Host: muddy-queen-cdda.181-cf9.workers.dev
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.86 Safari/537.36
-    path: /ZEUS_PANEL_BOT
+        Gecko) Chrome/35.0.1916.153 Safari/537.36
+    path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
-- encryption: none
-  name: 🇸🇬SG_10|2.6MB/s
+- name: 🇸🇬SG_10|1.7MB/s
   network: ws
-  port: '80'
-  server: 108.162.193.0
-  servername: zeus-panel-otnc61.rtfastest.workers.dev
+  port: '8880'
+  server: 162.159.48.193
   type: vless
   udp: true
-  uuid: b73006bc-1a7a-44e2-9865-d8d302714adf
+  uuid: ba746959-18e7-471c-b00f-fa5cdd930abf
   ws-opts:
     headers:
-      Host: zeus-panel-otnc61.rtfastest.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /ZEUS_PANEL_BOT
+      Host: crimson-bread-c38e.295.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
 - name: 🇸🇬SG_11|2.2MB/s
   network: ws
   port: '8880'
-  server: themeforest.net
+  server: codecanyon.net
   type: vless
   udp: true
-  uuid: c2569d72-0ba1-44e8-986f-be445edb5f3d
+  uuid: 1cae67cd-9f09-4c59-94e6-998ed0346c44
   ws-opts:
     headers:
-      Host: silent-union-ac36.315-33d.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.76 Safari/537.36
-    path: /pyip=ProxyIP.JP.CMLiussss.net
+      Host: lingering-lab-91a6.54-8c3.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
+- client-fingerprint: chrome
+  name: 🇸🇬SG_12|3.7MB/s
+  network: ws
+  password: '!!str 666'
+  port: '443'
+  server: yx.cloudflare.182682.xyz
+  skip-cert-verify: false
+  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/

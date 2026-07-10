@@ -7,7 +7,7 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 🇺🇸US_7|2.4MB/s
+- name: 美国|@ripaojiedian
   network: tcp
   password: bb839d14960b7a4fb1e95a3aef990528
   port: 17005
@@ -23,7 +23,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 🇺🇸US_8|2.8MB/s
+- name: 🇺🇸US_5|2.7MB/s
   network: tcp
   password: BxceQaOe
   port: 34638
@@ -32,126 +32,48 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.At2jbnJuJG3K6LecNH78rQf4fBPR5iHbtD7dTWS5axY
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇺🇸US_1|2.7MB/s
-  network: xhttp
+  name: 🇺🇸US_1|2.5MB/s
+  network: tcp
   port: '443'
   reality-opts:
-    public-key: EL3QUDoISPGWsTMd3uuqUXMpq1qshiyD2lk-LdScR0g
-    short-id: '!!str 541f'
-  server: us.a.avrilon.us
-  servername: android.clients.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f09d18a9-d778-4e00-a49a-c0063d1c1b11
-  xhttp-opts:
-    host: v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_2|1.7MB/s
-  network: ws
-  port: '443'
-  server: 69.46.46.35
-  servername: node-7946883854-bfd146-production.up.railway.app
+    public-key: ZDn8_M2k8Mvkk1z22VN_2c8TCmAPqC1KXVrLMcel9zk
+    short-id: '!!str 387ccd902b'
+  server: 185.92.180.178
+  servername: www.yahoo.com
   tls: true
   type: vless
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: node-7946883854-bfd146-production.up.railway.app
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/42.0.2311.135 Safari/537.36
-    path: /ws/netherlands
   xudp: true
 - cipher: aes-256-cfb
-  name: 🇺🇸US_4|3.3MB/s
+  name: 🇺🇸US_3|1.8MB/s
   password: amazonskr05
   port: 443
   server: 3.14.249.239
   skip-cert-verify: true
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_5|2.1MB/s
-  network: ws
-  port: 443
-  server: 198.41.219.218
-  servername: zyzzzoao.xn--fiqv8j.eu.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
-  ws-opts:
-    headers:
-      Host: zyzzzoao.xn--fiqv8j.eu.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /?ed=2048fp=randomized
-  xudp: true
 - multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_6|3.3MB/s
+  name: 🇺🇸US_4|2.9MB/s
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- encryption: none
-  name: 🇺🇸US_9|2.2MB/s
-  network: ws
-  port: '8880'
-  server: 173.245.49.50
-  type: vless
+- client-fingerprint: chrome
+  name: 🇺🇸US_6|2.6MB/s
+  password: BxceQaOe
+  port: '34638'
+  server: 18.162.154.153
+  skip-cert-verify: true
+  type: trojan
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime36.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /?ed=2560
-  xudp: true
-- name: 🇺🇸US_10|1.6MB/s
-  network: ws
-  port: '8880'
-  server: anydesk.com
-  type: vless
-  udp: true
-  uuid: 2f142ede-d555-4ceb-b005-7df31b484be3
-  ws-opts:
-    headers:
-      Host: bitter-pine-001c.450-e0e.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_11|2.1MB/s
-  network: tcp
-  port: '40443'
-  reality-opts:
-    public-key: 6AOnobBShzL_N96JRBNMfbL84_3myz8ZbKfZUEqRXiY
-    short-id: '!!str '
-  server: 69.48.229.50
-  servername: deepl.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
-  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸US_12|3.1MB/s
+  name: 🇺🇸US_7|3.1MB/s
   network: ws
   port: '443'
   server: 64.186.234.50
@@ -163,19 +85,36 @@ proxies:
   ws-opts:
     headers:
       Host: t1s1.rittbo.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
+      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    path: /
+  xudp: true
+- client-fingerprint: random
+  name: 🇺🇸US_8|2.7MB/s
+  network: ws
+  port: '443'
+  server: www.ntu.edu.sg
+  servername: gy.hhawks.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 552a071a-7a69-49b5-9a82-f353229d82ad
+  ws-opts:
+    headers:
+      Host: gy.hhawks.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /
   xudp: true
 - cipher: aes-256-cfb
-  name: 🇺🇸US_13|2.0MB/s
+  name: 🇺🇸US_9|1.6MB/s
   password: amazonskr05
   port: '443'
-  server: 18.191.147.2
+  server: 13.58.60.229
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 🇺🇸US_14|2.5MB/s
+  name: 🇺🇸US_10|2.2MB/s
   password: amazonskr05
   port: '443'
   server: 3.16.130.237
