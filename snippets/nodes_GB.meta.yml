@@ -1,4 +1,30 @@
 proxies:
+- auth: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  name: 🇬🇧GB_1|2.5MB/s
+  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  port: 443
+  server: argg3.auragg.org
+  skip-cert-verify: false
+  sni: argg3.auragg.org
+  type: hysteria2
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: media.session.poll
+  name: 🇬🇧GB_2|2.0MB/s
+  network: grpc
+  port: '443'
+  server: app-syncge3.auragg.org
+  servername: app-syncge3.auragg.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
+  xudp: true
 - name: GB_speednode_0005
   network: ws
   password: MITIVPN
