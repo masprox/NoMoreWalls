@@ -6,7 +6,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 🇯🇵JP_2|3.4MB/s
+- name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 27826
@@ -30,3 +30,18 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- encryption: none
+  name: 🇯🇵JP_1|2.5MB/s
+  network: ws
+  port: '8880'
+  server: cf5.466688.xyz
+  type: vless
+  udp: true
+  uuid: 612f78a0-65ca-45af-a3ff-7d0f8e9f8655
+  ws-opts:
+    headers:
+      Host: broken-star-c5ae.446.workers.dev
+      User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
+  xudp: true
