@@ -17,20 +17,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🪭68@oneclickvpnkeys
-  password: 792V1zl5cJHSV3wjyGPXiFbx1YA4BrIr
-  port: 8449
-  server: jongjmi.odnako.site
-  sni: jongjmi.odnako.site
-  tls: false
-  type: hysteria2
-- name: '🇩🇪112515 | ⚡️Telegram = t.me/S... #1'
-  password: 792V1zl5cJHSV3wjyGPXiFbx1YA4BrIr
-  port: 8449
-  server: soskeynets.odnako.site
-  sni: jongjmi.odnako.site
-  tls: false
-  type: hysteria2
 - name: '@V2RayyNGvpn کانال ما🇩🇪'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -41,7 +27,27 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
+- name: '🇩🇪@V2rayng_Fast #1'
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: NZC2w2V2NQ
+  port: 40460
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
 - name: 🇩🇪Telegram=V2RayyNGvpn🇩🇪
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: Ov5kSglMCd
+  port: 31999
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
+- name: '🇩🇪Telegram=V2RayyNGvpn🇩🇪 #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: RKJDOKrcIZ
@@ -81,48 +87,168 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
+- alpn:
+  - h2
+  - http/1.1
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_1|2.0MB/s
+  network: ws
+  port: '8443'
+  server: speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir
+  servername: speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 84c19a04-7dc4-498f-b81b-472d3143032e
+  ws-opts:
+    headers:
+      Host: speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    path: /mehdi
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  - h3
+  alterId: '0'
+  cipher: auto
+  name: 🇩🇪DE_2|2.5MB/s
+  network: ws
+  port: '2087'
+  server: speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir
+  servername: speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: efdb11ca-8d37-40ab-9ec2-bdfd72ad4a5b
+  ws-opts:
+    headers:
+      Host: speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir
+    path: /mehdi
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_3|2.4MB/s
+  network: ws
+  port: '2083'
+  server: speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir
+  servername: speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: bfeed41d-8f80-4d7d-867a-e64f0756ef5a
+  ws-opts:
+    headers:
+      Host: speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /mehdi
+  xudp: true
+- encryption: none
+  name: 🇩🇪DE_4|3.5MB/s
+  network: tcp
+  port: '22224'
+  server: 18.194.165.203
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  xudp: true
+- encryption: none
+  name: 🇩🇪DE_5|2.7MB/s
+  network: tcp
+  port: '22223'
+  server: 18.194.165.203
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  xudp: true
 - client-fingerprint: chrome
-  name: 🇩🇪DE_1|2.8MB/s
+  name: 🇩🇪DE_6|2.2MB/s
   network: ws
   port: 2096
-  server: 104.26.5.224
-  servername: vp23.cc.cd
+  server: 172.67.71.250
+  servername: vp20.cc.cd
   tls: true
   type: vless
   udp: true
   uuid: 7b102311-43fd-4e8f-877e-8090623c101d
   ws-opts:
     headers:
-      Host: vp23.cc.cd
+      Host: vp20.cc.cd
     path: /
-- client-fingerprint: chrome
-  name: 🇩🇪DE_2|1.8MB/s
+- alpn:
+  - h2
+  - http/1.1
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_7|1.6MB/s
   network: ws
-  port: 8443
-  server: 104.26.8.249
-  servername: vp41.cc.cd
+  port: '443'
+  server: 104.21.6.201
+  servername: speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir
   tls: true
   type: vless
   udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  uuid: 01839038-ddc0-484f-957a-879b6e6e2116
   ws-opts:
     headers:
-      Host: vp41.cc.cd
-    path: /
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: 🇩🇪DE_3|2.1MB/s
-  network: xhttp
-  port: 8443
-  server: love.ns.cloudflare.com
-  servername: vamosargentina.dpdns.org
+      Host: speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.106 Safari/537.36
+    path: /mehdi
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_8|2.3MB/s
+  network: ws
+  port: '443'
+  server: free6.playon.ir
+  servername: free6.playon.ir
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: vamosargentina.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
+  uuid: b9079c38-165c-4341-8ab1-e9371101062d
+  ws-opts:
+    headers:
+      Host: free6.playon.ir
+      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    path: /fc-90BpftMflQDbbnz7dKVtDEjU
   xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_9|2.6MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: vEXgvoW9iQo6iiKT71cNt1CC3cAB4IWswAn-cScDz1A
+    short-id: '!!str bd8a588cebc3395a'
+  server: bel-01.node.lumixnet.com
+  servername: bel-01.node.lumixnet.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: eda3f760-8550-43d4-bf65-5526c41ea4b2
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇩🇪DE_10|3.4MB/s
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: quiet-condor.rooster465.autos
+  skip-cert-verify: false
+  sni: quiet-condor.rooster465.autos
+  type: trojan
+  udp: true

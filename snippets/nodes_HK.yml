@@ -42,3 +42,15 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: '0'
+  cipher: auto
+  name: 🇭🇰HK_2|1.5MB/s
+  network: none
+  port: '25532'
+  server: 103.172.134.162
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5b26f68b-9f7f-41e5-b35f-ed1aded831d5
+  xudp: true

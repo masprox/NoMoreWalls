@@ -1,8 +1,8 @@
 proxies:
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 🇨🇦CA_1|2.8MB/s
-  network: tcp
+  name: 🇨🇦CA_1|3.2MB/s
+  network: raw
   port: '18339'
   server: c87s5.portablesubmarines.com
   skip-cert-verify: false

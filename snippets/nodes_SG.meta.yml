@@ -39,15 +39,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- auth: b547b58b-6628-4127-b67d-40aa0be26c67
-  name: 🇸🇬SG_1|1.5MB/s
-  password: b547b58b-6628-4127-b67d-40aa0be26c67
-  port: 443
-  server: 139.59.98.251
-  skip-cert-verify: true
-  sni: addons.mozilla.org
-  type: hysteria2
-- name: 🇸🇬SG_2|3.5MB/s
+- name: 🇸🇬SG_1|4.0MB/s
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
@@ -60,27 +52,133 @@ proxies:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
 - client-fingerprint: chrome
-  name: 🇸🇬SG_3|3.5MB/s
-  network: tcp
-  password: NQ26071394
-  port: '443'
-  server: driving-antelope.rooster465.autos
-  skip-cert-verify: false
-  sni: driving-antelope.rooster465.autos
-  type: trojan
+  name: 🇸🇬SG_2|3.5MB/s
+  network: ws
+  port: 2053
+  server: 198.41.223.189
+  servername: vp13.cc.cd
+  tls: true
+  type: vless
   udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp13.cc.cd
+    path: /
 - client-fingerprint: chrome
-  name: 🇸🇬SG_4|4.5MB/s
-  network: tcp
-  password: NQ26071394
-  port: '443'
-  server: topical-shark.rooster465.autos
-  skip-cert-verify: false
-  sni: topical-shark.rooster465.autos
-  type: trojan
+  name: 🇸🇬SG_3|3.9MB/s
+  network: ws
+  port: 2096
+  server: 173.245.58.48
+  servername: vp35.cc.cd
+  tls: true
+  type: vless
   udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp35.cc.cd
+    path: /
 - client-fingerprint: chrome
-  name: 🇸🇬SG_5|3.6MB/s
+  name: 🇸🇬SG_4|2.9MB/s
+  network: ws
+  port: 2083
+  server: 8.39.125.173
+  servername: vp24.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp24.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: 🇸🇬SG_5|5.1MB/s
+  network: ws
+  port: 2096
+  server: 188.164.248.190
+  servername: vp40.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp40.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: 🇸🇬SG_6|3.2MB/s
+  network: ws
+  port: 8443
+  server: 198.41.223.58
+  servername: vp28.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp28.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: 🇸🇬SG_7|4.2MB/s
+  network: ws
+  port: 8443
+  server: 8.39.125.193
+  servername: vp35.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp35.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: 🇸🇬SG_8|4.0MB/s
+  network: ws
+  port: 443
+  server: 173.245.58.147
+  servername: vp29.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp29.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: 🇸🇬SG_9|3.6MB/s
+  network: ws
+  port: 2096
+  server: 173.245.58.230
+  servername: vp39.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp39.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: 🇸🇬SG_10|4.7MB/s
+  network: ws
+  port: 2053
+  server: 198.41.223.255
+  servername: vp39.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp39.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: 🇸🇬SG_13|5.1MB/s
   network: tcp
   password: NQ26071394
   port: '443'
@@ -90,22 +188,21 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇸🇬SG_6|4.0MB/s
-  network: tcp
+  name: 🇸🇬SG_12|4.9MB/s
   password: NQ26071394
   port: '443'
-  server: allowed-moose.rooster465.autos
+  server: topical-shark.rooster465.autos
   skip-cert-verify: false
-  sni: allowed-moose.rooster465.autos
+  sni: topical-shark.rooster465.autos
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇸🇬SG_7|3.8MB/s
+  name: 🇸🇬SG_14|2.8MB/s
   network: tcp
   password: NQ26071394
   port: '443'
-  server: amazing-troll.rooster465.autos
+  server: well-goshawk.rooster465.autos
   skip-cert-verify: false
-  sni: amazing-troll.rooster465.autos
+  sni: well-goshawk.rooster465.autos
   type: trojan
   udp: true

@@ -210,7 +210,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇸🇬SG_2|3.5MB/s
+- name: 🇸🇬SG_1|4.0MB/s
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
@@ -222,55 +222,35 @@ proxies:
     headers:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
-- alterId: '0'
+- alpn:
+  - h2
+  - http/1.1
+  - h3
+  alterId: '0'
   cipher: auto
-  name: 🇨🇦CA_1|2.8MB/s
-  network: tcp
-  port: '18339'
-  server: c87s5.portablesubmarines.com
+  name: 🇩🇪DE_2|2.5MB/s
+  network: ws
+  port: '2087'
+  server: speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir
+  servername: speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
+  uuid: efdb11ca-8d37-40ab-9ec2-bdfd72ad4a5b
+  ws-opts:
+    headers:
+      Host: speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir
+    path: /mehdi
   xudp: true
-- name: 🇸🇬SG_3|3.5MB/s
-  network: tcp
-  password: NQ26071394
-  port: '443'
-  server: driving-antelope.rooster465.autos
-  skip-cert-verify: false
-  sni: driving-antelope.rooster465.autos
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇦🇹AT_1|2.2MB/s
+  password: Vr06rU_v1vFPYeXq9zbsAA
+  port: '1080'
+  server: 146.70.146.222
+  type: ss
   udp: true
-- name: 🇸🇬SG_4|4.5MB/s
-  network: tcp
-  password: NQ26071394
-  port: '443'
-  server: topical-shark.rooster465.autos
-  skip-cert-verify: false
-  sni: topical-shark.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇰🇷KR_1|4.0MB/s
-  network: tcp
-  password: NQ26071394
-  port: '443'
-  server: thorough-foxhound.rooster465.autos
-  skip-cert-verify: false
-  sni: thorough-foxhound.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵JP_11|4.9MB/s
-  network: tcp
-  password: NQ26071394
-  port: '443'
-  server: ace-liger.rooster465.autos
-  skip-cert-verify: false
-  sni: ace-liger.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬SG_5|3.6MB/s
+- name: 🇸🇬SG_13|5.1MB/s
   network: tcp
   password: NQ26071394
   port: '443'
@@ -279,31 +259,109 @@ proxies:
   sni: bold-eagle.rooster465.autos
   type: trojan
   udp: true
-- name: 🇸🇬SG_6|4.0MB/s
-  network: tcp
+- name: 🇸🇬SG_12|4.9MB/s
   password: NQ26071394
   port: '443'
-  server: allowed-moose.rooster465.autos
+  server: topical-shark.rooster465.autos
   skip-cert-verify: false
-  sni: allowed-moose.rooster465.autos
+  sni: topical-shark.rooster465.autos
   type: trojan
   udp: true
-- name: 🇰🇷KR_2|4.7MB/s
-  network: tcp
-  password: NQ26071394
-  port: '443'
-  server: gentle-platypus.rooster465.autos
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL_2|2.6MB/s
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: '8080'
+  server: 82.38.31.34
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦CA_1|3.2MB/s
+  network: raw
+  port: '18339'
+  server: c87s5.portablesubmarines.com
   skip-cert-verify: false
-  sni: gentle-platypus.rooster465.autos
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 🇭🇰HK_2|1.5MB/s
+  network: none
+  port: '25532'
+  server: 103.172.134.162
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5b26f68b-9f7f-41e5-b35f-ed1aded831d5
+  xudp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_23|3.5MB/s
+  password: amazonskr05
+  port: '443'
+  server: 18.226.248.109
+  type: ss
+  udp: true
+- name: 🇺🇸US_24|3.1MB/s
+  network: tcp
+  password: bIsrw94HH7zmhmvmGskKIb4HbmOZdcCR
+  port: '58615'
+  server: 148.72.168.35
+  skip-cert-verify: true
+  sni: 148.72.168.35
   type: trojan
   udp: true
-- name: 🇸🇬SG_7|3.8MB/s
+- cipher: aes-256-cfb
+  name: 🇺🇸US_25|3.5MB/s
+  password: amazonskr05
+  port: '443'
+  server: 18.221.194.108
+  type: ss
+  udp: true
+- name: 🇸🇬SG_14|2.8MB/s
   network: tcp
   password: NQ26071394
   port: '443'
-  server: amazing-troll.rooster465.autos
+  server: well-goshawk.rooster465.autos
   skip-cert-verify: false
-  sni: amazing-troll.rooster465.autos
+  sni: well-goshawk.rooster465.autos
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷FR_3|2.7MB/s
+  network: ws
+  port: 16644
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 45efc1d9-29c2-46ce-a32a-93863e7d84ae
+  ws-opts:
+    headers:
+      Host: 2310fae741725b270145f3c336f651b5.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- name: 🇯🇵JP_4|5.6MB/s
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: inviting-rabbit.rooster465.autos
+  skip-cert-verify: false
+  sni: inviting-rabbit.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇩🇪DE_10|3.4MB/s
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: quiet-condor.rooster465.autos
+  skip-cert-verify: false
+  sni: quiet-condor.rooster465.autos
   type: trojan
   udp: true
 - name: AE_speednode_0001
