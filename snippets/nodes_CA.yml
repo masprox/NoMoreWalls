@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇨🇦CA_1|3.2MB/s
+  name: 🇨🇦CA_1|2.6MB/s
   network: raw
   port: '18339'
   server: c87s5.portablesubmarines.com

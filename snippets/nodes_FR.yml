@@ -1,9 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇫🇷FR_3|2.7MB/s
+  name: 🇫🇷FR_6|2.7MB/s
   network: ws
-  port: 16644
+  port: 16645
   server: planb.mojcn.com
   skip-cert-verify: false
   tls: false
