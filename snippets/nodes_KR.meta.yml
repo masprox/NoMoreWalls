@@ -1,22 +1,4 @@
 proxies:
-- name: 'A - 🇰🇷 KR 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 108.162.196.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime59.workers.dev
-- name: 'A - 🇰🇷 KR 02 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 72.167.230.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
 - name: 🇰🇷KR
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
   port: 20801
@@ -40,6 +22,48 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: 🇰🇷KR_1|2.0MB/s
+  network: ws
+  port: 443
+  server: 211.49.57.178
+  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇰🇷KR_2|1.5MB/s
+  network: ws
+  port: 443
+  server: 211.49.57.179
+  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇰🇷KR_3|1.2MB/s
+  network: ws
+  port: 443
+  server: 123.111.169.70
+  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+    path: /?ed=2560
 - name: KR_speednode_0012
   password: ND91608427
   port: 443
